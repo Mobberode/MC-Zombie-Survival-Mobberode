@@ -1,0 +1,1 @@
+execute if score #Score zsc.normal matches 1 run function zsc:game/difficulty/normalstart

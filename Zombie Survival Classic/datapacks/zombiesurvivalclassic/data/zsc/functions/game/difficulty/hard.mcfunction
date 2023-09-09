@@ -1,0 +1,1 @@
+execute if score #Score zsc.hard matches 1 run function zsc:game/difficulty/hardstart

@@ -1,6 +1,8 @@
 ##If the player votes Hard in the prompt
 execute if entity @s[tag=!votedhard] run scoreboard players add #Score zsc.hard.votes 1
 tag @s add votedhard
+#Already voted Hard
+execute if entity @s[tag=votedhard] run tellraw @a ["Sorry. You can't vote Hard more than once!"]
 
 ##If the player has voted Normal
 execute if entity @s[tag=votednormal] run scoreboard players remove #Score zsc.normal.votes 1

@@ -2,7 +2,7 @@
 execute if entity @s[tag=!votedhard] run scoreboard players add #Score zsc.hard.votes 1
 tag @s add votedhard
 
-##If the player has voted Normal
+##If the player has voted Normal or Hard
 execute if entity @s[tag=votednormal] run scoreboard players remove #Score zsc.normal.votes 1
 tag @s remove votednormal
 

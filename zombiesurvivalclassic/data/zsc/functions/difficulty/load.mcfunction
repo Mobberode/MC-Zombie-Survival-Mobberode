@@ -12,7 +12,9 @@ scoreboard objectives add zsc.host.only dummy
 scoreboard objectives add zsc.config.custom.foodwave dummy
 scoreboard objectives add zsc.config.custom.arrowwave dummy
 scoreboard objectives add zsc.config.custom.mobeffects dummy
-scoreboard objectives add zsc.config.custom.teamlives dummy
 scoreboard objectives add zsc.config.custom.teamlives.amount dummy
 scoreboard objectives add zsc.config.custom.mobcap.amount dummy
 scoreboard objectives add zsc.config.custom.difficulty dummy
+scoreboard objectives add zsc.config.custom.moblist dummy
+scoreboard objectives add zsc.config.custom.permadeath dummy
+scoreboard objectives add zsc.config.custom.mobeffectswave dummy

@@ -3,6 +3,9 @@ scoreboard players set #Score zsc.dead.players 0
 scoreboard players set #Score zsc.alive.players 0
 scoreboard players set #Score zsc.game.active 0
 scoreboard players set @a zsc.died 0
+scoreboard players set @a zsc.dead.dropped.arrow 0
+scoreboard players set @a zsc.dead.dropped.beef 0
+scoreboard players set @a zsc.dead.dropped.stew 0
 #Restart voting
 schedule function zsc:lobby/lobby 5t
 tag @a remove votedhard

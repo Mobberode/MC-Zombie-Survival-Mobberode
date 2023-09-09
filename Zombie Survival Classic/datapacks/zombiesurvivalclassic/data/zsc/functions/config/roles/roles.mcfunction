@@ -37,3 +37,7 @@ execute as 95f83836-62e3-4c9b-bc3a-1a2975cc9deb run tag @s add Has.ZSM.Testers
 ##Developer
 # 1 Icement
 execute as 02e40f20-686a-4e40-8dda-84d3a2cadc3f run tag @s add Has.Developers
+
+##VIP (This actually doesnt do anything. Its there as a throwback when ZS1 was being developed)
+# 1 NorthSideYT (Alf-Coe)
+execute as c022ca4b-6fd7-46a4-9fc4-33e89c94d667 run tag @s add Has.VIP

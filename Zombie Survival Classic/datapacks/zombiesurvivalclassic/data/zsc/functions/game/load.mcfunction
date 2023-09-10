@@ -1,6 +1,8 @@
 ##Prepare for Gear
 scoreboard objectives add zsc.arrows dummy
 scoreboard objectives add zsc.food dummy
+scoreboard objectives add zsc.wave.arrows dummy
+scoreboard objectives add zsc.wave.food dummy 
 
 ##Prepare for Game
 #Player
@@ -18,11 +20,14 @@ scoreboard objectives add zsc.wave dummy
 scoreboard objectives add zsc.team.lives dummy
 
 ##Mobs
-scoreboard objectives add zsc.mobcap.amount
-scoreboard objectives add zsc.zombie.enabled dummy
-scoreboard objectives add zsc.zombie dummy
-scoreboard objectives add zsc.skeleton.enabled dummy
-scoreboard objectives add zsc.skeleton dummy
+scoreboard objectives add zsc.mobcap.amount dummy
+scoreboard objectives add zsc.mob.amount dummy
+scoreboard objectives add zsc.mobcap.multiplier dummy
+scoreboard objectives add zsc.mobcap.divider dummy
+#scoreboard objectives add zsc.zombie.enabled dummy
+#scoreboard objectives add zsc.zombie dummy
+#scoreboard objectives add zsc.skeleton.enabled dummy
+#scoreboard objectives add zsc.skeleton dummy
 
 ##Death System
 scoreboard objectives add zsc.died deathCount

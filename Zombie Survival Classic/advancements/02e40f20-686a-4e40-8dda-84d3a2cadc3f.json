@@ -97,9 +97,18 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2023-09-11 01:39:56 +1000",
+      "minecraft:skeleton": "2023-09-11 00:14:42 +1000",
+      "minecraft:vindicator": "2023-09-11 01:31:30 +1000",
       "minecraft:magma_cube": "2023-09-05 18:10:18 +1000",
       "minecraft:piglin_brute": "2023-09-05 18:07:40 +1000",
       "minecraft:wither": "2023-09-05 18:13:34 +1000",
+      "minecraft:evoker": "2023-09-11 01:40:22 +1000",
+      "minecraft:witch": "2023-09-11 01:39:59 +1000",
+      "minecraft:wither_skeleton": "2023-09-11 00:07:17 +1000",
+      "minecraft:cave_spider": "2023-09-11 01:39:52 +1000",
+      "minecraft:endermite": "2023-09-11 01:42:34 +1000",
+      "minecraft:vex": "2023-09-11 01:40:00 +1000",
       "minecraft:zombie": "2023-09-04 04:12:46 +1000",
       "minecraft:drowned": "2023-09-05 17:40:34 +1000"
     },
@@ -191,7 +200,8 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
-      "cooked_beef": "2023-09-05 17:07:58 +1000"
+      "cooked_beef": "2023-09-05 17:07:58 +1000",
+      "enchanted_golden_apple": "2023-09-11 01:28:09 +1000"
     },
     "done": false
   },
@@ -240,6 +250,12 @@
   "minecraft:recipes/misc/writable_book": {
     "criteria": {
       "has_book": "2023-09-05 23:40:10 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/mojang_banner_pattern": {
+    "criteria": {
+      "has_enchanted_golden_apple": "2023-09-11 01:28:02 +1000"
     },
     "done": true
   },

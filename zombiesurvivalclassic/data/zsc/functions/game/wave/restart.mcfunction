@@ -2,6 +2,12 @@
 scoreboard players set #Score zsc.dead.players 0
 scoreboard players set #Score zsc.alive.players 0
 scoreboard players set #Score zsc.game.active 0
+scoreboard players set #Score zsc.wave 0
+scoreboard players set #Score zsc.mobcap.multiplier 0
+scoreboard players set #Score zsc.mobcap.divider 0
+scoreboard players set #Score zsc.mobcap.amount 0
+scoreboard players set #Score zsc.mob.amount 0
+kill @e[type=!minecraft:player]
 scoreboard players set @a zsc.died 0
 scoreboard players set @a zsc.dead.dropped.arrow 0
 scoreboard players set @a zsc.dead.dropped.beef 0
@@ -11,7 +17,9 @@ schedule function zsc:lobby/lobby 5t
 tag @a remove votedhard
 tag @a remove votednormal
 
-##Clear schedule
+##Clear schedules
 schedule clear zsc:game/wave/gameover
 schedule clear zsc:game/death/deathcheck
 schedule clear zsc:lobby/waiting/wait
+schedule clear zsc:game/wave/wavebeatcheck
+schedule clear zsc:game/wave/wavecooldown

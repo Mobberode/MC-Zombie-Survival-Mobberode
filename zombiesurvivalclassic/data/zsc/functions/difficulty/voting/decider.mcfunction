@@ -4,9 +4,9 @@ kill @e[type=minecraft:item]
 kill @e[type=minecraft:arrow]
 
 ##Decide difficulty
-execute if score #Score zsc.hard.votes > #Score zsc.normal.votes run scoreboard players set #Score zsc.hard 1
-execute if score #Score zsc.hard.votes < #Score zsc.normal.votes run scoreboard players set #Score zsc.normal 1
-execute if score #Score zsc.custom.votes > #Score zsc.hard.votes if score #Score zsc.custom.votes > #Score zsc.normal.votes run scoreboard players set #Score zsc.custom 1
+execute if score #Score zsc.hard.votes > #Score zsc.normal.votes run scoreboard players set #Score zsc.difficulty 3
+execute if score #Score zsc.hard.votes < #Score zsc.normal.votes run scoreboard players set #Score zsc.difficulty 2
+execute if score #Score zsc.custom.votes > #Score zsc.hard.votes if score #Score zsc.custom.votes > #Score zsc.normal.votes run scoreboard players set #Score zsc.difficulty 0
 #Tie Breaker
 execute if score #Score zsc.hard.votes = #Score zsc.normal.votes run schedule function zsc:difficulty/voting/tiebreaker 5s
 #Remove votes

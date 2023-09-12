@@ -12,9 +12,6 @@ function zsc:difficulty/load
 #Prepare for Game
 function zsc:game/load
 
-##Prepare for Start
-#scoreboard objectives add zsc.start dummy
-
 #Set Tags
 scoreboard players set #Score zsc.game.active 0
 scoreboard players set #Score zsc.start 0

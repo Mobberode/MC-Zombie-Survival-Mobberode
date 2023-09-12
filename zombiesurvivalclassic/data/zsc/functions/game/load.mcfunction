@@ -7,14 +7,15 @@ scoreboard objectives add zsc.wave.food dummy
 ##Prepare for Game
 #Player
 scoreboard objectives add zsc.players dummy
-scoreboard objectives add zsc.dead.players dummy
-##scoreboard objectives add zsc.minecraft.custom:minecraft.leave_game
+scoreboard objectives add zsc.players.cache dummy
 scoreboard objectives add level level
+scoreboard objectives add zsc.player.limit dummy
 #Wave
 scoreboard objectives add zsc.wave.passed dummy
 scoreboard objectives add zsc.wave.start.wait dummy
 scoreboard objectives add zsc.wave.started dummy
 scoreboard objectives add zsc.wave dummy
+scoreboard objectives add zsc.mobeffects.wave dummy
 #Lives
 scoreboard objectives add zsc.team.lives dummy
 

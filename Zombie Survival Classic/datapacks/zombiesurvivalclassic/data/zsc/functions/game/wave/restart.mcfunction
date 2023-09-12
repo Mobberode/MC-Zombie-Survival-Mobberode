@@ -8,12 +8,14 @@ scoreboard players set #Score zsc.mobcap.divider 0
 scoreboard players set #Score zsc.mobcap.amount 0
 scoreboard players set #Score zsc.mob.amount 0
 scoreboard players set #Score zsc.config.wave.rank.damage 0
+scoreboard players set #Score zsc.players 0
 kill @e[type=!minecraft:player]
 scoreboard players set @a zsc.died 0
 scoreboard players set @a zsc.dead.dropped.arrow 0
 scoreboard players set @a zsc.dead.dropped.beef 0
 scoreboard players set @a zsc.dead.dropped.stew 0
 scoreboard players set @a zsc.config.wave.rank.damage 0
+tag @a remove lvldone
 #Restart voting
 schedule function zsc:lobby/lobby 5t
 scoreboard players set #Score zsc.difficulty -1

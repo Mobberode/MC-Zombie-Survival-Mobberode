@@ -4,6 +4,8 @@ scoreboard players set #Score zsc.wave.passed 1
 function zsc:game/mobs/mobcap/multiply
 #Revive players
 function zsc:game/wave/afterwave/revive
+#Play playercount
+function zsc:game/playercount
 #Loot
 function zsc:game/wave/afterwave/loot
 scoreboard players remove #Score zsc.wave.arrows 1

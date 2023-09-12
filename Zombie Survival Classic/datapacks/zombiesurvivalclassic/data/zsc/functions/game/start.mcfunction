@@ -3,8 +3,6 @@ scoreboard players set #Score zsc.game.active 1
 scoreboard players set @a zsc.players 1
 xp set @a 1 levels
 schedule function zsc:game/player 1s
-#Play player check
-schedule function zsc:game/playercheck 6s
 
 ##Give all Waiting players loot
 schedule function zsc:game/gear/loot 10t

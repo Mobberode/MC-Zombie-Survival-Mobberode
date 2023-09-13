@@ -6,11 +6,11 @@ scoreboard objectives add zsc.lobby.timer dummy
 
 ##Start
 #Prepare Configs
-function zsc:config/load
+schedule function zsc:config/load 1s
 #Prepare for Difficulty
-function zsc:difficulty/load
+schedule function zsc:difficulty/load 1s
 #Prepare for Game
-function zsc:game/load
+schedule function zsc:game/load 1s
 
 #Set Tags
 scoreboard players set #Score zsc.game.active 0
@@ -18,14 +18,14 @@ scoreboard players set #Score zsc.start 0
 
 ##Add Teams
 #Special Roles
-function zsc:config/roles/roles
+schedule function zsc:config/roles/roles 1s
 #Standard Teams
-function zsc:game/teams/teamadd
+schedule function zsc:game/teams/teamadd 1s
 
 say Zombie Survival Classic Loaded!
 
 ##Start the engines!
-function zsc:lobby/lobby
-function zsc:lobby/waiting/wait
+schedule function zsc:lobby/lobby 1s
+schedule function zsc:lobby/waiting/wait 1s
 #Restart any scores
-function zsc:restart
+schedule function zsc:restart 1s

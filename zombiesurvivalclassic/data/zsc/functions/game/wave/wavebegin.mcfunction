@@ -6,7 +6,7 @@ title @a actionbar {"text":"New wave started"}
 execute at @a run playsound minecraft:item.trident.thunder ambient @a
 
 ##Start mob spawning
-execute if score #Score zsc.custom matches 0 run function zsc:game/mobs/zsc/spawning
+execute unless score #Score zsc.difficulty matches 0 run function zsc:game/mobs/zsc/spawning
 #Start mob check
 schedule function zsc:game/wave/mobcheck 1t
 #Start wave beat check

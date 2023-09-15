@@ -18,6 +18,8 @@ scoreboard objectives add zsc.wave dummy
 scoreboard objectives add zsc.mobeffects.wave dummy
 #Lives
 scoreboard objectives add zsc.team.lives dummy
+#Skip
+scoreboard objectives add zsc.hasskipped minecraft.used:minecraft.carrot_on_a_stick
 
 ##Mobs
 scoreboard objectives add zsc.mobcap.amount dummy

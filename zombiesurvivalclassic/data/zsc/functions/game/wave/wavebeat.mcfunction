@@ -14,6 +14,8 @@ scoreboard players remove #Score zsc.wave.food 1
 scoreboard players set #Score zsc.mob.amount 0
 scoreboard players set #Score zsc.wave.start.wait 31
 schedule function zsc:game/wave/wavecooldown 5s
+#Skip
+schedule function zsc:game/skip/skip 6s
 
 ##Wave Ranking (Config)
 execute if score #Score zsc.config.wave.rank matches 1 run function zsc:game/config/waveranking

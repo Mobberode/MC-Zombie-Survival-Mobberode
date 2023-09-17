@@ -1,5 +1,5 @@
 ##Start the wave system
-scoreboard players set #Score zsc.mobcap.amount 5
+scoreboard players set #Score zsc.mobcap.amount 3
 #Hard
 execute if score #Score zsc.difficulty matches 3 run scoreboard players set #Score zsc.mobcap.multiplier 79
 execute if score #Score zsc.difficulty matches 3 run scoreboard players set #Score zsc.mobcap.divider 50

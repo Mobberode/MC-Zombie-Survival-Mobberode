@@ -3,6 +3,9 @@ clear @a
 kill @e[type=minecraft:item]
 kill @e[type=minecraft:arrow]
 
+##Start donation system
+function zsc:game/gear/donation/check
+
 ##Decide difficulty
 execute if score #Score zsc.hard.votes > #Score zsc.normal.votes run scoreboard players set #Score zsc.difficulty 3
 execute if score #Score zsc.hard.votes < #Score zsc.normal.votes run scoreboard players set #Score zsc.difficulty 2

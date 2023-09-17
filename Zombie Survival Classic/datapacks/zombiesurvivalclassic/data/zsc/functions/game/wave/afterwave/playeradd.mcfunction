@@ -13,4 +13,4 @@ tag @r[tag=lvldone,tag=lvl] remove lvl
 execute if score #Score zsc.wave.start.wait matches 2..31 run schedule function zsc:game/wave/afterwave/playeradd 2t
 
 ##Run multiplier and divider refresh
-execute if score #Score zsc.wave.start.wait matches 1 run function zsc:game/mobs/mobcap/refresh
+execute if score #Score zsc.wave.start.wait matches 1 if score #Score zsc.config.player.mob.scaling 1 run function zsc:game/mobs/mobcap/refresh

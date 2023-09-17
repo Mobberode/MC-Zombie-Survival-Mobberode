@@ -99,6 +99,7 @@
     "criteria": {
       "minecraft:pillager": "2023-09-11 01:39:56 +1000",
       "minecraft:skeleton": "2023-09-11 00:14:42 +1000",
+      "minecraft:hoglin": "2023-09-17 16:22:09 +1000",
       "minecraft:vindicator": "2023-09-11 01:31:30 +1000",
       "minecraft:magma_cube": "2023-09-05 18:10:18 +1000",
       "minecraft:piglin_brute": "2023-09-05 18:07:40 +1000",
@@ -256,6 +257,72 @@
   "minecraft:recipes/misc/mojang_banner_pattern": {
     "criteria": {
       "has_enchanted_golden_apple": "2023-09-11 01:28:02 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2023-09-15 01:31:33 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/map": {
+    "criteria": {
+      "has_compass": "2023-09-15 23:40:36 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_banner": {
+    "criteria": {
+      "has_white_wool": "2023-09-18 00:50:28 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/painting": {
+    "criteria": {
+      "has_wool": "2023-09-18 00:50:28 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_bed": {
+    "criteria": {
+      "has_white_wool": "2023-09-18 00:50:28 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_carpet": {
+    "criteria": {
+      "has_white_wool": "2023-09-18 00:50:28 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_glazed_terracotta": {
+    "criteria": {
+      "has_lime_terracotta": "2023-09-18 00:50:29 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cyan_glazed_terracotta": {
+    "criteria": {
+      "has_cyan_terracotta": "2023-09-18 00:50:30 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/green_glazed_terracotta": {
+    "criteria": {
+      "has_green_terracotta": "2023-09-18 00:50:35 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/grindstone": {
+    "criteria": {
+      "has_stone_slab": "2023-09-18 01:45:28 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2023-09-18 01:47:11 +1000"
     },
     "done": true
   },

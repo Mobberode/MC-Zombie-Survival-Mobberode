@@ -31,6 +31,3 @@ schedule function zsc:lobby/waiting/wait 1s
 schedule function zsc:restart 1s
 #Skip
 schedule function zsc:game/skip/skip 2s
-
-##Enable by default configs
-scoreboard players set #Score zsc.config.player.mob.scaling 1

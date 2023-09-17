@@ -6,10 +6,6 @@ item replace entity @a[tag=!zsc.received] armor.feet with iron_boots{Enchantment
 item replace entity @a[tag=!zsc.received] hotbar.0 with iron_sword{Unbreakable:1,Enchantments:[{id:unbreaking,lvl:3}]} 1
 item replace entity @a[tag=!zsc.received] hotbar.1 with bow{Unbreakable:1,Enchantments:[{id:unbreaking,lvl:3}]} 1
 
-##Set Score
-scoreboard players set #Score zsc.arrows 1
-scoreboard players set #Score zsc.food 1
-
 #Actually start giving out
 function zsc:game/gear/loot/arrows
 function zsc:game/gear/loot/food

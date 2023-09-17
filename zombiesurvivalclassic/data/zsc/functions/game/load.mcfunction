@@ -1,8 +1,10 @@
 ##Prepare for Gear
-scoreboard objectives add zsc.arrows dummy
-scoreboard objectives add zsc.food dummy
+#Donation Count
+scoreboard objectives add zsc.player.arrows.count dummy
+scoreboard objectives add zsc.player.food.count dummy
+
 scoreboard objectives add zsc.wave.arrows dummy
-scoreboard objectives add zsc.wave.food dummy 
+scoreboard objectives add zsc.wave.food dummy
 
 ##Prepare for Game
 #Player

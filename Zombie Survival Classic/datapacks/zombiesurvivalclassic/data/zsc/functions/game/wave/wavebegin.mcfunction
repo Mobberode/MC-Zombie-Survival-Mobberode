@@ -11,3 +11,5 @@ execute unless score #Score zsc.difficulty matches 0 run function zsc:game/mobs/
 schedule function zsc:game/wave/mobcheck 1t
 #Start wave beat check
 schedule function zsc:game/wave/wavebeatcheck 5s
+#Clear rods
+clear @a minecraft:carrot_on_a_stick

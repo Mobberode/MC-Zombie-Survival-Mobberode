@@ -22,7 +22,7 @@ execute as c022ca4b-6fd7-46a4-9fc4-33e89c94d667 run tag @s add Has.ZS.OGs
 # 1 cody5325
 execute as 87bcd67d-f0a9-4522-bec4-f09a043a6ba4 run tag @s add Has.ZSC.Testers
 # 2 PremiereYeti
-execute as 95f83836-62e3-4c9b-bc3a-1a2975cc9deb run tag @s add Has.ZSM.Testers
+execute as 95f83836-62e3-4c9b-bc3a-1a2975cc9deb run tag @s add Has.ZSC.Testers
 
 ##ZSM Tester (People who have playtested Zombie Survival Mutated)
 # 1 NorthSideYT (Alf-Coe)

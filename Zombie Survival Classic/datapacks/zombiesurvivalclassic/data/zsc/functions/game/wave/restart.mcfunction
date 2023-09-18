@@ -15,8 +15,8 @@ scoreboard players set @a zsc.dead.dropped.arrow 0
 scoreboard players set @a zsc.dead.dropped.beef 0
 scoreboard players set @a zsc.dead.dropped.stew 0
 scoreboard players set @a zsc.config.wave.rank.damage 0
-tag @a remove lvldone
 #Restart voting
+clear @a
 schedule function zsc:lobby/lobby 5t
 schedule function zsc:game/skip/skip 5t
 scoreboard players set #Score zsc.difficulty -1

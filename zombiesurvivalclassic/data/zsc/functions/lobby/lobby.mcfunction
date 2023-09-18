@@ -13,3 +13,6 @@ tag @a remove votednormal
 tag @a remove votedcustom
 #Teams
 team join Waiting @a
+
+##Start plreffects
+function zsc:lobby/plreffects

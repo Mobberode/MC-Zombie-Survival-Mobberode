@@ -9,9 +9,6 @@ scoreboard objectives add zsc.wave.food dummy
 ##Prepare for Game
 #Player
 scoreboard objectives add zsc.players dummy
-scoreboard objectives add zsc.players.cache dummy
-scoreboard objectives add level level
-scoreboard objectives add zsc.player.limit dummy
 #Wave
 scoreboard objectives add zsc.wave.passed dummy
 scoreboard objectives add zsc.wave.start.wait dummy
@@ -26,6 +23,8 @@ scoreboard objectives add zsc.hasskipped minecraft.used:minecraft.carrot_on_a_st
 ##Mobs
 scoreboard objectives add zsc.mobcap.amount dummy
 scoreboard objectives add zsc.mob.amount dummy
+scoreboard objectives add zsc.mob.active.amount dummy
+scoreboard objectives add zsc.mob.active.amount.limit dummy
 scoreboard objectives add zsc.mobcap.multiplier dummy
 scoreboard objectives add zsc.mobcap.divider dummy
 

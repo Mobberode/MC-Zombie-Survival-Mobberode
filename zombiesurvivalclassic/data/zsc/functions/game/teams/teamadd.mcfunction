@@ -5,3 +5,5 @@ function zsc:game/teams/addalive
 function zsc:game/teams/adddead
 #Waiting
 function zsc:game/teams/addwaiting
+#Mob (Mobs only)
+function zsc:game/teams/addmob

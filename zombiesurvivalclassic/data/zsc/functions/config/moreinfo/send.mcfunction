@@ -1,2 +1,0 @@
-##Info
-execute if score #Score zsc.game.active matches 1 unless score #Score zsc.wave.passed matches 1 run title @a[scores={zsc.player.config.moreinfo=1}] actionbar ["",{"text":"Wave: "},{"score":{"name":"#Score","objective":"zsc.wave"}},{"text":" | Active Mobs: "},{"score":{"name":"#Score","objective":"zsc.mob.active.amount"}}]

@@ -6,13 +6,15 @@ function zsc:game/mobs/mobcap/multiply
 function zsc:game/wave/afterwave/revive
 #Play playercount
 function zsc:game/playercount
+#Stop Glowing
+schedule clear zsc:game/effects/glow/timer
 #Loot
 function zsc:game/wave/afterwave/loot
 scoreboard players remove #Score zsc.wave.arrows 1
 scoreboard players remove #Score zsc.wave.food 1
 #New wave
 scoreboard players set #Score zsc.mob.amount 0
-scoreboard players set #Score zsc.wave.start.wait 31
+scoreboard players set #Score zsc.timer 31
 schedule function zsc:game/wave/wavecooldown 5s
 #Skip
 schedule function zsc:game/skip/skip 6s

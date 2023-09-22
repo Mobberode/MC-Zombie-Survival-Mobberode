@@ -1,7 +1,10 @@
 ##Start the game
 scoreboard players set #Score zsc.game.active 1
 schedule function zsc:game/playercheck 1s
-scoreboard players set #Score zsc.wave.start.wait 31
+scoreboard players set #Score zsc.timer 31
+
+##Start Drop Prevention
+schedule function zsc:game/gear/dropprevention/dropdetection 1s
 
 ##Apply Configs
 function zsc:game/configapply

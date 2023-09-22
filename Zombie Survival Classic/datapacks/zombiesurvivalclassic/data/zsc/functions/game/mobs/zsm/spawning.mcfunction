@@ -1,6 +1,6 @@
 ##List of mobs
 #Loop
-execute if score #Score zsc.mobcap.amount > #Score zsc.mob.amount unless score #Score zsc.wave.passed matches 1 run schedule function zsc:game/mobs/zsc/spawning 1s
+execute if score #Score zsc.mobcap.amount > #Score zsc.mob.amount unless score #Score zsc.wave.passed matches 1 run schedule function zsc:game/mobs/zsm/spawning 1s
 #Zombie
 execute if score #Score zsc.wave matches 1..9 run function zsc:game/mobs/zsm/zombie
 #Skeleton
@@ -34,7 +34,7 @@ execute if score #Score zsc.wave matches 20..2147483647 run function zsc:game/mo
 #Slime
 execute if score #Score zsc.wave matches 20..29 run function zsc:game/mobs/zsm/slime
 #Vindicator
-execute if score #Score zsc.wave matches 20..2147483647 run function zsc:game/mobs/zsm/vindicatorS
+execute if score #Score zsc.wave matches 20..2147483647 run function zsc:game/mobs/zsm/vindicator
 #Charged Creeper
 execute if score #Score zsc.wave matches 22..2147483647 run function zsc:game/mobs/zsm/chargedcreeper
 #Evoker

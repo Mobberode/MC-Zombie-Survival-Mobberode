@@ -2,7 +2,7 @@
 
 ##Prepare for Lobby:
 scoreboard objectives add zsc.game.active dummy
-scoreboard objectives add zsc.lobby.timer dummy
+scoreboard objectives add zsc.timer dummy
 
 ##Start
 #Prepare Configs

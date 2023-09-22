@@ -8,7 +8,10 @@ execute at @a run playsound minecraft:item.trident.thunder ambient @a
 ##Start mob spawning
 function zsc:game/mobs/spawner
 #Start mob check
-schedule function zsc:game/wave/mobcheck 1t
+function zsc:game/wave/mobcheck
+#Mob Glow Showdown Timer
+scoreboard players set #Score zsc.timer 300
+function zsc:game/effects/glow/timer
 #Start wave beat check
 schedule function zsc:game/wave/wavebeatcheck 5s
 #Clear rods

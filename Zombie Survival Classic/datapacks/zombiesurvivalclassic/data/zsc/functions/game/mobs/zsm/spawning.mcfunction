@@ -8,41 +8,41 @@ execute if score #Score zsc.wave matches 3..11 run function zsc:game/mobs/zsm/sk
 #Spider
 execute if score #Score zsc.wave matches 5..14 run function zsc:game/mobs/zsm/spider
 #Wither Skeleton
-execute if score #Score zsc.wave matches 5..2147483647 run function zsc:game/mobs/zsm/witherskeleton
+execute if score #Score zsc.wave matches 5.. run function zsc:game/mobs/zsm/witherskeleton
 #Pillager
-execute if score #Score zsc.wave matches 8..2147483647 run function zsc:game/mobs/zsm/pillager
+execute if score #Score zsc.wave matches 8.. run function zsc:game/mobs/zsm/pillager
 #Witch
-execute if score #Score zsc.wave matches 10..2147483647 run function zsc:game/mobs/zsm/witch
+execute if score #Score zsc.wave matches 10.. run function zsc:game/mobs/zsm/witch
 #Husk
-execute if score #Score zsc.wave matches 10..2147483647 run function zsc:game/mobs/zsm/husk
+execute if score #Score zsc.wave matches 10.. run function zsc:game/mobs/zsm/husk
 #Stray
-execute if score #Score zsc.wave matches 12..2147483647 run function zsc:game/mobs/zsm/stray
+execute if score #Score zsc.wave matches 12.. run function zsc:game/mobs/zsm/stray
 #Enderman
-execute if score #Score zsc.wave matches 13..2147483647 run function zsc:game/mobs/zsm/enderman
+execute if score #Score zsc.wave matches 13.. run function zsc:game/mobs/zsm/enderman
 #Silverfish
 execute if score #Score zsc.wave matches 13..16 run function zsc:game/mobs/zsm/silverfish
 #Cave Spider
-execute if score #Score zsc.wave matches 15..2147483647 run function zsc:game/mobs/zsm/cavespider
+execute if score #Score zsc.wave matches 15.. run function zsc:game/mobs/zsm/cavespider
 #Blaze
-execute if score #Score zsc.wave matches 15..2147483647 run function zsc:game/mobs/zsm/blaze
+execute if score #Score zsc.wave matches 15.. run function zsc:game/mobs/zsm/blaze
 #Creeper
 execute if score #Score zsc.wave matches 17..21 run function zsc:game/mobs/zsm/creeper
 #Ghast
-execute if score #Score zsc.wave matches 17..2147483647 run function zsc:game/mobs/zsm/ghast
+execute if score #Score zsc.wave matches 17.. run function zsc:game/mobs/zsm/ghast
 #Endermite
-execute if score #Score zsc.wave matches 20..2147483647 run function zsc:game/mobs/zsm/endermite
+execute if score #Score zsc.wave matches 20.. run function zsc:game/mobs/zsm/endermite
 #Slime
 execute if score #Score zsc.wave matches 20..29 run function zsc:game/mobs/zsm/slime
 #Vindicator
-execute if score #Score zsc.wave matches 20..2147483647 run function zsc:game/mobs/zsm/vindicator
+execute if score #Score zsc.wave matches 20.. run function zsc:game/mobs/zsm/vindicator
 #Charged Creeper
-execute if score #Score zsc.wave matches 22..2147483647 run function zsc:game/mobs/zsm/chargedcreeper
+execute if score #Score zsc.wave matches 22.. run function zsc:game/mobs/zsm/chargedcreeper
 #Evoker
-execute if score #Score zsc.wave matches 25..2147483647 run function zsc:game/mobs/zsm/evoker
+execute if score #Score zsc.wave matches 25.. run function zsc:game/mobs/zsm/evoker
 #Shulker
-execute if score #Score zsc.wave matches 27..2147483647 run function zsc:game/mobs/zsm/shulker
+execute if score #Score zsc.wave matches 27.. run function zsc:game/mobs/zsm/shulker
 #Ravager
-execute if score #Score zsc.wave matches 30..2147483647 run function zsc:game/mobs/zsm/ravager
+execute if score #Score zsc.wave matches 30.. run function zsc:game/mobs/zsm/ravager
 #Magma Cube
-execute if score #Score zsc.wave matches 30..2147483647 run function zsc:game/mobs/zsm/magmacube
+execute if score #Score zsc.wave matches 30.. run function zsc:game/mobs/zsm/magmacube
 

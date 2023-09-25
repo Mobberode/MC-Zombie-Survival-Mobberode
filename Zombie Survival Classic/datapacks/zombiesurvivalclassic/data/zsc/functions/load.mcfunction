@@ -11,6 +11,8 @@ schedule function zsc:config/load 1s
 schedule function zsc:difficulty/load 1s
 #Prepare for Game
 schedule function zsc:game/load 1s
+#Host
+schedule function zsc:host 1s
 
 #Set Tags
 scoreboard players set #Score zsc.game.active 0

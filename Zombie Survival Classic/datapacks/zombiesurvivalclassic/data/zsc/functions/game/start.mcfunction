@@ -15,6 +15,9 @@ schedule function zsc:game/gear/loot 2t
 #Turn all Waiting players into Alive players
 schedule function zsc:game/gear/start/transfer 1s
 
+##Teleport
+teleport @a 8 -60 8
+
 ##Difficulty
 schedule function zsc:game/difficulty/start 1s
 

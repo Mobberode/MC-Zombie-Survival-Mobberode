@@ -12,6 +12,8 @@ function zsc:game/wave/mobcheck
 #Mob Glow Showdown Timer
 scoreboard players set #Score zsc.timer 300
 function zsc:game/effects/glow/timer
+#Effects
+function zsc:game/effects/effectcheck
 #Start wave beat check
 schedule function zsc:game/wave/wavebeatcheck 5s
 #Clear rods

@@ -1,4 +1,4 @@
-# MC Zombie Survival Classic | EPS 5 / v0.7.0
+# MC Zombie Survival Classic | EPS 5.1 / v0.7.2
 ## Classic version of Zombie Survival 1 from before major updates with general improvements and automatic!
 
 # Game

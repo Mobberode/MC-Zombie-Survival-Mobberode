@@ -1,2 +1,2 @@
-summon minecraft:endermite 8 -60 8
+execute at @e[tag=zs.endermitespawn,sort=random] summon minecraft:endermite ~ ~ ~
 scoreboard players add #Score zsc.mob.amount 1

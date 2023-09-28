@@ -9,7 +9,6 @@ scoreboard players set #Score zsc.mobcap.amount 0
 scoreboard players set #Score zsc.mob.amount 0
 scoreboard players set #Score zsc.config.wave.rank.damage 0
 scoreboard players set #Score zsc.players 0
-kill @e[type=!minecraft:player]
 scoreboard players set @a zsc.died 0
 scoreboard players set @a zsc.dead.dropped.arrow 0
 scoreboard players set @a zsc.dead.dropped.beef 0
@@ -30,7 +29,6 @@ schedule clear zsc:game/death/deathcheck
 schedule clear zsc:lobby/waiting/wait
 schedule clear zsc:game/wave/wavebeatcheck
 schedule clear zsc:game/wave/wavecooldown
-schedule clear zsc:game/gear/dropprevention/dropdetection
 schedule clear zsc:game/gear/dropprevention/detected
 schedule clear zsc:game/gear/dropprevention/scorecheck
 schedule clear zsc:game/gear/dropprevention/giveback

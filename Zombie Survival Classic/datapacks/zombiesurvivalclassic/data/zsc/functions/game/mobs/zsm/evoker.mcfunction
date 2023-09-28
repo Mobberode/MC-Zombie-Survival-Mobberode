@@ -1,2 +1,2 @@
-summon minecraft:evoker 8 -60 8
+execute at @e[tag=zs.evokerspawn,sort=random] summon minecraft:evoker ~ ~ ~
 scoreboard players add #Score zsc.mob.amount 1

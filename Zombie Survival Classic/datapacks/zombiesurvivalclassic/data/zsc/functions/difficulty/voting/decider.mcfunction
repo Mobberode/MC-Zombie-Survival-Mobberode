@@ -18,7 +18,7 @@ schedule function zsc:difficulty/voteremove 1t
 scoreboard players set #Score zsc.begin.vote 0
 
 ##Start Gaming
-schedule function zsc:game/start 10s
+schedule function zsc:game/startcheck 10s
 function zsc:game/mobs/killmobs
 
 ##Announce!

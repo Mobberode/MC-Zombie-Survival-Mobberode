@@ -39,6 +39,8 @@ execute if score #Score zsc.wave matches 20.. run function zsc:game/mobs/zsm/vin
 execute if score #Score zsc.wave matches 22.. run function zsc:game/mobs/zsm/chargedcreeper
 #Evoker
 execute if score #Score zsc.wave matches 25.. run function zsc:game/mobs/zsm/evoker
+#Piglin Brute (Config)
+execute if score #Score zsc.wave matches 25.. if score #Score zsc.config.unused.mobs matches 1 run function zsc:game/mobs/removed/piglinbrute
 #Shulker
 execute if score #Score zsc.wave matches 27.. run function zsc:game/mobs/zsm/shulker
 #Ravager

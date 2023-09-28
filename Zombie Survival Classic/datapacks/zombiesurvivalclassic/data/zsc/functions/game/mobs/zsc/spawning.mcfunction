@@ -7,6 +7,8 @@ execute if score #Score zsc.wave matches 1.. run function zsc:game/mobs/zsc/zomb
 execute if score #Score zsc.wave matches 3.. run function zsc:game/mobs/zsc/skeleton
 #Wither Skeleton
 execute if score #Score zsc.wave matches 5.. run function zsc:game/mobs/zsc/witherskeleton
+#Piglin Brute (Config)
+execute if score #Score zsc.wave matches 7.. if score #Score zsc.config.unused.mobs matches 1 run function zsc:game/mobs/removed/piglinbrute
 #Pillager
 execute if score #Score zsc.wave matches 8.. run function zsc:game/mobs/zsc/pillager
 #Cave Spider

@@ -12,19 +12,48 @@ scoreboard objectives add zsc.config.donate dummy
 #Configuration Set 3
 scoreboard objectives add zsc.config.wave.rank dummy
 
+#Voteable Configs
+scoreboard objectives add zsc.config.combat.type.java.votes dummy
+scoreboard objectives add zsc.config.combat.type.bedrock.votes dummy
+scoreboard objectives add zsc.config.food.type.classic.votes dummy
+scoreboard objectives add zsc.config.food.type.modern.votes dummy
+scoreboard objectives add zsc.config.pms.on.votes dummy
+scoreboard objectives add zsc.config.pms.off.votes dummy
+scoreboard objectives add zsc.config.moblist.zsc.votes dummy
+scoreboard objectives add zsc.config.moblist.zsm.votes dummy
+scoreboard objectives add zsc.config.moblist.zs.votes dummy
+scoreboard objectives add zsc.config.spawning.multiply.divide.votes dummy
+scoreboard objectives add zsc.config.spawning.multiply.votes dummy
+scoreboard objectives add zsc.config.spawning.fixed.votes dummy
+scoreboard objectives add zsc.config.unused.mobs.on.votes dummy
+scoreboard objectives add zsc.config.unused.mobs.off.votes dummy
+scoreboard objectives add zsc.config.donate.on.votes dummy
+scoreboard objectives add zsc.config.donate.off.votes dummy
+scoreboard objectives add zsc.config.wave.rank.on.votes dummy
+scoreboard objectives add zsc.config.wave.rank.off.votes dummy
+
 #Host Set 1
 scoreboard objectives add zsc.config.player.vote.configs dummy
+scoreboard objectives add zsc.config.map.type dummy
+scoreboard objectives add zsc.config.creeper.survival dummy
 
 #Custom Set 1
-scoreboard objectives add zsc.config.custom.foodwave dummy
-scoreboard objectives add zsc.config.custom.arrowwave dummy
-scoreboard objectives add zsc.config.custom.mobeffects dummy
+scoreboard objectives add zsc.config.custom.mobeffects.wave dummy
 scoreboard objectives add zsc.config.custom.teamlives dummy
-scoreboard objectives add zsc.config.custom.mobcap.amount dummy
+scoreboard objectives add zsc.config.custom.mobcap.multiplier dummy
+scoreboard objectives add zsc.config.custom.active.mobcap.amount dummy
 scoreboard objectives add zsc.config.custom.difficulty dummy
+scoreboard objectives add zsc.config.custom.foodwave dummy
+scoreboard objectives add zsc.config.custom.foodscarity dummy
+scoreboard objectives add zsc.config.custom.arrowwave dummy
+scoreboard objectives add zsc.config.custom.arrowscarity dummy
 scoreboard objectives add zsc.config.custom.moblist dummy
 scoreboard objectives add zsc.config.custom.permadeath dummy
-scoreboard objectives add zsc.config.custom.mobeffects.wave dummy
+
+#Custom Game
+scoreboard objectives add zsc.game.custom.wave.arrows dummy
+scoreboard objectives add zsc.game.custom.wave.food dummy
+scoreboard objectives add zsc.game.custom.teamlives dummy
 
 #Wave Ranking
 scoreboard objectives add zsc.config.wave.rank.damage minecraft.custom:minecraft.damage_taken

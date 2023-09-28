@@ -4,8 +4,6 @@ scoreboard players set #Score zsc.wave.passed 1
 function zsc:game/mobs/mobcap/multiply
 #Revive players
 function zsc:game/wave/afterwave/revive
-#Play playercount
-function zsc:game/playercount
 #Stop Glowing
 schedule clear zsc:game/effects/glow/timer
 #Loot
@@ -20,4 +18,4 @@ schedule function zsc:game/wave/wavecooldown 5s
 schedule function zsc:game/skip/skip 6s
 
 ##Wave Ranking (Config)
-execute if score #Score zsc.config.wave.rank matches 1 run function zsc:game/config/waveranking
+execute if score #Score zsc.config.wave.rank matches 1 run function zsc:game/config/ranking/waveranking

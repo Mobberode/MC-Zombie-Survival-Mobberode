@@ -9,6 +9,8 @@ scoreboard objectives add zsc.timer dummy
 schedule function zsc:config/load 1s
 #Prepare for Difficulty
 schedule function zsc:difficulty/load 1s
+#Borders
+schedule function zsc:game/border/poscheck 1s
 #Prepare for Game
 schedule function zsc:game/load 1s
 #Host
@@ -27,8 +29,10 @@ schedule function zsc:game/teams/teamadd 1s
 say Zombie Survival Classic Loaded!
 
 ##Start the engines!
+clear @a
 schedule function zsc:lobby/lobby 1s
 schedule function zsc:lobby/waiting/wait 1s
+schedule function zsc:config/moreinfo/send 1s
 #Restart any scores
 schedule function zsc:restart 1s
 #Skip

@@ -1,0 +1,1 @@
+tellraw @s {"text": "You can't change this setting without Host!","color": "red"}

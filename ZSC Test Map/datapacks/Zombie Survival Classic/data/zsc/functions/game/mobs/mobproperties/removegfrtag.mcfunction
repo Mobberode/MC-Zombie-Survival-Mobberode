@@ -1,0 +1,1 @@
+tag @e[tag=mob,tag=pwait] remove pwait

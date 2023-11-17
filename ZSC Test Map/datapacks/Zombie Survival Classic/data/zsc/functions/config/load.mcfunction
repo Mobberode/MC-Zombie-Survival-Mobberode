@@ -30,9 +30,9 @@ scoreboard objectives add zsc.dconfig.food dummy
 scoreboard objectives add zsc.dconfig.arrow dummy
 #Custom Set 3
 scoreboard objectives add zsc.dconfig.effect.type dummy
-scoreboard objectives add zsc.dconfig.mob.gear.level dummy
+scoreboard objectives add zsc.dconfig.gear.level dummy
 #Custom Set 4
-scoreboard objectives add zsc.dconfig.player.gear.level dummy
+scoreboard objectives add zsc.dconfig.max.player.hearts dummy
 
 #Wave Ranking
 scoreboard objectives add zsc.damage minecraft.custom:minecraft.damage_taken
@@ -46,6 +46,7 @@ scoreboard players set #Score zsc.config.donate 1
 scoreboard players set #Score zsc.config.mob.list 0
 scoreboard players set #Score zsc.config.spawning.system.type 1
 scoreboard players set #Score zsc.config.player.vote.configs 0
+scoreboard players set #Score zsc.config.zsc.gamemode 0
 
 ##Triggers
 scoreboard objectives add zsc.player.config.role trigger

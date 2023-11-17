@@ -82,3 +82,18 @@ execute at @e[type=minecraft:area_effect_cloud,tag=zs.piglinspawn] run particle 
 execute at @e[type=minecraft:area_effect_cloud,tag=zs.ender.dragonspawn] run particle minecraft:dragon_breath ~ ~ ~ 0 0.1 0 0.01 15 normal @a[gamemode=creative]
 
 ##Creeper Survival Mobs (ZSC Bonus Mode 1 Specfic)
+#Fast
+execute at @e[type=minecraft:area_effect_cloud,tag=zcs.fastcreeperspawn] run particle minecraft:explosion ~ ~ ~ 0 0.1 0 0 1 normal @a[gamemode=creative]
+execute at @e[type=minecraft:area_effect_cloud,tag=zcs.fastcreeperspawn] run particle minecraft:poof ~ ~ ~ 0 0.1 0 0.1 25 normal @a[gamemode=creative]
+#Fast Charged
+execute at @e[type=minecraft:area_effect_cloud,tag=zcs.fastchargedcreeperspawn] run particle minecraft:explosion ~ ~ ~ 0 0.1 0 0 1 normal @a[gamemode=creative]
+execute at @e[type=minecraft:area_effect_cloud,tag=zcs.fastchargedcreeperspawn] run particle minecraft:poof ~ ~ ~ 0 0.1 0 0.1 25 normal @a[gamemode=creative]
+execute at @e[type=minecraft:area_effect_cloud,tag=zcs.fastchargedcreeperspawn] run particle minecraft:electric_spark ~ ~ ~ 0 0.1 0 1 50 normal @a[gamemode=creative]
+#Heavy
+execute at @e[type=minecraft:area_effect_cloud,tag=zcs.heavycreeperspawn] run particle minecraft:explosion ~ ~ ~ 0 0.1 0 0 1 normal @a[gamemode=creative]
+execute at @e[type=minecraft:area_effect_cloud,tag=zcs.heavycreeperspawn] run particle minecraft:firework ~ ~ ~ 0 0.1 0 0.1 50 normal @a[gamemode=creative]
+execute at @e[type=minecraft:area_effect_cloud,tag=zcs.heavycreeperspawn] run particle minecraft:electric_spark ~ ~ ~ 0 0.1 0 1 50 normal @a[gamemode=creative]
+#Fast Heavy
+execute at @e[type=minecraft:area_effect_cloud,tag=zcs.fastheavycreeperspawn] run particle minecraft:explosion ~ ~ ~ 0 0.1 0 0 1 normal @a[gamemode=creative]
+execute at @e[type=minecraft:area_effect_cloud,tag=zcs.fastheavycreeperspawn] run particle minecraft:firework ~ ~ ~ 0 0.1 0 0.1 50 normal @a[gamemode=creative]
+execute at @e[type=minecraft:area_effect_cloud,tag=zcs.fastheavycreeperspawn] run particle minecraft:electric_spark ~ ~ ~ 0 0.1 0 1 50 normal @a[gamemode=creative]

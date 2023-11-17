@@ -79,8 +79,15 @@ execute as @e[type=bat,tag=zs.ender.dragonspawn] at @s run function zsct:tools/m
 #Wither 5
 execute as @e[type=bat,tag=zs.witherspawn] at @s run function zsct:tools/mob/witherspawn
 
-##Creeper Survival Mobs (ZSC Bonus Mode 1 Specfic) 5
-#
+##Creeper Survival Mobs (ZSC Bonus Mode 1 Specfic) -1
+#Fast
+execute as @e[type=bat,tag=zcs.fastcreeperspawn] at @s run function zsct:tools/mob/creepersurvival/fast
+#Fast Charged
+execute as @e[type=bat,tag=zcs.fastchargedcreeperspawn] at @s run function zsct:tools/mob/creepersurvival/fastcharged
+#Heavy
+execute as @e[type=bat,tag=zcs.heavycreeperspawn] at @s run function zsct:tools/mob/creepersurvival/heavy
+#Fast Heavy
+execute as @e[type=bat,tag=zcs.fastheavycreeperspawn] at @s run function zsct:tools/mob/creepersurvival/fastheavy
 
 ##Particles
 schedule function zsct:visuals 5t

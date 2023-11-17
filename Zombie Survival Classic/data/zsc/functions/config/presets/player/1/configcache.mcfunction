@@ -10,3 +10,7 @@ execute store result score #CFGP1 zsc.config.unused.mobs run scoreboard players 
 execute store result score #CFGP1 zsc.config.donate run scoreboard players get #Score zsc.config.donate
 #
 execute store result score #CFGP1 zsc.config.mob.friendly.fire run scoreboard players get #Score zsc.config.mob.friendly.fire
+#
+execute store result score #CFGP1 zsc.config.challenge.negative.effects run scoreboard players get #Score zsc.config.challenge.negative.effects
+execute store result score #CFGP1 zsc.config.challenge.no.hit run scoreboard players get #Score zsc.config.challenge.no.hit
+execute store result score #CFGP1 zsc.config.challenge.permadeath run scoreboard players get #Score zsc.config.challenge.permadeath

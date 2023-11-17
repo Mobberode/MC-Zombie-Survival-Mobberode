@@ -1,5 +1,6 @@
 ##PVC off
 execute if entity @s[tag=host] unless score #Score zsc.config.player.vote.configs matches 1 run scoreboard players set #Score zsc.config.wave.rank 1
+execute if entity @s[tag=!host] unless score #Score zsc.config.player.vote.configs matches 1 run function zsc:config/hosterror
 
 ##PVC on
 execute unless score #Score zsc.config.player.vote.configs matches 0 unless entity @s[tag=voted.waverank.true] run scoreboard players add #Option1 zsc.config.wave.rank.on.votes 1

@@ -17,8 +17,6 @@ function zsc:game/config/voteapply/unused
 function zsc:game/config/voteapply/waverank
 #Mob Friendly Fire
 function zsc:game/config/voteapply/mobfriendlyfire
-#Creeper Survival
-function zsc:game/config/voteapply/creepersurvival
 #ZSCreator Map Changes
 function zsc:game/config/voteapply/custommapchanges
 
@@ -27,6 +25,10 @@ function zsc:game/config/voteapply/custommapchanges
 ##Challenges
 #No Hit
 execute if score #Score zsc.config.challenge.no.hit matches 1 run function zsc:game/config/challenge/nohit/damagecheck
+
+##Reveal Changes
+execute unless score #Score zsc.difficulty matches 0 as @a run function zsc:config/viewgame
+execute unless score #Score zsc.difficulty matches 0 as @a run function zsc:config/viewcustom
 
 ##Remove tags
 tag @a remove voted.classicfood

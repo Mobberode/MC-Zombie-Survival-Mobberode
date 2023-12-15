@@ -1,5 +1,5 @@
 ##Summon
-summon area_effect_cloud ~ ~ ~ {Duration:2147483647,Tags:["zs.+border"]}
+summon area_effect_cloud ~ ~ ~ {Duration:2147483647,Tags:["zs.+border","zsct.element"]}
 
 ##Kill entity with that tag
 kill @s

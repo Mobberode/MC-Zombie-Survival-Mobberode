@@ -1,8 +1,8 @@
 ##Page Check
-execute as @e[scores={zsct.turned.page=1..}] run function zsct:tools/misc/page
+execute as @a[scores={zsct.init_menu=1..}] run function zsct:tools/misc/menu
 
 ##Remove Element
-execute as @e[type=bat,tag=zs.remove] at @s run function zsct:tools/misc/remove
+execute as @a[nbt={SelectedItem:{id:"minecraft:barrier"}}] run function zsct:tools/misc/remove
 
 ##Border Elements
 execute as @e[type=bat,tag=zs.+border] at @s run function zsct:tools/border/positive
@@ -90,7 +90,7 @@ execute as @e[type=bat,tag=zcs.heavycreeperspawn] at @s run function zsct:tools/
 execute as @e[type=bat,tag=zcs.fastheavycreeperspawn] at @s run function zsct:tools/mob/creepersurvival/fastheavy
 
 ##Particles
-schedule function zsct:visuals 5t
+function zsct:visuals
 
 ##Loop
-schedule function zsct:check 5t
+schedule function zsct:check 2t

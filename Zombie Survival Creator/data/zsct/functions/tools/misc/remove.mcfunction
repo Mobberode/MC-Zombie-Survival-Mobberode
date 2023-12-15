@@ -1,5 +1,2 @@
-##Remove Element
-kill @e[type=area_effect_cloud,distance=..1]
-
-##Remove tagged entity
-kill @s
+##Raycast
+execute as @s at @s run function zsct:tools/misc/removercast/rayremovecast

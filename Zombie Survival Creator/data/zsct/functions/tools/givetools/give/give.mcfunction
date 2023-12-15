@@ -2,10 +2,10 @@
 tellraw @s {"text":"ZSCreator Elements Page 1!"}
 
 ##Remove
-item replace entity @p hotbar.8 with ghast_spawn_egg{display:{Name:'{"text":"Remove Element","color":"dark_red","bold":true,"italic":false}'},EntityTag:{id:"minecraft:bat",NoGravity:1b,Silent:1b,NoAI:1b,Tags:["zs.remove"]}} 1
+item replace entity @p hotbar.8 with barrier{display:{Name:'{"text":"Element Remover","color":"dark_red","bold":true,"italic":false}'}} 1
 
-##Switchable Pages
-item replace entity @p hotbar.0 with carrot_on_a_stick{display:{Name:'{"text":"Next Page","color":"gold","bold":true}'}} 1
+##Menu Rod
+item replace entity @p hotbar.0 with carrot_on_a_stick{display:{Name:'{"text":"Menu","color":"gold","bold":true}'}} 1
 
 ##Player
 #Player Spawn

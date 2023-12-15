@@ -1,21 +1,14 @@
 ##Notify
 tellraw @a {"text":"Welcome to Zombie Survival Creator Tools!"}
 
-##Run Check
-schedule function zsct:check 1s
-
-##Run Legacy Check
-schedule function zsct:legacycheck 1s
-
-##Give Tools
-schedule function zsct:tools/misc/page 1s
-
 ##1 Time Install
-scoreboard objectives add zsct.turned.page minecraft.used:minecraft.carrot_on_a_stick
+scoreboard objectives add zsct.init_menu used:carrot_on_a_stick
+scoreboard objectives add zsct.turned.page dummy
 scoreboard objectives add zsct.page dummy
+scoreboard objectives add zsct.ray_steps dummy
 
 ##Init
-schedule function zsct:init 10t
+schedule function zsct:init 1s
 
 ##Important for ZS maps
 #Entity Postitions
@@ -35,4 +28,5 @@ scoreboard objectives add zs.global.map.mob.wave dummy
 scoreboard objectives add zs.zsc.map.setting dummy
 #ZSM Map Configs
 #scoreboard objectives add zs.zsm.map.setting
+
 

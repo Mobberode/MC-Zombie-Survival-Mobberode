@@ -1,4 +1,4 @@
-# MC Zombie Survival Classic | EPS 7 / v0.8.11
+# Adford / Zombie Survival Classic | EPS 7 / v0.8.11
 ## Classic version of Zombie Survival 1 from before major updates with a whole load general improvements and optional features and is automatic!
 
 # // Game //

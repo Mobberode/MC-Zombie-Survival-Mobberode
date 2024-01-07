@@ -15,4 +15,4 @@ execute as @e[type=!minecraft:area_effect_cloud] store result score @s zs.z run 
 function zsc:game/border/failcheck 
 
 ##Loop
-schedule function zsc:game/border/poscheck 1s
+schedule function zsc:game/border/poscheck 5t

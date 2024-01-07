@@ -1,5 +1,8 @@
+##Element Viewer
+execute as @a at @s run function zsct:tools/misc/viewer/cast
+
 ##Page Check
-execute as @a[scores={zsct.init_menu=1..}] run function zsct:tools/misc/menu
+execute as @a[scores={zs.coas=1..}] at @s run function zsct:tools/misc/menu
 
 ##Remove Element
 execute as @a[nbt={SelectedItem:{id:"minecraft:barrier"}}] run function zsct:tools/misc/remove

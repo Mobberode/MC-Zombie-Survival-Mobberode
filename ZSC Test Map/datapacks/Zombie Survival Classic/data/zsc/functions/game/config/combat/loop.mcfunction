@@ -5,4 +5,4 @@ execute if score #Score zsc.config.combat.style matches 0 run attribute @r minec
 execute if score #Score zsc.config.combat.style matches 0 run attribute @r minecraft:generic.attack_damage base set 2
 
 #Loop Loop
-execute if score #Score zsc.game.status matches 4 run schedule function zsc:game/config/combat/loop 1s
+execute if score #Score zs.game.status matches 3..4 run schedule function zsc:game/config/combat/loop 1s

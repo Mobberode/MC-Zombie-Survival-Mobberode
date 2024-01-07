@@ -1,7 +1,9 @@
 ##Uninstall
+scoreboard objectives remove zsnb.game.status
+scoreboard objectives remove zsnb.timer 
+scoreboard objectives remove zsnb.relogged
 scoreboard objectives remove zsnb.died
 scoreboard objectives remove zsnb.first.to.points
-scoreboard objectives remove zsnb.game.status
 scoreboard objectives remove zsnb.highest.points
 scoreboard objectives remove zsnb.mob.amount
 scoreboard objectives remove zsnb.mob.amount.operation
@@ -15,8 +17,6 @@ scoreboard objectives remove zsnb.points.husk
 scoreboard objectives remove zsnb.points.stray
 scoreboard objectives remove zsnb.points.witch
 scoreboard objectives remove zsnb.points.wither_skeleton
-scoreboard objectives remove zsnb.relogged
-scoreboard objectives remove zsnb.timer
 scoreboard objectives remove zsnb.wins
 #Teams
 team remove Alive

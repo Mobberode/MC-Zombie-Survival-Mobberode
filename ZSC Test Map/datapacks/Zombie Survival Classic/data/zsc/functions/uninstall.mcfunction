@@ -1,6 +1,6 @@
 ##Uninstall
 scoreboard objectives remove zsc.game.status
-scoreboard objectives remove zsc.timer
+scoreboard objectives remove zsc.timer 
 scoreboard objectives remove zsc.relogged
 scoreboard objectives remove zsc.config.combat.style 
 scoreboard objectives remove zsc.config.food.type 
@@ -32,6 +32,8 @@ scoreboard objectives remove zsc.preset.loading
 scoreboard objectives remove zsc.difficulty 
 scoreboard objectives remove zsc.player.arrows.count 
 scoreboard objectives remove zsc.player.food.count 
+scoreboard objectives remove zsc.player.food.give 
+scoreboard objectives remove zsc.player.arrows.give 
 scoreboard objectives remove zsc.wave.arrows 
 scoreboard objectives remove zsc.players 
 scoreboard objectives remove zsc.wave 
@@ -41,6 +43,13 @@ scoreboard objectives remove zsc.mob.amount
 scoreboard objectives remove zsc.mob.amount.operation 
 scoreboard objectives remove zsc.mob.killattempt 
 scoreboard objectives remove zsc.died
+scoreboard objectives remove zsc.config.mob.glow
+scoreboard objectives remove zsc.config.rebalance.changes
+scoreboard objectives remove zsc.dconfig.player.gear.level
+scoreboard objectives remove zsc.dconfig.max.player.hearts
+scoreboard objectives remove zsc.dconfig.gear.level
+scoreboard objectives remove zsc.dconfig.mob.gear.level
+scoreboard objectives remove zsc.dconfig.effect.levels
 #Tags
 tag @a remove voted.modernstyle
 tag @a remove voted.classicstyle
@@ -66,6 +75,10 @@ tag @a remove votednormal
 tag @a remove votedhard
 tag @a remove votedcustom
 tag @a remove host
+tag @a remove voted.nomobglow
+tag @a remove voted.yesmobglow
+tag @a remove voted.gps.true
+tag @a remove voted.gps.false
 #Teams
 team remove Alive
 team remove Dead
@@ -73,4 +86,4 @@ team remove Waiting
 team remove mob
 
 ##Announce
-tellraw @a {"text": "ZSC Uninstalled! There may be some score objectives and other stuff left over from previous versions","color": "gold"}
+tellraw @a {"text": "ZSC Uninstalled! There may be some score objectives and other stuff left over from previous versions, however. Client Configurations are not affected by this and have to be uninstalled seperately.","color": "gold"}

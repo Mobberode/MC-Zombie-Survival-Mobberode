@@ -1,9 +1,9 @@
 ##Restart game and go back to Pre-Game
-scoreboard players set #Score zsnb.game.status 1
+scoreboard players set #Score zs.game.status 1
 scoreboard players set #Amount zsnb.mob.amount 0
 scoreboard players set #Score zsnb.players 0
 scoreboard players set #KillAttempt zsnb.mob.amount 0
-scoreboard players set @a zsnb.died 0
+scoreboard players set @a zs.died 0
 scoreboard players set @a zsnb.points 0
 scoreboard players set @a zsnb.wins 0
 scoreboard players set #Score zsnb.highest.points 0

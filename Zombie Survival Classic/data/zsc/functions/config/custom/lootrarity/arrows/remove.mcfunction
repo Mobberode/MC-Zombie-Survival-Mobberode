@@ -1,0 +1,1 @@
+execute if entity @s[tag=host] unless score #CustomArrowsCache zs.wave matches ..1 run scoreboard players remove #CustomArrowsCache zs.wave 1

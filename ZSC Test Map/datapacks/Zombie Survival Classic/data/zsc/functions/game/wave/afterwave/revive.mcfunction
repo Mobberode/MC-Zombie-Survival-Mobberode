@@ -4,6 +4,7 @@ schedule function zsc:game/teams/revive 1s
 
 ##Revive
 clear @a[team=Dead] minecraft:written_book
+clear @a[team=Dead] minecraft:carrot_on_a_stick
 execute as @e[tag=zs.plrspawn,sort=random] run tp @a[team=!Alive] @s
 
 ##Announce

@@ -1,9 +1,12 @@
+scoreboard players set @s zs.menu.interaction -1
 tellraw @s {"text":"- Enabled Game Configurations -","color":"green"} 
 execute if score #Score zsc.config.player.mob.scaling matches 1 run tellraw @s {"text":"Player Mob Scaling"}
 execute if score #Score zsc.config.wave.rank matches 1 run tellraw @s {"text":"Wave Ranking"}
 execute if score #Score zsc.config.unused.mobs matches 1 run tellraw @s {"text":"Unused Mobs"}
 execute if score #Score zsc.config.donate matches 1 run tellraw @s {"text":"Spectator Donation"}
 execute if score #Score zsc.config.mob.friendly.fire matches 1 run tellraw @s {"text":"Mob Friendly Fire"}
+execute if score #Score zsc.config.mob.glow matches 1 run tellraw @s {"text":"Mob Glow"}
+execute if score #Score zsc.config.give.players.shields matches 1 run tellraw @s {"text":"Give Players Shields"}
 execute if score #Score zsc.config.challenge.permadeath matches 1 run tellraw @s {"text":"Permadeath","color": "gold"}
 execute if score #Score zsc.config.challenge.negative.effects matches 1 run tellraw @s {"text":"Negative Effects","color": "gold"}
 execute if score #Score zsc.config.challenge.no.hit matches 1 run tellraw @s {"text":"No Hit","color": "gold"}
@@ -24,6 +27,8 @@ execute if score #Score zsc.config.wave.rank matches 0 run tellraw @s {"text":"W
 execute if score #Score zsc.config.unused.mobs matches 0 run tellraw @s {"text":"Unused Mobs"}
 execute if score #Score zsc.config.donate matches 0 run tellraw @s {"text":"Spectator Donation"}
 execute if score #Score zsc.config.mob.friendly.fire matches 0 run tellraw @s {"text":"Mob Friendly Fire"}
+execute if score #Score zsc.config.mob.glow matches 0 run tellraw @s {"text":"Mob Glow"}
+execute if score #Score zsc.config.give.players.shields matches 0 run tellraw @s {"text":"Give Players Shields"}
 execute if score #Score zsc.config.challenge.permadeath matches 0 run tellraw @s {"text":"Permadeath","color": "gold"}
 execute if score #Score zsc.config.challenge.negative.effects matches 0 run tellraw @s {"text":"Negative Effects","color": "gold"}
 execute if score #Score zsc.config.challenge.no.hit matches 0 run tellraw @s {"text":"No Hit","color": "gold"}

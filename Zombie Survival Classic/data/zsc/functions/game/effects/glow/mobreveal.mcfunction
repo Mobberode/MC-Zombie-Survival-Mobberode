@@ -2,4 +2,4 @@
 effect give @e[tag=mob] minecraft:glowing infinite
 
 ##Loop
-execute if score #Score zsc.game.status matches 4 run schedule function zsc:game/effects/glow/mobreveal 50t
+execute if score #Score zs.game.status matches 4 run schedule function zsc:game/effects/glow/mobreveal 50t

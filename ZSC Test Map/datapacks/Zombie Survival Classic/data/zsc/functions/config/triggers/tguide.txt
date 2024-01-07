@@ -1,0 +1,102 @@
+How the menu triggers works is this:
+2 1 1
+2 = is the first number and it signifies what comes by menu order
+1 is difficulty. 2 is configs so fourth.
+the second and the more numbers there are. the more branches.
+2 1 = the second number (1) is a branch of 2 and the first in top to bottom order.
+2 1 1 = the third number is a branch of (1) and this will continue until theres nothing leading to another.
+
+These are menus.
+zs.menu.section
+
+9 Spectator Actions
+
+0 Menu
+
+1 Difficulty
+
+2 Configs
+21 Configs > Mobs
+22 Configs > Players
+23 Configs > Challenges
+24 Configs > Custom
+25 Configs > Host Options
+26 Configs > Presets
+27 Configs > Client Options
+
+3 Guide
+31 Guide > Basics
+32 Guide > Intermediate
+33 Guide > Advanced
+
+Below is now the Actions
+zs.menu.interaction
+
+1 Skip
+
+11 Tough Vote
+12 Normal Vote
+13 Custom Vote
+
+21 Show Game Configurations
+22 Show Custom Configurations
+23 Show Host Options
+
+24 Reset Game Configurations
+25 Reset Custom Configurations
+
+2111 Enable Player Mob Scaling
+2112 Disable Player Mob Scaling
+2121 ZS Mob List
+2122 ZSC Mob List
+2123 ZSM Mob List
+2131 Multiply & Divide SST
+2132 Multiply SST
+2133 Fixed SST
+2141 Enable Unused Mobs
+2142 Disable Unused Mobs
+2151 Enable Mob Friendly Fire
+2152 Disable Mob Friendly Fire
+2161 Enable Mob Glow
+2162 Disable Mob Glow
+
+2211 Spam Based Combat
+2212 Cooldown Based Combat
+2221 Classic - Steak
+2222 Modern - Rabbit Stew
+2231 Enable Spectator Donation
+2232 Disable Spectator Donation
+2241 Enable Wave Ranking
+2242 Disable Wave Ranking
+
+2311 Enable Permadeath
+2312 Disable Permadeath
+2321 Enable One Hit K.O
+2322 Disable One Hit K.O
+2331 Enable Negative Effects
+2332 Disable Negative Effects
+
+2411 Active Cap Add
+2412 Active Cap Remove
+2421 Mob Cap Multiplier Add
+2422 Mob Cap Multiplier Remove
+2431 Effect Wave Add
+2432 Effect Wave Remove
+2441 ZSC Effects
+2442 ZSM Effects
+2451 MC Easy
+2452 MC Medium
+2453 MC Hard
+
+2511
+2512
+
+2611
+2612
+
+911 Donate Arrows
+912 Up Arrows Amount
+913 Down Arrows Amount
+921 Donate Food
+922 Up Food Amount
+923 Down Food Amount

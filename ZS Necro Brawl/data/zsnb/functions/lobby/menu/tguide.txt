@@ -1,0 +1,15 @@
+Sections zs.menu.section
+1 Options
+
+Interactions zs.menu.interaction
+1 Skip
+2 Transfer Host
+
+Menu
+111 Add Finishing Amount
+112 Remove Finishing Amount
+121 Add Decuction Amount
+122 Remove Decuction Amount
+131 Easy
+132 Medium
+133 Hard

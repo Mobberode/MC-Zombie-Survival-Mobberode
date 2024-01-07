@@ -1,0 +1,2 @@
+scoreboard players set @s zs.menu.section -1
+tellraw @s ["",{"text": "Zombie Survival Classic Options","color": "red"},{"text": "\n[Difficulty]","color": "gold","clickEvent": {"action": "run_command","value": "/trigger zs.menu.section set 1"}},{"text": "\n[Configurations]","color": "gold","clickEvent": {"action": "run_command","value": "/trigger zs.menu.section set 2"}},{"text": "\n[Guide]","color": "gold","clickEvent": {"action": "run_command","value": "/trigger zs.menu.section set 3"}}]

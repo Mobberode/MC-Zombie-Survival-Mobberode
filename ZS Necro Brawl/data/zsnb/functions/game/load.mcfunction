@@ -8,7 +8,9 @@ scoreboard objectives add zsnb.mob.amount.operation dummy
 scoreboard objectives add zsnb.points totalKillCount
 scoreboard objectives add zsnb.highest.points dummy
 scoreboard objectives add zsnb.first.to.points dummy
-scoreboard players set #Score zsnb.first.to.points 250
+scoreboard players set #Score zsnb.first.to.points 150
+scoreboard players set #Penalty zsnb.points 10
+data modify storage zsnb.macro dpda set value 10
 scoreboard objectives add zsnb.wins dummy
 #Mob Point
 scoreboard objectives add zsnb.points.stray killed:stray
@@ -27,6 +29,8 @@ scoreboard objectives add zsnb.points.evoker killed:evoker
 scoreboard objectives add zsnb.points.shulker killed:shulker
 scoreboard objectives add zsnb.points.ravager killed:ravager
 
+##List Display
+scoreboard objectives setdisplay list zsnb.points
+
 ##Death System
-scoreboard objectives add zsnb.died deathCount
 schedule function zsnb:game/death/deathcheck 5s

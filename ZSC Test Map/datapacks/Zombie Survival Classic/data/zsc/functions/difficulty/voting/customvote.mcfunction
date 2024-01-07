@@ -1,3 +1,4 @@
+scoreboard players set @s zs.menu.interaction -1
 ##If the player votes Hard in the prompt
 execute if entity @s[tag=!votedcustom] run scoreboard players add #Option3 zsc.difficulty 1
 tag @s add votedcustom

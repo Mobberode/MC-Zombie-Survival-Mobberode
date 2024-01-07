@@ -1,3 +1,4 @@
+scoreboard players set @s zs.menu.interaction -1
 ##If the player votes Normal in the prompt
 execute if entity @s[tag=!votednormal] run scoreboard players add #Option2 zsc.difficulty 1
 tag @s add votednormal

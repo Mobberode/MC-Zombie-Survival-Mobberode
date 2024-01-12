@@ -1,1 +1,2 @@
 scoreboard players set @s zs.menu.section -1
+tellraw @s ["",{"text": "| Host Options |","color": "blue"},{"text": "\n[Back]","color": "gold","clickEvent": {"action": "run_command","value": "/trigger zs.menu.section set 2"}}]

@@ -19,10 +19,15 @@ zs.menu.section
 21 Configs > Mobs
 22 Configs > Players
 23 Configs > Challenges
-24 Configs > Custom
-25 Configs > Host Options
-26 Configs > Presets
-27 Configs > Client Options
+24 Configs > Custom Mobs
+25 Configs > Custom Players
+26 Configs > Custom Loot
+27 Configs > Host Options
+28 Configs > Presets
+29 Configs > Client Options
+
+291 > Perferences
+292 > Roles
 
 3 Guide
 31 Guide > Basics
@@ -84,15 +89,31 @@ zs.menu.interaction
 2432 Effect Wave Remove
 2441 ZSC Effects
 2442 ZSM Effects
-2451 MC Easy
-2452 MC Medium
-2453 MC Hard
+2451 Mob Power 1
+2452 Mob Power 2
+2453 Mob Power 3
+2454 Mob Power 4
+2455 Mob Power 5
+2461 MC Easy
+2462 MC Medium
+2463 MC Hard
 
-2511
-2512
+2511 Add Team Lives
+2512 Remove Team Lives
+2521 Add Max Hearts
+2522 Remove Max Hearts
+2531
+2541 Enable ROPD
+2541 Disable ROPD
 
 2611
 2612
+
+2711
+2712
+
+2811
+2812
 
 911 Donate Arrows
 912 Up Arrows Amount

@@ -19,4 +19,5 @@ execute if score #Score zsc.mob.effects.level matches 10 run effect give @e[type
 execute if score #Score zsc.mob.effects.level matches 13.. run effect give @e[type=!minecraft:player,type=!minecraft:arrow] minecraft:resistance 10 2 false
 
 ##Loop
-execute if score #Score zs.game.status matches 4 run schedule function zsc:game/effects/zsm/list 1s
+execute if score #Score zs.game.status matches 4 unless score #Score zsc.difficulty matches 0 run schedule function zsc:game/effects/zsm/list 1s
+execute if score #Score zs.game.status matches 4 if score #Score zsc.difficulty matches 0 unless score #Wave zsc.dconfig.mobeffects.wave matches -1 run schedule function zsc:game/effects/zsm/list 1s

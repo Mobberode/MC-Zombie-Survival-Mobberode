@@ -13,6 +13,7 @@ scoreboard objectives add zsc.config.donate dummy
 scoreboard objectives add zsc.config.mob.friendly.fire dummy
 scoreboard objectives add zsc.config.mob.glow dummy
 scoreboard objectives add zsc.config.give.players.shields dummy
+scoreboard objectives add zsc.config.punish.dead.players dummy
 
 #Challenge Set 1
 scoreboard objectives add zsc.config.challenge.permadeath dummy
@@ -36,18 +37,21 @@ scoreboard objectives add zsc.dconfig.effect.type dummy
 scoreboard objectives add zsc.dconfig.gear.level dummy
 #Custom Set 4
 scoreboard objectives add zsc.dconfig.max.player.hearts dummy
+scoreboard objectives add zsc.dconfig.ropd dummy
 
 #Wave Ranking
 scoreboard objectives add zsc.damage minecraft.custom:minecraft.damage_taken
 scoreboard players set @a zsc.damage 0
 
 ##Enable by default configs
+scoreboard players set #Score zsc.config.punish.dead.players 0
 scoreboard players set #Score zsc.config.player.mob.scaling 1
 scoreboard players set #Score zsc.config.mob.friendly.fire 0
 scoreboard players set #Score zsc.config.food.type 0
 scoreboard players set #Score zsc.config.donate 1
 scoreboard players set #Score zsc.config.mob.list 0
 scoreboard players set #Score zsc.config.spawning.system.type 1
+scoreboard players set #Score zsc.config.give.players.shields 0
 scoreboard players set #Score zsc.config.rebalance.changes 1
 scoreboard players set #Score zsc.config.player.vote.configs 0
 scoreboard players set #Score zsc.config.zsc.gamemode 0

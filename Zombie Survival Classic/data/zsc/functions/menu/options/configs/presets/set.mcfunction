@@ -1,0 +1,2 @@
+scoreboard players set @s zs.menu.interaction -1
+tellraw @s ["",{"text": "| Set Presets |","color": "blue"},{"text": "\n[I dont wanna die!]"},{"text": "\n[Hyper Difficulty]"},{"text": "\n[Favourite Picks]"},{"text": "\n[The Authentic Experience]"}]

@@ -50,6 +50,8 @@ scoreboard objectives remove zsc.dconfig.max.player.hearts
 scoreboard objectives remove zsc.dconfig.gear.level
 scoreboard objectives remove zsc.dconfig.mob.gear.level
 scoreboard objectives remove zsc.dconfig.effect.levels
+scoreboard objectives remove zsc.config.give.players.shields
+scoreboard objectives remove zsc.dconfig.ropd
 #Tags
 tag @a remove voted.modernstyle
 tag @a remove voted.classicstyle

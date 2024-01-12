@@ -7,9 +7,11 @@ execute if score #Score zsc.config.donate matches 1 run tellraw @s {"text":"Spec
 execute if score #Score zsc.config.mob.friendly.fire matches 1 run tellraw @s {"text":"Mob Friendly Fire"}
 execute if score #Score zsc.config.mob.glow matches 1 run tellraw @s {"text":"Mob Glow"}
 execute if score #Score zsc.config.give.players.shields matches 1 run tellraw @s {"text":"Give Players Shields"}
+execute if score #Score zsc.config.punish.dead.players matches 1 run tellraw @s {"text":"Punish Dead Players"}
 execute if score #Score zsc.config.challenge.permadeath matches 1 run tellraw @s {"text":"Permadeath","color": "gold"}
 execute if score #Score zsc.config.challenge.negative.effects matches 1 run tellraw @s {"text":"Negative Effects","color": "gold"}
 execute if score #Score zsc.config.challenge.no.hit matches 1 run tellraw @s {"text":"No Hit","color": "gold"}
+execute if score #Score zsc.config.rebalance.changes matches 1 run tellraw @s {"text":"Rebalance Changes","color": "blue"}
 tellraw @s {"text":"- Changed Game Configurations -","color":"yellow"} 
 execute if score #Score zsc.config.combat.style matches 0 run tellraw @s {"text":"Cooldown Based Combat"}
 execute if score #Score zsc.config.combat.style matches 1 run tellraw @s {"text":"Spam Based Combat"}
@@ -29,6 +31,8 @@ execute if score #Score zsc.config.donate matches 0 run tellraw @s {"text":"Spec
 execute if score #Score zsc.config.mob.friendly.fire matches 0 run tellraw @s {"text":"Mob Friendly Fire"}
 execute if score #Score zsc.config.mob.glow matches 0 run tellraw @s {"text":"Mob Glow"}
 execute if score #Score zsc.config.give.players.shields matches 0 run tellraw @s {"text":"Give Players Shields"}
+execute if score #Score zsc.config.punish.dead.players matches 0 run tellraw @s {"text":"Punish Dead Players"}
 execute if score #Score zsc.config.challenge.permadeath matches 0 run tellraw @s {"text":"Permadeath","color": "gold"}
 execute if score #Score zsc.config.challenge.negative.effects matches 0 run tellraw @s {"text":"Negative Effects","color": "gold"}
 execute if score #Score zsc.config.challenge.no.hit matches 0 run tellraw @s {"text":"No Hit","color": "gold"}
+execute if score #Score zsc.config.rebalance.changes matches 0 run tellraw @s {"text":"Rebalance Changes","color": "blue"}

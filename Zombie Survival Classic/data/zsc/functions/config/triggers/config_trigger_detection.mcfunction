@@ -48,14 +48,17 @@ execute as @a[scores={zs.menu.interaction=2431}] if entity @s[tag=host] run func
 execute as @a[scores={zs.menu.interaction=2432}] if entity @s[tag=host] run function zsc:config/custom/overrides/effects/effectwave/remove
 execute as @a[scores={zs.menu.interaction=2441}] if entity @s[tag=host] run function zsc:config/custom/overrides/effects/effectype/zsc
 execute as @a[scores={zs.menu.interaction=2442}] if entity @s[tag=host] run function zsc:config/custom/overrides/effects/effectype/zsm
-execute as @a[scores={zs.menu.interaction=2451}] if entity @s[tag=host] run function zsc:config/custom/mcdifficulty/easy
-execute as @a[scores={zs.menu.interaction=2452}] if entity @s[tag=host] run function zsc:config/custom/mcdifficulty/normal
-execute as @a[scores={zs.menu.interaction=2453}] if entity @s[tag=host] run function zsc:config/custom/mcdifficulty/hard
+execute as @a[scores={zs.menu.interaction=2461}] if entity @s[tag=host] run function zsc:config/custom/mcdifficulty/easy
+execute as @a[scores={zs.menu.interaction=2462}] if entity @s[tag=host] run function zsc:config/custom/mcdifficulty/normal
+execute as @a[scores={zs.menu.interaction=2463}] if entity @s[tag=host] run function zsc:config/custom/mcdifficulty/hard
 #Config > Custom Players
 execute as @a[scores={zs.menu.interaction=2511}] if entity @s[tag=host] run function zsc:config/custom/overrides/teamlives/add
 execute as @a[scores={zs.menu.interaction=2512}] if entity @s[tag=host] run function zsc:config/custom/overrides/teamlives/remove
-execute as @a[scores={zs.menu.interaction=2511}] if entity @s[tag=host] run function zsc:config/custom/overrides/teamlives/add
-execute as @a[scores={zs.menu.interaction=2512}] if entity @s[tag=host] run function zsc:config/custom/overrides/teamlives/remove
+execute as @a[scores={zs.menu.interaction=2521}] if entity @s[tag=host] run function zsc:config/custom/player/maxhearts/add
+execute as @a[scores={zs.menu.interaction=2522}] if entity @s[tag=host] run function zsc:config/custom/player/maxhearts/remove
+
+execute as @a[scores={zs.menu.interaction=2541}] if entity @s[tag=host] run function zsc:config/custom/player/ropd/enable
+execute as @a[scores={zs.menu.interaction=2542}] if entity @s[tag=host] run function zsc:config/custom/player/ropd/disable
 #Config > Loot
 
 #Config > Host
@@ -63,3 +66,5 @@ execute as @a[scores={zs.menu.interaction=2512}] if entity @s[tag=host] run func
 #Config > Presets
 
 #Config > Client
+execute as @a[scores={zs.menu.section=291}] run function zsc:menu/options/configs/client/preferences
+execute as @a[scores={zs.menu.section=292}] run function zsc:menu/options/configs/client/roles

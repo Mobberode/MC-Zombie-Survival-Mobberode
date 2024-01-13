@@ -73,6 +73,10 @@ zs.menu.interaction
 2232 Disable Spectator Donation
 2241 Enable Wave Ranking
 2242 Disable Wave Ranking
+2251 Enable GPS
+2252 Disable GPS
+2261 Enable PDP
+2262 Disable PDP
 
 2311 Enable Permadeath
 2312 Disable Permadeath
@@ -102,7 +106,7 @@ zs.menu.interaction
 2512 Remove Team Lives
 2521 Add Max Hearts
 2522 Remove Max Hearts
-2531
+2531 Player Gear Level 1
 2541 Enable ROPD
 2541 Disable ROPD
 

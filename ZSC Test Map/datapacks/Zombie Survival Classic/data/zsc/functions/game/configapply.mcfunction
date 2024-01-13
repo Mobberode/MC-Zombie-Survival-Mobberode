@@ -19,6 +19,8 @@ function zsc:game/config/voteapply/waverank
 function zsc:game/config/voteapply/mobfriendlyfire
 #Give Player Shields
 function zsc:game/config/voteapply/playershield
+#Punish Dead Players
+function zsc:game/config/voteapply/pdp
 #ZSCreator Map Changes
 function zsc:game/config/voteapply/custommapchanges
 
@@ -58,3 +60,5 @@ tag @a remove voted.yesmobglow
 tag @a remove voted.nomobglow
 tag @a remove voted.gps.true
 tag @a remove voted.gps.false
+tag @a remove voted.pdp.true
+tag @a remove voted.pdp.false

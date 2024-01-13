@@ -32,6 +32,8 @@ execute as @a[scores={zs.menu.interaction=2241}] run function zsc:config/waveran
 execute as @a[scores={zs.menu.interaction=2242}] run function zsc:config/waveranking/disable
 execute as @a[scores={zs.menu.interaction=2251}] run function zsc:config/shields/enable
 execute as @a[scores={zs.menu.interaction=2252}] run function zsc:config/shields/disable
+execute as @a[scores={zs.menu.interaction=2261}] run function zsc:config/pdp/enable
+execute as @a[scores={zs.menu.interaction=2262}] run function zsc:config/pdp/disable
 #Config > Challenges
 execute as @a[scores={zs.menu.interaction=2311}] run function zsc:config/challenges/permadeath/enable
 execute as @a[scores={zs.menu.interaction=2312}] run function zsc:config/challenges/permadeath/disable

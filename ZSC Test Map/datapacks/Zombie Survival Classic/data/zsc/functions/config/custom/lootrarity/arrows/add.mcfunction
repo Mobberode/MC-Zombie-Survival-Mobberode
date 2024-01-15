@@ -1,1 +1,3 @@
-execute if entity @s[tag=host] run scoreboard players add #CustomArrowsCache zs.wave 1
+scoreboard players set @s zs.menu.interaction -1
+scoreboard players add #CustomArrowsCache zs.wave 1
+function zsc:menu/options/configs/custom3

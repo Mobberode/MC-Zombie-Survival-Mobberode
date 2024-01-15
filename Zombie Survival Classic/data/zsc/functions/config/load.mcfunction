@@ -39,6 +39,9 @@ scoreboard objectives add zsc.dconfig.gear.level dummy
 scoreboard objectives add zsc.dconfig.max.player.hearts dummy
 scoreboard objectives add zsc.dconfig.ropd dummy
 
+#Client
+scoreboard objectives add zsc.player.config.skip.on.vote dummy
+
 #Wave Ranking
 scoreboard objectives add zsc.damage minecraft.custom:minecraft.damage_taken
 scoreboard players set @a zsc.damage 0

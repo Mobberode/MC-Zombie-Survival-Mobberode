@@ -13,3 +13,6 @@ tag @s remove votedhard
 tellraw @a ["",{"text":"Votes for Hard: "},{"score":{"name":"#Option1","objective":"zsc.difficulty"}}]
 tellraw @a ["",{"text":"Votes for Normal: "},{"score":{"name":"#Option2","objective":"zsc.difficulty"}}]
 tellraw @a ["",{"text":"Votes for Custom: "},{"score":{"name":"#Option3","objective":"zsc.difficulty"}}]
+
+##If player has Skip on Vote enabled.
+execute if score @s zsc.player.config.skip.on.vote matches 1 run function zsc:game/skip/skipdo

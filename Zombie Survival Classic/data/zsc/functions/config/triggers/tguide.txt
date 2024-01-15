@@ -11,6 +11,8 @@ zs.menu.section
 
 9 Spectator Actions
 
+10 Credits
+
 0 Menu
 
 1 Difficulty
@@ -110,11 +112,22 @@ zs.menu.interaction
 2541 Enable ROPD
 2541 Disable ROPD
 
-2611
-2612
+2611 Plenty Food
+2612 Standard Food
+2613 Scarce Food
+2614 Shortage Food
+2621 Plenty Arrows
+2622 Standard Arrows
+2623 Scarce Arrows
+2631 Increase Food Rarity
+2632 Decrease Food Rarity
+2641 Increase Arrows Rarity
+2612 Decrease Arrows Rarity
 
-2711
-2712
+2711 Enable Config Voting
+2712 Disable Config Voting
+2721 ZSC
+2722 ZSC - CS
 
 2811
 2812

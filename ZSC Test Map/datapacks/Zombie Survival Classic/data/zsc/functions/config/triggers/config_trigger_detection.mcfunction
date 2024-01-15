@@ -62,11 +62,32 @@ execute as @a[scores={zs.menu.interaction=2522}] if entity @s[tag=host] run func
 execute as @a[scores={zs.menu.interaction=2541}] if entity @s[tag=host] run function zsc:config/custom/player/ropd/enable
 execute as @a[scores={zs.menu.interaction=2542}] if entity @s[tag=host] run function zsc:config/custom/player/ropd/disable
 #Config > Loot
-
+execute as @a[scores={zs.menu.interaction=2611}] if entity @s[tag=host] run function zsc:config/custom/scarity/food/plenty
+execute as @a[scores={zs.menu.interaction=2612}] if entity @s[tag=host] run function zsc:config/custom/scarity/food/standard
+execute as @a[scores={zs.menu.interaction=2613}] if entity @s[tag=host] run function zsc:config/custom/scarity/food/scarce
+execute as @a[scores={zs.menu.interaction=2621}] if entity @s[tag=host] run function zsc:config/custom/scarity/arrows/plenty
+execute as @a[scores={zs.menu.interaction=2622}] if entity @s[tag=host] run function zsc:config/custom/scarity/arrows/standard
+execute as @a[scores={zs.menu.interaction=2623}] if entity @s[tag=host] run function zsc:config/custom/scarity/arrows/scarce
+execute as @a[scores={zs.menu.interaction=2624}] if entity @s[tag=host] run function zsc:config/custom/scarity/arrows/shortage
+execute as @a[scores={zs.menu.interaction=2631}] if entity @s[tag=host] run function zsc:config/custom/lootrarity/food/add
+execute as @a[scores={zs.menu.interaction=2632}] if entity @s[tag=host] run function zsc:config/custom/lootrarity/food/remove
+execute as @a[scores={zs.menu.interaction=2641}] if entity @s[tag=host] run function zsc:config/custom/lootrarity/arrows/add
+execute as @a[scores={zs.menu.interaction=2642}] if entity @s[tag=host] run function zsc:config/custom/lootrarity/arrows/remove
 #Config > Host
-
+execute as @a[scores={zs.menu.interaction=2711}] if entity @s[tag=host] run function zsc:config/host/configvoting/enabled
+execute as @a[scores={zs.menu.interaction=2712}] if entity @s[tag=host] run function zsc:config/host/configvoting/disabled
+execute as @a[scores={zs.menu.interaction=2721}] if entity @s[tag=host] run function zsc:config/host/gamemode/standard
+execute as @a[scores={zs.menu.interaction=2722}] if entity @s[tag=host] run function zsc:config/host/gamemode/creeper
+execute as @a[scores={zs.menu.interaction=2731}] if entity @s[tag=host] run function zsc:config/host/rebalance/enabled
+execute as @a[scores={zs.menu.interaction=2732}] if entity @s[tag=host] run function zsc:config/host/rebalance/disabled
+execute as @a[scores={zs.menu.interaction=2741}] if entity @s[tag=host] run function zsc:config/custommap/mfc/enable
+execute as @a[scores={zs.menu.interaction=2742}] if entity @s[tag=host] run function zsc:config/custommap/mfc/disable
+execute as @a[scores={zs.menu.interaction=2751}] if entity @s[tag=host] run function zsc:lobby/host/transfer_b
+execute as @a[scores={zs.menu.interaction=2752}] if entity @s[tag=host] run function zsc:lobby/host/transfer
 #Config > Presets
-
+execute as @a[scores={zs.menu.section=281}] run function zsc:menu/options/configs/presets/player
+execute as @a[scores={zs.menu.section=282}] run function zsc:menu/options/configs/presets/set
 #Config > Client
 execute as @a[scores={zs.menu.section=291}] run function zsc:menu/options/configs/client/preferences
 execute as @a[scores={zs.menu.section=292}] run function zsc:menu/options/configs/client/roles
+execute as @a[scores={zs.menu.interaction=2921}] run function zsc:config/client/autovote/toggle

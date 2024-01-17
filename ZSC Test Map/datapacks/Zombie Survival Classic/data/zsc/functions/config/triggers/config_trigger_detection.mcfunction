@@ -87,6 +87,19 @@ execute as @a[scores={zs.menu.interaction=2752}] if entity @s[tag=host] run func
 #Config > Presets
 execute as @a[scores={zs.menu.section=281}] run function zsc:menu/options/configs/presets/player
 execute as @a[scores={zs.menu.section=282}] run function zsc:menu/options/configs/presets/set
+execute as @a[scores={zs.menu.interaction=28111}] if entity @s[tag=host] run scoreboard players set @s zsc.preset.loading 1
+execute as @a[scores={zs.menu.interaction=28112}] if entity @s[tag=host] run scoreboard players set @s zsc.preset.saving 1
+execute as @a[scores={zs.menu.interaction=28113}] run function zsc:config/presets/player/1/view
+execute as @a[scores={zs.menu.interaction=28121}] if entity @s[tag=host] run scoreboard players set @s zsc.preset.loading 2
+execute as @a[scores={zs.menu.interaction=28122}] if entity @s[tag=host] run scoreboard players set @s zsc.preset.saving 2
+execute as @a[scores={zs.menu.interaction=28123}] run function zsc:config/presets/player/2/view
+execute as @a[scores={zs.menu.interaction=28131}] if entity @s[tag=host] run scoreboard players set @s zsc.preset.loading 3
+execute as @a[scores={zs.menu.interaction=28132}] if entity @s[tag=host] run scoreboard players set @s zsc.preset.saving 3
+execute as @a[scores={zs.menu.interaction=28133}] run function zsc:config/presets/player/3/view
+execute as @a[scores={zs.menu.interaction=2821}] if entity @s[tag=host] run function zsc:config/presets/set/idontwannadie
+execute as @a[scores={zs.menu.interaction=2822}] if entity @s[tag=host] run function zsc:config/presets/set/hyperdifficulty
+execute as @a[scores={zs.menu.interaction=2823}] if entity @s[tag=host] run function zsc:config/presets/set/favouritepicks
+execute as @a[scores={zs.menu.interaction=2824}] if entity @s[tag=host] run function zsc:config/presets/set/ogzombiesurvival
 #Config > Client
 execute as @a[scores={zs.menu.section=291}] run function zsc:menu/options/configs/client/preferences
 execute as @a[scores={zs.menu.section=292}] run function zsc:menu/options/configs/client/roles

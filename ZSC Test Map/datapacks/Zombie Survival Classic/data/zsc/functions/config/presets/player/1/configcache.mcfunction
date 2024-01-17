@@ -1,3 +1,4 @@
+scoreboard players set @s zs.menu.interaction -1
 ##Save configs to the choosen preset
 execute store result score #CFGP1 zsc.config.combat.style run scoreboard players get #Score zsc.config.combat.style
 execute store result score #CFGP1 zsc.config.food.type run scoreboard players get #Score zsc.config.food.type

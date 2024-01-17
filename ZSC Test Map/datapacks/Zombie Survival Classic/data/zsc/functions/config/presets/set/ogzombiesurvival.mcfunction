@@ -1,3 +1,4 @@
+scoreboard players set @s zs.menu.interaction -1
 ##Save preset configs to the configs
 scoreboard players set #Score zsc.config.combat.style 1
 scoreboard players set #Score zsc.config.food.type 1

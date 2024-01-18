@@ -5,4 +5,4 @@ function zsc:game/mobs/mobproperties/removegfrtag
 team join Dead @e[tag=mob]
 
 ##Loop
-schedule function zsc:game/wave/mobcheck 2t
+schedule function zsc:game/wave/mobcheck 1t

@@ -1,5 +1,5 @@
-#item replace entity @s weapon.mainhand with iron_sword
-summon item ~ ~ ~ {Item:{id:"minecraft:iron_chestplate"}}
 function zsc:game/gear/powerlevel/mobs/level2/enchantment_randomize
-execute store result score #Score zsc.rng run random roll 0..100
-execute at @s as @e[type=item,sort=nearest,limit=1] if score #Score zsc.rng matches 40..55 run function zsc:game/gear/powerlevel/mobs/level2/armour/enchant with storage minecraft:zsc.macro
+item replace entity @s armor.chest with iron_chestplate
+execute store result score #Chance4 zsc.rng run random value 0..100
+$execute if score #Chance4 zsc.rng matches 0..99 run item replace entity @s weapon.mainhand with iron_chestplate{Enchantments:[{id:"$(e1)",lvl:$(l1)},{id:"$(e2)",lvl:$(l2)},{id:"$(e3)",lvl:$(l3)}]}
+item replace entity @e[sort=nearest,limit=1] armor.chest from entity @s armor.chest

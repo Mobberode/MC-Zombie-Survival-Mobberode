@@ -6,6 +6,8 @@ scoreboard objectives add zsc.player.arrows.give dummy
 scoreboard objectives add zsc.player.food.give dummy
 
 ##Prepare for Game
+#RNG (For Gear Power atm.)
+scoreboard objectives add zsc.rng dummy
 #Player
 scoreboard objectives add zsc.players dummy
 #Lives

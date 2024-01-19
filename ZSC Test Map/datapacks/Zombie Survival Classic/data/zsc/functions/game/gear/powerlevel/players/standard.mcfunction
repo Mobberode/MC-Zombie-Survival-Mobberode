@@ -23,9 +23,6 @@ item replace entity @a[tag=!zsc.received] hotbar.1 with bow{Unbreakable:1}
 execute if score #Score zsc.config.give.players.shields matches 1 run item replace entity @a[tag=!zsc.received] weapon.offhand with shield{Enchantments:[{id:"unbreaking",lvl:3}]}
 
 ##Loop
-scoreboard players remove #ArmourTick zs.timer 5
+scoreboard players remove #ArmourTick zs.timer 1
 scoreboard players add #RolesProcessed zs.timer 1
 execute unless score #ArmourTick zs.timer matches 0 run function zsc:game/gear/powerlevel/players/standard with storage minecraft:zsc.macro
-
-#Use for later when work is done on player gear power.
-##$item replace entity @a[tag=!zsc.received,tag=$(role_tag)] armor.head with $(armour){Trim:{pattern:$(trim_pattern),material:$(trim_material)},Unbreakable:1}

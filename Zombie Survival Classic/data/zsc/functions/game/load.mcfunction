@@ -17,6 +17,9 @@ scoreboard players set @a zs.coas 0
 ##Mobs
 scoreboard objectives add zsc.mob.amount dummy
 scoreboard objectives add zsc.mob.amount.operation dummy
+#Mobs (Mob Gear Power)
+scoreboard objectives add zsc.gear_mgp_armour dummy
+scoreboard objectives add zsc.gear_mgp_weapon dummy
 #Effects
 scoreboard objectives add zsc.mob.effects.level dummy
 

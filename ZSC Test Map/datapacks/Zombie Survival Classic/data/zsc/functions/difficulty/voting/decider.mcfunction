@@ -1,3 +1,6 @@
+##Resume Time
+scoreboard players set #Score zsc.host.toggled.lobbytimer 2
+
 ##Clear items
 clear @a
 kill @e[type=minecraft:item]

@@ -12,7 +12,8 @@ execute if score #Score zsc.difficulty matches 0 if score #Player zsc.dconfig.ge
 #(6=Enchanted Diamond)
 execute if score #Score zsc.difficulty matches 0 if score #Player zsc.dconfig.gear.level matches 6 run function zsc:game/gear/powerlevel/players/pgl/level5_set
 #(7=Netherite)
-
+execute if score #Score zsc.difficulty matches 0 if score #Player zsc.dconfig.gear.level matches 7 run function zsc:game/gear/powerlevel/players/pgl/level7_set
 #(8=Enchanted Netherite)
-
+execute if score #Score zsc.difficulty matches 0 if score #Player zsc.dconfig.gear.level matches 8 run function zsc:game/gear/powerlevel/players/pgl/level7_set
 #(9=God Armour)
+execute if score #Score zsc.difficulty matches 0 if score #Player zsc.dconfig.gear.level matches 9 run function zsc:game/gear/powerlevel/players/pgl/level7_set

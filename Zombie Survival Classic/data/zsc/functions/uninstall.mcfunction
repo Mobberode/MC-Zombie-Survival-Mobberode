@@ -53,6 +53,9 @@ scoreboard objectives remove zsc.dconfig.effect.levels
 scoreboard objectives remove zsc.config.give.players.shields
 scoreboard objectives remove zsc.dconfig.ropd
 scoreboard objectives remove zsc.player.config.skip.on.vote
+scoreboard objectives remove zsc.gear_mgp_tier
+scoreboard objectives remove zsc.gear_mgp_armour
+scoreboard objectives remove zsc.gear_mgp_weapon
 #Tags
 tag @a remove voted.modernstyle
 tag @a remove voted.classicstyle

@@ -17,8 +17,8 @@ execute if score #Score zsc.difficulty matches 0 if score #Mob zsc.dconfig.gear.
 #(4=Parts of diamond can appear more common. Increased chances of enchanted gear. Totems get more common)
 execute if score #Score zsc.difficulty matches 0 if score #Mob zsc.dconfig.gear.level matches 4 run function zsc:game/gear/powerlevel/mobs/level4/give
 #(5=Diamond. Even better chances of enchanted gear.)
-
-#(6=Diamond but Netherite weapons. Chances of enchanted gear are 50/50. Totems are very common)
-
-##Tags are so the mob thats getting the gear in question doesnt have the already given gear replaced by another.
-# mgp_has_totem
+execute if score #Score zsc.difficulty matches 0 if score #Mob zsc.dconfig.gear.level matches 5 run function zsc:game/gear/powerlevel/mobs/level4/give
+#(6=Diamond but only diamond and Netherite weapons. Chances of enchanted gear are 50/50. Totems are very common)
+execute if score #Score zsc.difficulty matches 0 if score #Mob zsc.dconfig.gear.level matches 6 run function zsc:game/gear/powerlevel/mobs/level4/give
+#(7=Only Diamond and Netherite and Netherite weapons. Chances of enchanted gear are always 100%. Totems are very common)
+execute if score #Score zsc.difficulty matches 0 if score #Mob zsc.dconfig.gear.level matches 7 run function zsc:game/gear/powerlevel/mobs/level4/give

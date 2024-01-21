@@ -18,10 +18,13 @@ scoreboard players set @a zs.coas 0
 scoreboard objectives add zsc.mob.amount dummy
 scoreboard objectives add zsc.mob.amount.operation dummy
 #Mobs (Mob Gear Power)
+scoreboard objectives add zsc.gear_mgp_tier dummy
 scoreboard objectives add zsc.gear_mgp_armour dummy
 scoreboard objectives add zsc.gear_mgp_weapon dummy
 #Effects
 scoreboard objectives add zsc.mob.effects.level dummy
+#Pause Lobby Timer
+scoreboard objectives add zsc.host.toggled.lobbytimer dummy
 
 ##Death System
 schedule function zsc:game/death/deathcheck 5s

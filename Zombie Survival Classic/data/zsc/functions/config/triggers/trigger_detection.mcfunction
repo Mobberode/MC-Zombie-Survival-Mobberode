@@ -8,6 +8,7 @@ execute as @a[scores={zs.menu.section=10}] run function zsc:menu/credits
 execute as @a[scores={zs.menu.section=1}] run function zsc:menu/options/difficulty/pick
 execute as @a[scores={zs.menu.section=2}] run function zsc:menu/options/configs/finder
 execute as @a[scores={zs.menu.section=3}] run function zsc:menu/options/guide/guidekey
+execute as @a[scores={zs.menu.interaction=2},tag=host] if score #Score zs.game.status matches 1..2 run function zsc:lobby/timertoggle
 #Configs Menu
 execute as @a[scores={zs.menu.section=21}] run function zsc:menu/options/configs/game1
 execute as @a[scores={zs.menu.section=22}] run function zsc:menu/options/configs/game2

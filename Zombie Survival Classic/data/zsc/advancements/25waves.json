@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond_sword"
+    },
+    "title": "Beacon of the Hopeful",
+    "description": "Reach Wave 25 or above in Tough difficulty with Rebalance Changes off",
+    "background": "minecraft:textures/block/mossy_cobblestone.png",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "zsc:20waves",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+    }
+  }
+}

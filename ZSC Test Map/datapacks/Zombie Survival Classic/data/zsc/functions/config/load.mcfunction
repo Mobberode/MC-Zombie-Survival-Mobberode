@@ -38,6 +38,7 @@ scoreboard objectives add zsc.dconfig.gear.level dummy
 #Custom Set 4
 scoreboard objectives add zsc.dconfig.max.player.hearts dummy
 scoreboard objectives add zsc.dconfig.ropd dummy
+scoreboard objectives add zsc.dconfig.mgp.thorns dummy
 
 #Client
 scoreboard objectives add zsc.player.config.skip.on.vote dummy
@@ -58,6 +59,21 @@ scoreboard players set #Score zsc.config.give.players.shields 0
 scoreboard players set #Score zsc.config.rebalance.changes 1
 scoreboard players set #Score zsc.config.player.vote.configs 0
 scoreboard players set #Score zsc.config.zsc.gamemode 0
+
+##Enable by default custom configs
+scoreboard players set #Mob zsc.dconfig.gear.level 1
+scoreboard players set #Player zsc.dconfig.gear.level 3
+scoreboard players set #CustomMultiplier zsc.mob.amount.operation 69
+scoreboard players set #Minecraft zsc.difficulty 2
+scoreboard players set #CustomArrowsCache zs.wave 2
+scoreboard players set #CustomFoodCache zs.wave 2
+scoreboard players set #Wave zsc.dconfig.mobeffects.wave 1
+scoreboard players set #Score zsc.dconfig.effect.type 1
+scoreboard players set #CustomActiveCap zsc.mob.amount 50
+scoreboard players set #GetAmountType zsc.player.arrows.count 3
+scoreboard players set #GetAmountType zsc.player.food.count 3
+scoreboard players set #Score zsc.dconfig.ropd 0
+scoreboard players set #Score zsc.dconfig.mgp.thorns 2
 
 ##Triggers
 scoreboard players enable @a zs.player.config.role

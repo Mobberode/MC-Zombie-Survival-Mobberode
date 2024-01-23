@@ -50,6 +50,13 @@ execute as @a[scores={zs.menu.interaction=2431}] if entity @s[tag=host] run func
 execute as @a[scores={zs.menu.interaction=2432}] if entity @s[tag=host] run function zsc:config/custom/overrides/effects/effectwave/remove
 execute as @a[scores={zs.menu.interaction=2441}] if entity @s[tag=host] run function zsc:config/custom/overrides/effects/effectype/zsc
 execute as @a[scores={zs.menu.interaction=2442}] if entity @s[tag=host] run function zsc:config/custom/overrides/effects/effectype/zsm
+execute as @a[scores={zs.menu.interaction=2451}] if entity @s[tag=host] run function zsc:config/custom/gearpower/mob/standard
+execute as @a[scores={zs.menu.interaction=2452}] if entity @s[tag=host] run function zsc:config/custom/gearpower/mob/2
+execute as @a[scores={zs.menu.interaction=2453}] if entity @s[tag=host] run function zsc:config/custom/gearpower/mob/3
+execute as @a[scores={zs.menu.interaction=2454}] if entity @s[tag=host] run function zsc:config/custom/gearpower/mob/4
+execute as @a[scores={zs.menu.interaction=2455}] if entity @s[tag=host] run function zsc:config/custom/gearpower/mob/5
+execute as @a[scores={zs.menu.interaction=2456}] if entity @s[tag=host] run function zsc:config/custom/gearpower/mob/6
+execute as @a[scores={zs.menu.interaction=2457}] if entity @s[tag=host] run function zsc:config/custom/gearpower/mob/7
 execute as @a[scores={zs.menu.interaction=2461}] if entity @s[tag=host] run function zsc:config/custom/mcdifficulty/easy
 execute as @a[scores={zs.menu.interaction=2462}] if entity @s[tag=host] run function zsc:config/custom/mcdifficulty/normal
 execute as @a[scores={zs.menu.interaction=2463}] if entity @s[tag=host] run function zsc:config/custom/mcdifficulty/hard
@@ -58,7 +65,15 @@ execute as @a[scores={zs.menu.interaction=2511}] if entity @s[tag=host] run func
 execute as @a[scores={zs.menu.interaction=2512}] if entity @s[tag=host] run function zsc:config/custom/overrides/teamlives/remove
 execute as @a[scores={zs.menu.interaction=2521}] if entity @s[tag=host] run function zsc:config/custom/player/maxhearts/add
 execute as @a[scores={zs.menu.interaction=2522}] if entity @s[tag=host] run function zsc:config/custom/player/maxhearts/remove
-
+execute as @a[scores={zs.menu.interaction=2531}] if entity @s[tag=host] run function zsc:config/custom/gearpower/player/1
+execute as @a[scores={zs.menu.interaction=2532}] if entity @s[tag=host] run function zsc:config/custom/gearpower/player/2
+execute as @a[scores={zs.menu.interaction=2533}] if entity @s[tag=host] run function zsc:config/custom/gearpower/player/standard
+execute as @a[scores={zs.menu.interaction=2534}] if entity @s[tag=host] run function zsc:config/custom/gearpower/player/4
+execute as @a[scores={zs.menu.interaction=2535}] if entity @s[tag=host] run function zsc:config/custom/gearpower/player/5
+execute as @a[scores={zs.menu.interaction=2536}] if entity @s[tag=host] run function zsc:config/custom/gearpower/player/6
+execute as @a[scores={zs.menu.interaction=2537}] if entity @s[tag=host] run function zsc:config/custom/gearpower/player/7
+execute as @a[scores={zs.menu.interaction=2538}] if entity @s[tag=host] run function zsc:config/custom/gearpower/player/8
+execute as @a[scores={zs.menu.interaction=2539}] if entity @s[tag=host] run function zsc:config/custom/gearpower/player/9
 execute as @a[scores={zs.menu.interaction=2541}] if entity @s[tag=host] run function zsc:config/custom/player/ropd/enable
 execute as @a[scores={zs.menu.interaction=2542}] if entity @s[tag=host] run function zsc:config/custom/player/ropd/disable
 #Config > Loot
@@ -73,6 +88,8 @@ execute as @a[scores={zs.menu.interaction=2631}] if entity @s[tag=host] run func
 execute as @a[scores={zs.menu.interaction=2632}] if entity @s[tag=host] run function zsc:config/custom/lootrarity/food/remove
 execute as @a[scores={zs.menu.interaction=2641}] if entity @s[tag=host] run function zsc:config/custom/lootrarity/arrows/add
 execute as @a[scores={zs.menu.interaction=2642}] if entity @s[tag=host] run function zsc:config/custom/lootrarity/arrows/remove
+execute as @a[scores={zs.menu.interaction=2651}] if entity @s[tag=host] run function zsc:config/custom/gearpower/thorns/disable
+execute as @a[scores={zs.menu.interaction=2652}] if entity @s[tag=host] run function zsc:config/custom/gearpower/thorns/enable
 #Config > Host
 execute as @a[scores={zs.menu.interaction=2711}] if entity @s[tag=host] run function zsc:config/host/configvoting/enabled
 execute as @a[scores={zs.menu.interaction=2712}] if entity @s[tag=host] run function zsc:config/host/configvoting/disabled

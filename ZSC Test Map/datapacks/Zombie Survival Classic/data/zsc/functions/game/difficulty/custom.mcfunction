@@ -1,4 +1,5 @@
 ##Upon selection do all of these
+execute as @a run function zsc:config/viewcustom
 function zsc:game/config/custom/difficulty/sort
 execute store result score #Score zsc.team.lives run scoreboard players get #Custom zsc.team.lives
 execute store result score #Food zs.wave run scoreboard players get #CustomFoodCache zs.wave

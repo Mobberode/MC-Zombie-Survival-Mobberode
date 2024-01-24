@@ -1,4 +1,5 @@
 ##Reset for Restart System
+scoreboard players set #TicksTillStop zs.timer 0
 scoreboard players set #Score zsc.alive.players 0
 scoreboard players set #Score zsc.players 0
 scoreboard players set #Score zsc.dead.players 0

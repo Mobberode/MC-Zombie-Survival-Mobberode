@@ -28,14 +28,10 @@ scoreboard objectives add zsc.config.rebalance.changes dummy
 #Custom Set 1
 scoreboard objectives add zsc.dconfig.mobeffects.wave dummy
 scoreboard objectives add zsc.dconfig.teamlives dummy
-scoreboard objectives add zsc.dconfig.difficulty dummy
 #Custom Set 2
-scoreboard objectives add zsc.dconfig.food dummy
-scoreboard objectives add zsc.dconfig.arrow dummy
-#Custom Set 3
 scoreboard objectives add zsc.dconfig.effect.type dummy
 scoreboard objectives add zsc.dconfig.gear.level dummy
-#Custom Set 4
+#Custom Set 3
 scoreboard objectives add zsc.dconfig.max.player.hearts dummy
 scoreboard objectives add zsc.dconfig.ropd dummy
 scoreboard objectives add zsc.dconfig.mgp.thorns dummy
@@ -77,15 +73,13 @@ scoreboard players set #Score zsc.dconfig.mgp.thorns 2
 
 ##Triggers
 scoreboard players enable @a zs.player.config.role
-scoreboard objectives add zsc.player.config.moreinfo trigger
 scoreboard players enable @a zsc.player.config.moreinfo
 
 ##ZSCT/Map configs
 #scoreboard objectives add zsc.mconfig.map.forced.changes dummy
 
 ##Presets
-scoreboard objectives add zsc.preset.saving dummy
-scoreboard objectives add zsc.preset.loading dummy 
+scoreboard objectives add zsc.world_preset dummy
 
 ##List Display
 scoreboard objectives setdisplay list zsc.damage

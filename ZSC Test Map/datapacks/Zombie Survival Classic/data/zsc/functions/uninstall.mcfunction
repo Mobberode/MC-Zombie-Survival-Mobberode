@@ -56,6 +56,9 @@ scoreboard objectives remove zsc.player.config.skip.on.vote
 scoreboard objectives remove zsc.gear_mgp_tier
 scoreboard objectives remove zsc.gear_mgp_armour
 scoreboard objectives remove zsc.gear_mgp_weapon
+scoreboard objectives remove zsc.world_preset
+scoreboard objectives remove zsc.server_mode
+
 #Tags
 tag @a remove voted.modernstyle
 tag @a remove voted.classicstyle

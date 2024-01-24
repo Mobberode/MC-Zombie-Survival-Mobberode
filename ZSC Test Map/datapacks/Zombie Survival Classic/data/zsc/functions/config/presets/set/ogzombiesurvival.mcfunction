@@ -18,6 +18,8 @@ scoreboard players set #Score zsc.config.challenge.no.hit 0
 scoreboard players set #Score zsc.config.challenge.permadeath 0
 #
 scoreboard players set #Score zsc.config.rebalance.changes 0
+scoreboard players set #Score zsc.config.give.players.shields 0
+scoreboard players set #Score zsc.config.punish.dead.players 0
 
 ##Announce
 tellraw @a {"text": "The Host has loaded a preset!","color": "yellow"}

@@ -7,8 +7,4 @@ execute unless entity @a[team=Alive] run tellraw @a ["",{"text":"Game Over! | Wa
 execute unless entity @a[team=Alive] run schedule clear zsc:game/playercheck
 
 ##Advancements
-execute if score #Score zs.wave matches 30.. run advancement grant @a only zsc:30waves
-execute if score #Score zs.wave matches 25.. run advancement grant @a only zsc:25waves
-execute if score #Score zs.wave matches 20.. run advancement grant @a only zsc:20waves
-execute if score #Score zs.wave matches 15.. run advancement grant @a only zsc:15waves
-execute if score #Score zs.wave matches 10.. run advancement grant @a only zsc:10waves
+function zsc:game/wave/gameover_advancement_check

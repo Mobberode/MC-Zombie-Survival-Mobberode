@@ -18,6 +18,13 @@ h2 {
     font-size: 24;
     color: #e03661;
 }
+.title {
+    display: block;
+    background-color: rgba(255, 67, 164, 0.138);
+    color: #ee2392;
+    border-radius: 25%;
+    padding: 0.1rem;
+}
 .desc {
     display: block;
     background-color: rgba(247, 28, 105, 0.138);

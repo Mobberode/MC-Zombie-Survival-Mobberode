@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+    background-color: rgb(24, 0, 9);
+    font-family: helvetica;
+}
+h1 {
+    display: block;
+    background-color: rgba(247, 28, 105, 0.138);
+    padding: 0.1rem;
+    font-size: 32;
+    color: #ea0d66;
+}
+h3 {
+    font-size: 16;
+    color: rgb(255, 15, 87);
+}
+h2 {
+    font-size: 24;
+    color: #e03661;
+}
+.desc {
+    display: block;
+    background-color: rgba(247, 28, 105, 0.138);
+    padding: 0.9rem;
+    color: #ee2392;
+    font-size: 16;
+    font-family: Helvetica;
+    font-weight: bold;
+}
+.download {
+    color: #ff63c8;
+    font-size: 24;
+    font-family: Helvetica;
+    font-weight: bolder;
+}
+.about1 {
+    font-family: monospace;
+    font-weight: normal;
+}

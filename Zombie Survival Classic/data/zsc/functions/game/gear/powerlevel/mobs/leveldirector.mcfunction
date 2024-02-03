@@ -9,6 +9,10 @@ tag @s[type=pillager] add mgp_processed_crossbower
 tag @s[type=vindicator] add mgp_processed_axer
 tag @s[type=drowned] add mgp_processed_tridenter
 
+##Set Processer Do Amount
+scoreboard players set @s zs.timer 0
+
+
 #(1=Standard. No changes)
 #(2=Better chances of mobs with iron gear appearing.and very rare chances of an totem of undying to be equipped by a mob.)
 execute if score #Score zsc.difficulty matches 0 if score #Mob zsc.dconfig.gear.level matches 2 run function zsc:game/gear/powerlevel/mobs/level2/give

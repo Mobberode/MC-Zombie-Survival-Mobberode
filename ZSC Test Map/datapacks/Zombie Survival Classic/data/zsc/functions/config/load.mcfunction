@@ -70,6 +70,7 @@ scoreboard players set #GetAmountType zsc.player.arrows.count 3
 scoreboard players set #GetAmountType zsc.player.food.count 3
 scoreboard players set #Score zsc.dconfig.ropd 0
 scoreboard players set #Score zsc.dconfig.mgp.thorns 2
+scoreboard players set #Score zsc.dconfig.max.player.hearts 20
 
 ##Triggers
 scoreboard players enable @a zs.player.config.role

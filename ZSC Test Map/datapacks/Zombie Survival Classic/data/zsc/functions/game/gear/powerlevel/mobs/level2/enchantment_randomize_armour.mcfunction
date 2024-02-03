@@ -14,7 +14,7 @@ execute store result score #Score2 zsc.rng run random value 0..100
 execute if score #Score2 zsc.rng matches ..100 if score #Chance2 zsc.rng matches 0..1 unless score #Score zsc.dconfig.mgp.thorns matches 2 run data modify storage minecraft:zsc.macro e2 set value thorns
 #2 (Helmet)
 execute store result score #Score2 zsc.rng run random value 0..100
-execute if score @s zsc.gear_mgp_armour matches 1 if score #Score2 zsc.rng matches 100 if score #Chance2 zsc.rng matches 0..1 run data modify storage minecraft:zsc.macro e2 set value respiration
+execute if score @s zsc.gear_mgp_armour matches 1 if score #Score2 zsc.rng matches 0.. if score #Chance2 zsc.rng matches 0..1 run data modify storage minecraft:zsc.macro e2 set value respiration
 #2 (Boots)
 execute store result score #Score2 zsc.rng run random value 0..100
 execute if score @s zsc.gear_mgp_armour matches 4 if score #Score2 zsc.rng matches 0.. if score #Chance2 zsc.rng matches 0..1 run data modify storage minecraft:zsc.macro e2 set value feather_falling

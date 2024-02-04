@@ -1,0 +1,2 @@
+scoreboard players set @s zs.menu.section -1
+tellraw @a ["",{"text": "| Client Options |","color": "blue"},{"text": "\n[Preferences]","color": "gold","clickEvent": {"action": "run_command","value": "/trigger zs.menu.section set 291"}},{"text": "\n[Cosmestic Roles]","color": "gold","clickEvent": {"action": "run_command","value": "/trigger zs.menu.section set 292"}},{"text": "\n[Back]","color": "gold","clickEvent": {"action": "run_command","value": "/trigger zs.menu.section set 2"}}]

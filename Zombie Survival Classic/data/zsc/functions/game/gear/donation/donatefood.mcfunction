@@ -1,5 +1,16 @@
+scoreboard players set @s zs.menu.interaction -1
 ##Food
-execute if score #Score zsc.config.food.type matches 0 if entity @p[scores={zsc.player.food.count=8..}] unless score #Score zsc.config.donate matches 0 run give @r[team=Alive] minecraft:cooked_beef 8
-execute if score #Score zsc.config.food.type matches 1 if entity @p[scores={zsc.player.food.count=2..}] unless score #Score zsc.config.donate matches 0 run give @r[team=Alive] minecraft:rabbit_stew 2
-execute unless score #Score zsc.config.donate matches 0 run clear @p minecraft:cooked_beef 8
-execute unless score #Score zsc.config.donate matches 0 run clear @p minecraft:rabbit_stew 2
+execute store result storage minecraft:zsc.macro foodgiveamount int 1 run scoreboard players get @s zsc.player.food.give
+$execute if score #Score zsc.config.food.type matches 0 if score @s zsc.player.food.count >= @s zsc.player.food.give unless score #Score zsc.config.donate matches 0 run give @r[team=Alive] minecraft:cooked_beef $(foodgiveamount)
+$execute if score #Score zsc.config.food.type matches 1 if score @s zsc.player.food.count >= @s zsc.player.food.give unless score #Score zsc.config.donate matches 0 run give @r[team=Alive] minecraft:rabbit_stew $(foodgiveamount)
+$execute unless score #Score zsc.config.donate matches 0 run clear @p minecraft:cooked_beef $(foodgiveamount)
+$execute unless score #Score zsc.config.donate matches 0 run clear @p minecraft:rabbit_stew $(foodgiveamount)
+
+##Error
+execute if score @s zsc.player.food.count < @s zsc.player.food.give run tellraw @s ["",{"text": "You dont have enough food to do this sucessfully! Either get more food or lower how much you will give.","color": "red"}]
+
+##Success
+execute if score @s zsc.player.food.count >= @s zsc.player.food.give run tellraw @s ["",{"text": "Given Successfully!","color": "green"}]
+
+##Text
+function zsc:menu/spectator_actions

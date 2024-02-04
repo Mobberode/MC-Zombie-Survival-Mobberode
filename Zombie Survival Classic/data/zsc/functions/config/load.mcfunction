@@ -11,6 +11,9 @@ scoreboard objectives add zsc.config.unused.mobs dummy
 scoreboard objectives add zsc.config.donate dummy
 #Configuration Set 3
 scoreboard objectives add zsc.config.mob.friendly.fire dummy
+scoreboard objectives add zsc.config.mob.glow dummy
+scoreboard objectives add zsc.config.give.players.shields dummy
+scoreboard objectives add zsc.config.punish.dead.players dummy
 
 #Challenge Set 1
 scoreboard objectives add zsc.config.challenge.permadeath dummy
@@ -20,37 +23,57 @@ scoreboard objectives add zsc.config.challenge.no.hit dummy
 #Host Set 1
 scoreboard objectives add zsc.config.player.vote.configs dummy
 scoreboard objectives add zsc.config.zsc.gamemode dummy
+scoreboard objectives add zsc.config.rebalance.changes dummy
 
 #Custom Set 1
 scoreboard objectives add zsc.dconfig.mobeffects.wave dummy
 scoreboard objectives add zsc.dconfig.teamlives dummy
-scoreboard objectives add zsc.dconfig.difficulty dummy
 #Custom Set 2
-scoreboard objectives add zsc.dconfig.food dummy
-scoreboard objectives add zsc.dconfig.arrow dummy
-#Custom Set 3
 scoreboard objectives add zsc.dconfig.effect.type dummy
 scoreboard objectives add zsc.dconfig.gear.level dummy
-#Custom Set 4
+#Custom Set 3
 scoreboard objectives add zsc.dconfig.max.player.hearts dummy
+scoreboard objectives add zsc.dconfig.ropd dummy
+scoreboard objectives add zsc.dconfig.mgp.thorns dummy
+
+#Client
+scoreboard objectives add zsc.player.config.skip.on.vote dummy
 
 #Wave Ranking
 scoreboard objectives add zsc.damage minecraft.custom:minecraft.damage_taken
 scoreboard players set @a zsc.damage 0
 
 ##Enable by default configs
+scoreboard players set #Score zsc.config.punish.dead.players 0
 scoreboard players set #Score zsc.config.player.mob.scaling 1
 scoreboard players set #Score zsc.config.mob.friendly.fire 0
 scoreboard players set #Score zsc.config.food.type 0
 scoreboard players set #Score zsc.config.donate 1
 scoreboard players set #Score zsc.config.mob.list 0
 scoreboard players set #Score zsc.config.spawning.system.type 1
+scoreboard players set #Score zsc.config.give.players.shields 0
+scoreboard players set #Score zsc.config.rebalance.changes 1
 scoreboard players set #Score zsc.config.player.vote.configs 0
 scoreboard players set #Score zsc.config.zsc.gamemode 0
 
+##Enable by default custom configs
+scoreboard players set #Mob zsc.dconfig.gear.level 1
+scoreboard players set #Player zsc.dconfig.gear.level 3
+scoreboard players set #CustomMultiplier zsc.mob.amount.operation 69
+scoreboard players set #Minecraft zsc.difficulty 2
+scoreboard players set #CustomArrowsCache zs.wave 2
+scoreboard players set #CustomFoodCache zs.wave 2
+scoreboard players set #Wave zsc.dconfig.mobeffects.wave 1
+scoreboard players set #Score zsc.dconfig.effect.type 1
+scoreboard players set #CustomActiveCap zsc.mob.amount 50
+scoreboard players set #GetAmountType zsc.player.arrows.count 3
+scoreboard players set #GetAmountType zsc.player.food.count 3
+scoreboard players set #Score zsc.dconfig.ropd 0
+scoreboard players set #Score zsc.dconfig.mgp.thorns 2
+scoreboard players set #Score zsc.dconfig.max.player.hearts 20
+
 ##Triggers
-scoreboard objectives add zsc.player.config.role trigger
-scoreboard players enable @a zsc.player.config.role
+scoreboard players enable @a zs.player.config.role
 scoreboard objectives add zsc.player.config.moreinfo trigger
 scoreboard players enable @a zsc.player.config.moreinfo
 
@@ -58,8 +81,10 @@ scoreboard players enable @a zsc.player.config.moreinfo
 #scoreboard objectives add zsc.mconfig.map.forced.changes dummy
 
 ##Presets
-scoreboard objectives add zsc.preset.saving dummy
-scoreboard objectives add zsc.preset.loading dummy 
+scoreboard objectives add zsc.world_preset dummy
+
+##List Display
+scoreboard objectives setdisplay list zsc.damage
 
 ##Set for normal function
 scoreboard players set #Option1 zsc.difficulty 0

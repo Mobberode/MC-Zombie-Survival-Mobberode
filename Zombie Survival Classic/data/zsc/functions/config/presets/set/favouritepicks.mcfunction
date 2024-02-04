@@ -1,3 +1,4 @@
+scoreboard players set @s zs.menu.interaction -1
 ##Save preset configs to the configs
 scoreboard players set #Score zsc.config.combat.style 0
 scoreboard players set #Score zsc.config.food.type 0
@@ -10,10 +11,15 @@ scoreboard players set #Score zsc.config.unused.mobs 0
 scoreboard players set #Score zsc.config.donate 1
 #
 scoreboard players set #Score zsc.config.mob.friendly.fire 0
+scoreboard players set #Score zsc.config.mob.glow 1
 #
 scoreboard players set #Score zsc.config.challenge.negative.effects 0
 scoreboard players set #Score zsc.config.challenge.no.hit 0
 scoreboard players set #Score zsc.config.challenge.permadeath 0
+#
+scoreboard players set #Score zsc.config.rebalance.changes 1
+scoreboard players set #Score zsc.config.give.players.shields 1
+scoreboard players set #Score zsc.config.punish.dead.players 0
 
 ##Announce
 tellraw @a {"text": "The Host has loaded a preset!","color": "yellow"}

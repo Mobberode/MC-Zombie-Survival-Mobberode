@@ -1,13 +1,17 @@
 ##Start the game
+effect clear @a
 gamemode adventure @a
-scoreboard players set #Score zsc.game.status 3
-schedule function zsc:game/playercheck 1s
-scoreboard players set #MinuteScore zsc.timer 0
-scoreboard players set #Score zsc.timer 30
-scoreboard players set #MiliScore zsc.timer 1
+scoreboard players set #Score zs.game.status 3
+scoreboard players set #MinuteScore zs.timer 0
+scoreboard players set #Score zs.timer 30
+scoreboard players set #MiliScore zs.timer 1
 
 ##Apply Configs
 function zsc:game/configapply
+
+##Set Players up
+execute as @a unless score #Score zsc.difficulty matches 0 run attribute @s generic.max_health base set 20
+effect give @a instant_health 20 5
 
 ##Give all Waiting players loot
 schedule function zsc:game/gear/loot 2t
@@ -23,5 +27,5 @@ schedule function zsc:game/difficulty/start 1s
 #Skip
 schedule function zsc:game/skip/skip 12s
 
-##Roles (I think this could be improved upon)
+##Roles
 function zsc:game/config/roles

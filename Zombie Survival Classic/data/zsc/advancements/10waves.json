@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:wooden_sword"
+    },
+    "title": "Getting the hang of it",
+    "description": "Reach Wave 10 or above in Tough difficulty",
+    "background": "minecraft:textures/block/mossy_cobblestone.png",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "zsc:1st_death",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+    }
+  }
+}

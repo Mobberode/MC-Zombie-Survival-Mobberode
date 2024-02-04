@@ -1,3 +1,6 @@
+##Resume Time
+scoreboard players set #Score zsc.host.toggled.lobbytimer 2
+
 ##Clear items
 clear @a
 kill @e[type=minecraft:item]
@@ -13,7 +16,7 @@ execute if score #Option3 zsc.difficulty > #Option1 zsc.difficulty if score #Opt
 #Tie Breaker
 execute if score #Score zsc.difficulty matches -1 run schedule function zsc:difficulty/voting/tiebreaker 5s
 #Set status
-scoreboard players set #Score zsc.game.status 3
+scoreboard players set #Score zs.game.status 3
 
 ##Start Gaming
 schedule function zsc:game/startcheck 10s
@@ -28,4 +31,4 @@ execute if score #Score zsc.difficulty matches 2 run tellraw @a ["",{"text":"* T
 execute if score #Score zsc.difficulty matches -1 run tellraw @a {"text":"* Looks like there's a tie... Well let's activate the Tie Breaker! *","color":"#E8EB00"}
 
 #Custom
-execute if score #Score zsc.difficulty matches 0 run tellraw @a ["",{"text":"* The players have choosen ","color":"#E8EB00"},{"text":"Custom!","color":"light_gray"},{"text":" *","color":"#E8EB00"}]
+execute if score #Score zsc.difficulty matches 0 run tellraw @a ["",{"text":"* The players have choosen ","color":"#E8EB00"},{"text":"Custom!","color":"gray"},{"text":" *","color":"#E8EB00"}]

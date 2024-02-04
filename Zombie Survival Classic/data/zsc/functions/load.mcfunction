@@ -1,11 +1,4 @@
 ##Init
-
-##Prepare for Lobby:
-scoreboard objectives add zsc.game.status dummy
-scoreboard objectives add zsc.timer dummy
-scoreboard objectives add zsc.relogged minecraft.custom:leave_game
-
-##Start
 #Prepare Configs
 schedule function zsc:config/load 1s
 #Prepare for Difficulty
@@ -17,8 +10,8 @@ schedule function zsc:game/load 1s
 #Relog
 schedule function zsc:game/relog/relogdetect 10t
 
-#Set Tags
-scoreboard players set #Score zsc.game.status 1
+#Set Score
+scoreboard players set #Score zs.game.status 1
 
 ##Add Teams
 #Special Roles
@@ -29,3 +22,6 @@ schedule function zsc:game/teams/teamadd 1s
 schedule function zsc:gameload 1s
 schedule function zsc:config/moreinfo/send 1s
 schedule function zsc:config/presets/detection 1s
+
+##Server Mode (If used on a server. Put this to 1! otherwise put it to 0.)
+scoreboard objectives add zsc.server_mode dummy

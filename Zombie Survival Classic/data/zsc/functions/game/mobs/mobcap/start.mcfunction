@@ -7,7 +7,7 @@ execute if score #Score zsc.difficulty matches 3 run scoreboard players set #Div
 execute if score #Score zsc.difficulty matches 2 run scoreboard players set #Multiplier zsc.mob.amount.operation 69
 execute if score #Score zsc.difficulty matches 2 run scoreboard players set #Divider zsc.mob.amount.operation 50
 #Custom
-execute if score #Score zsc.difficulty matches 0 run scoreboard players set #Multiplier zsc.mob.amount.operation 99
+execute if score #Score zsc.difficulty matches 0 store result score #Multiplier zsc.mob.amount.operation run scoreboard players get #CustomMultiplier zsc.mob.amount.operation
 execute if score #Score zsc.difficulty matches 0 run scoreboard players set #Divider zsc.mob.amount.operation 50
 
 #Add players in

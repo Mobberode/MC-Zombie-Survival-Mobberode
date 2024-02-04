@@ -1,12 +1,11 @@
 ##Reset for Restart System
+scoreboard players set #TicksTillStop zs.timer 0
 scoreboard players set #Score zsc.alive.players 0
 scoreboard players set #Score zsc.players 0
 scoreboard players set #Score zsc.dead.players 0
-scoreboard players set #Score zsc.game.status 1
-scoreboard players set #Score zsc.wave 0
-scoreboard players set @a zsc.dead.dropped.arrow 0
-scoreboard players set @a zsc.dead.dropped.beef 0
-scoreboard players set @a zsc.dead.dropped.stew 0
+scoreboard players set #Score zs.game.status 1
+scoreboard players set #Score zs.wave 0
+scoreboard players set #Score zsc.mob.effects.level 0
 
 schedule clear zsc:game/death/deathcheck
 schedule clear zsc:game/playercheck

@@ -74,6 +74,7 @@ scoreboard players set #Score zsc.dconfig.max.player.hearts 20
 
 ##Triggers
 scoreboard players enable @a zs.player.config.role
+scoreboard objectives add zsc.player.config.moreinfo trigger
 scoreboard players enable @a zsc.player.config.moreinfo
 
 ##ZSCT/Map configs

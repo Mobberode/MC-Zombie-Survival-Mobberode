@@ -25,6 +25,8 @@ scoreboard objectives add zsc.gear_mgp_weapon dummy
 scoreboard objectives add zsc.mob.effects.level dummy
 #Pause Lobby Timer
 scoreboard objectives add zsc.host.toggled.lobbytimer dummy
+#Tips
+scoreboard objectives add zsc.info_tips dummy
 
 ##Death System
 schedule function zsc:game/death/deathcheck 5s

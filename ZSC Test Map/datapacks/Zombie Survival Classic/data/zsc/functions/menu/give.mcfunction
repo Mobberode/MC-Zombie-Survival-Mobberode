@@ -1,1 +1,0 @@
-give @a carrot_on_a_stick{display:{Name:'{"text":"[ ZSC | Menu ]","italic": false,"color": "gold"}'}}

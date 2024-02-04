@@ -27,5 +27,5 @@ schedule function zsc:game/difficulty/start 1s
 #Skip
 schedule function zsc:game/skip/skip 12s
 
-##Roles (I think this could be improved upon)
+##Roles
 function zsc:game/config/roles

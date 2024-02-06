@@ -63,7 +63,7 @@ scoreboard players set #CustomMultiplier zsc.mob.amount.operation 69
 scoreboard players set #Minecraft zsc.difficulty 2
 scoreboard players set #CustomArrowsCache zs.wave 2
 scoreboard players set #CustomFoodCache zs.wave 2
-scoreboard players set #Wave zsc.dconfig.mobeffects.wave 1
+scoreboard players set #Wave zsc.dconfig.mobeffects.wave 15
 scoreboard players set #Score zsc.dconfig.effect.type 1
 scoreboard players set #CustomActiveCap zsc.mob.amount 50
 scoreboard players set #GetAmountType zsc.player.arrows.count 3
@@ -71,6 +71,7 @@ scoreboard players set #GetAmountType zsc.player.food.count 3
 scoreboard players set #Score zsc.dconfig.ropd 0
 scoreboard players set #Score zsc.dconfig.mgp.thorns 2
 scoreboard players set #Score zsc.dconfig.max.player.hearts 20
+
 
 ##Triggers
 scoreboard players enable @a zs.player.config.role

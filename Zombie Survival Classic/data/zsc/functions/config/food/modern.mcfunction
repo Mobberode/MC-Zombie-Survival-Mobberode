@@ -10,5 +10,5 @@ execute unless score #Score zsc.config.player.vote.configs matches 0 run tag @s 
 execute unless score #Score zsc.config.player.vote.configs matches 0 run tag @s remove voted.classicfood
 
 function zsc:menu/options/configs/game2
-execute if score #Score zsc.config.player.vote.configs matches 1 run tellraw @a ["",{"text":"Classic Food Votes: "},{"score":{"name":"#Option","objective":"zsc.config.food.type"}}]
-execute if score #Score zsc.config.player.vote.configs matches 1 run tellraw @a ["",{"text":"Modern Food Votes: "},{"score":{"name":"#Option","objective":"zsc.config.food.type"}}]
+execute if score #Score zsc.config.player.vote.configs matches 1 run tellraw @a ["",{"text":"Classic Food Votes: "},{"score":{"name":"#Option1","objective":"zsc.config.food.type"}}]
+execute if score #Score zsc.config.player.vote.configs matches 1 run tellraw @a ["",{"text":"Modern Food Votes: "},{"score":{"name":"#Option2","objective":"zsc.config.food.type"}}]

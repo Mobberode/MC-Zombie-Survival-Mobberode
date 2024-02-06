@@ -8,6 +8,7 @@ scoreboard players set #KillAttempt zsc.mob.amount 0
 scoreboard players set @a zs.died 0
 scoreboard players set @a zsc.damage 0
 scoreboard players set #Score zsc.mob.effects.level 0
+scoreboard players set #TicksTillStop zs.timer 0
 
 #Restart voting
 clear @a

@@ -11,4 +11,4 @@ execute unless score #Score zsc.config.player.vote.configs matches 0 run tag @s 
 
 function zsc:menu/options/configs/game1
 execute if score #Score zsc.config.player.vote.configs matches 1 run tellraw @a ["",{"text":"Enable Mob Friendly Fire Votes: "},{"score":{"name":"#Option1","objective":"zsc.config.mob.friendly.fire"}}]
-execute if score #Score zsc.config.player.vote.configs matches 1 run tellraw @a ["",{"text":"Disable Mob Friendly Fire Votes: "},{"score":{"name":"#Option1","objective":"zsc.config.mob.friendly.fire"}}]
+execute if score #Score zsc.config.player.vote.configs matches 1 run tellraw @a ["",{"text":"Disable Mob Friendly Fire Votes: "},{"score":{"name":"#Option2","objective":"zsc.config.mob.friendly.fire"}}]

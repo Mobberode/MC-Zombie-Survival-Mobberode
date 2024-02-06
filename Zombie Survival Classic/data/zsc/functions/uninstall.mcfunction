@@ -58,6 +58,7 @@ scoreboard objectives remove zsc.gear_mgp_armour
 scoreboard objectives remove zsc.gear_mgp_weapon
 scoreboard objectives remove zsc.world_preset
 scoreboard objectives remove zsc.server_mode
+scoreboard objectives remove zsc.info_tips
 
 #Tags
 tag @a remove voted.modernstyle
@@ -95,4 +96,4 @@ team remove Waiting
 team remove mob
 
 ##Announce
-tellraw @a {"text": "ZSC Uninstalled! There may be some score objectives and other stuff left over from previous versions, however. Client Configurations are not affected by this and have to be uninstalled seperately.","color": "gold"}
+tellraw @a {"text": "ZSC Uninstalled! There may be some score objectives and other stuff left over from previous versions, however.","color": "gold"}

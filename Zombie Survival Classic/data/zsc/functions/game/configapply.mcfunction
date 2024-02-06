@@ -13,6 +13,8 @@ function zsc:game/config/voteapply/moblist
 function zsc:game/config/voteapply/donation
 #Unused Mobs
 function zsc:game/config/voteapply/unused
+#Mob Glow
+function zsc:game/config/voteapply/mobglow
 #Wave Ranking
 function zsc:game/config/voteapply/waverank
 #Mob Friendly Fire

@@ -1,4 +1,8 @@
+tellraw @a ["",{"text": ">> ZSExtensions Loaded: ","color": "aqua"},{"score":{"name": "#Extensions","objective": "zs.game"},"color": "gold"},{"text": "\n>> ZSC Compatible ZSExtensions: ","color": "green"},{"score":{"name": "#ZSC_Extensions","objective": "zs.game"},"color": "gold"}]
+scoreboard players set #Extensions zs.game 0
+scoreboard players set #ZSC_Extensions zs.game 0
 ##Init
+scoreboard players set #Game zs.game 1
 #Prepare Configs
 schedule function zsc:config/load 1s
 #Prepare for Difficulty

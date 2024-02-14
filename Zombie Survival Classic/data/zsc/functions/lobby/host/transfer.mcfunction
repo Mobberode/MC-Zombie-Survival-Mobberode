@@ -1,3 +1,4 @@
+scoreboard players set @s zs.menu.interaction -1
 ##New host
 execute if entity @s[tag=host] run tag @r add host
 

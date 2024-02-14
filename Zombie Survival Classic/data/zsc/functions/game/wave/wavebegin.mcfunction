@@ -10,6 +10,7 @@ scoreboard players set #Amount zsc.mob.amount 0
 function zsc:game/mobs/spawner
 #Start mob check
 function zsc:game/wave/mobcheck
+function zsc:game/wave/team_left_check
 #Effects
 function zsc:game/effects/ewave_tick
 #Mob Glow Showdown Timer

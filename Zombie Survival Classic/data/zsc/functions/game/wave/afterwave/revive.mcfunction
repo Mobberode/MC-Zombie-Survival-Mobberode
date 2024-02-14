@@ -1,10 +1,10 @@
 ##Bring Waiting Players
 function zsc:game/gear/loot
-schedule function zsc:game/teams/revive 1s
 
 ##Revive
 clear @a[team=Dead] minecraft:carrot_on_a_stick
-execute as @e[tag=zs.plrspawn,sort=random] run tp @a[team=!Alive] @s
+execute as @e[tag=zs.plrspawn,sort=random,limit=1] run tp @a[team=!Alive] @s
+function zsc:game/teams/revive
 
 ##Announce
 execute if score #Score zsc.team.lives matches 1.. unless entity @a[team=Alive] run scoreboard players remove #Score zsc.team.lives 1

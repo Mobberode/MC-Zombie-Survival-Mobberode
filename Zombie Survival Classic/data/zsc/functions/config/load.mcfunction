@@ -83,6 +83,10 @@ scoreboard players enable @a zsc.player.config.moreinfo
 
 ##Presets
 scoreboard objectives add zsc.world_preset dummy
+data modify storage minecraft:zsc.macro UUID1 set value a
+data modify storage minecraft:zsc.macro UUID2 set value b
+data modify storage minecraft:zsc.macro UUID3 set value c
+data modify storage minecraft:zsc.macro UUID4 set value d
 
 ##List Display
 scoreboard objectives setdisplay list zsc.damage

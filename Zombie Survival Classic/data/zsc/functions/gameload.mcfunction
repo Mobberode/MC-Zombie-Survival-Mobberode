@@ -9,6 +9,7 @@ execute if entity @a run function zsc:lobby/lobby
 execute if entity @a run function zsc:game/coascheck
 #Player Check
 execute if entity @a run function zsc:game/playercheck
+execute if entity @a run function zsc:reload
 
 ##Loop
 execute unless entity @a run schedule function zsc:gameload 1t

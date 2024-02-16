@@ -1,5 +1,7 @@
 ##Perfect Ranking (No Total Damage)
 title @a actionbar {"text":"[Wave Ranking:] [NO DAMAGE!] Loot is rewarded."}
+#For Custom
+execute if score #Player zsc.dconfig.gear.level matches 9 if score #Score zsc.difficulty matches 0 run give @a[team=Alive] totem_of_undying 1
 #Reward Scaling
 execute if score #Score zs.wave matches ..4 run give @a[team=Alive] minecraft:arrow 8
 execute if score #Score zs.wave matches ..4 if score #Score zsc.config.food.type matches 0 run give @a[team=Alive] minecraft:cooked_beef 2

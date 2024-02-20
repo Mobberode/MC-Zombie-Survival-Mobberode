@@ -24,6 +24,7 @@ scoreboard objectives add zsc.config.challenge.no.hit dummy
 scoreboard objectives add zsc.config.player.vote.configs dummy
 scoreboard objectives add zsc.config.zsc.gamemode dummy
 scoreboard objectives add zsc.config.rebalance.changes dummy
+scoreboard objectives add zsc.config.mob.spawn.radius.check dummy
 
 #Custom Set 1
 scoreboard objectives add zsc.dconfig.mobeffects.wave dummy

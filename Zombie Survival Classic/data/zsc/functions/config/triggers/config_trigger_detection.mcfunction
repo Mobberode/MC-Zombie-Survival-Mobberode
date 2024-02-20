@@ -101,6 +101,8 @@ execute as @a[scores={zs.menu.interaction=2741}] if entity @s[tag=host] run func
 execute as @a[scores={zs.menu.interaction=2742}] if entity @s[tag=host] run function zsc:config/custommap/mfc/disable
 execute as @a[scores={zs.menu.interaction=2751}] if entity @s[tag=host] run function zsc:lobby/host/transfer_b
 execute as @a[scores={zs.menu.interaction=2752}] if entity @s[tag=host] run function zsc:lobby/host/transfer
+execute as @a[scores={zs.menu.interaction=2761}] if entity @s[tag=host] run function zsc:config/host/mobspawnradius/enable
+execute as @a[scores={zs.menu.interaction=2762}] if entity @s[tag=host] run function zsc:config/host/mobspawnradius/disable
 #Config > Presets
 execute as @a[scores={zs.menu.section=281}] run function zsc:menu/options/configs/presets/player with storage minecraft:zsc.macro
 execute as @a[scores={zs.menu.section=282}] run function zsc:menu/options/configs/presets/set

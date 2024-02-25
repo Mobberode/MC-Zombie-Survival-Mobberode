@@ -17,6 +17,8 @@ effect give @a instant_health 20 5
 schedule function zsc:game/gear/loot 2t
 #Turn all Waiting players into Alive players
 schedule function zsc:game/gear/start/transfer 1s
+#Team Left Check
+function zsc:game/wave/team_left_check
 
 ##Teleport
 execute as @e[tag=zs.plrspawn,sort=random] run tp @a[team=!Alive] @s

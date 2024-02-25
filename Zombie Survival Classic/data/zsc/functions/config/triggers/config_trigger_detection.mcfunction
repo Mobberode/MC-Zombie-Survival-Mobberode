@@ -99,10 +99,13 @@ execute as @a[scores={zs.menu.interaction=2731}] if entity @s[tag=host] run func
 execute as @a[scores={zs.menu.interaction=2732}] if entity @s[tag=host] run function zsc:config/host/rebalance/disabled
 execute as @a[scores={zs.menu.interaction=2741}] if entity @s[tag=host] run function zsc:config/custommap/mfc/enable
 execute as @a[scores={zs.menu.interaction=2742}] if entity @s[tag=host] run function zsc:config/custommap/mfc/disable
-execute as @a[scores={zs.menu.interaction=2751}] if entity @s[tag=host] run function zsc:lobby/host/transfer_b
-execute as @a[scores={zs.menu.interaction=2752}] if entity @s[tag=host] run function zsc:lobby/host/transfer
 execute as @a[scores={zs.menu.interaction=2761}] if entity @s[tag=host] run function zsc:config/host/mobspawnradius/enable
 execute as @a[scores={zs.menu.interaction=2762}] if entity @s[tag=host] run function zsc:config/host/mobspawnradius/disable
+execute as @a[scores={zs.menu.section=271}] if entity @s[tag=host] run function zsc:menu/options/configs/host_transfer with storage minecraft:zsc.macro
+execute as @a[scores={zs.menu.interaction=27111}] if entity @s[tag=host] run function zsc:lobby/host/transfer_previous_select
+execute as @a[scores={zs.menu.interaction=27112}] if entity @s[tag=host] run function zsc:lobby/host/transfer_next_select
+execute as @a[scores={zs.menu.interaction=27113}] if entity @s[tag=host] run function zsc:lobby/host/transfer with storage minecraft:zsc.macro
+
 #Config > Presets
 execute as @a[scores={zs.menu.section=281}] run function zsc:menu/options/configs/presets/player with storage minecraft:zsc.macro
 execute as @a[scores={zs.menu.section=282}] run function zsc:menu/options/configs/presets/set

@@ -89,6 +89,7 @@ tag @a remove voted.nomobglow
 tag @a remove voted.yesmobglow
 tag @a remove voted.gps.true
 tag @a remove voted.gps.false
+tag @a remove zsc_processed_id
 #Teams
 team remove Alive
 team remove Dead
@@ -96,4 +97,4 @@ team remove Waiting
 team remove mob
 
 ##Announce
-tellraw @a {"text": "ZSC Uninstalled! There may be some score objectives and other stuff left over from previous versions, however.","color": "gold"}
+tellraw @a {"text": "ZSC / Mobberode Uninstalled! There may be some score objectives and other stuff left over from previous versions, however.","color": "gold"}

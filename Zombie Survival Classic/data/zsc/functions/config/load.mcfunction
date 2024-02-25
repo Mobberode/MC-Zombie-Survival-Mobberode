@@ -88,6 +88,7 @@ data modify storage minecraft:zsc.macro UUID1 set value a
 data modify storage minecraft:zsc.macro UUID2 set value b
 data modify storage minecraft:zsc.macro UUID3 set value c
 data modify storage minecraft:zsc.macro UUID4 set value d
+data modify storage minecraft:zsc.macro selected_playerid set value 1
 
 ##List Display
 scoreboard objectives setdisplay list zsc.damage

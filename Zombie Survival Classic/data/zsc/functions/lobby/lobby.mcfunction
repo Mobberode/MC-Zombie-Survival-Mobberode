@@ -13,5 +13,7 @@ tag @a remove votedcustom
 #Teams
 team join Waiting @a
 
+##Start COAS Giver
+function zsc:lobby/coas_giver
 ##Start plreffects
 function zsc:lobby/plreffects

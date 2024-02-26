@@ -56,6 +56,7 @@ scoreboard players set #Score zsc.config.give.players.shields 0
 scoreboard players set #Score zsc.config.rebalance.changes 1
 scoreboard players set #Score zsc.config.player.vote.configs 0
 scoreboard players set #Score zsc.config.zsc.gamemode 0
+scoreboard players set #Score zsc.config.mob.spawn.radius.check 0
 
 ##Enable by default custom configs
 scoreboard players set #Mob zsc.dconfig.gear.level 1
@@ -72,7 +73,6 @@ scoreboard players set #GetAmountType zsc.player.food.count 3
 scoreboard players set #Score zsc.dconfig.ropd 0
 scoreboard players set #Score zsc.dconfig.mgp.thorns 2
 scoreboard players set #Score zsc.dconfig.max.player.hearts 20
-
 
 ##Triggers
 scoreboard players enable @a zs.player.config.role

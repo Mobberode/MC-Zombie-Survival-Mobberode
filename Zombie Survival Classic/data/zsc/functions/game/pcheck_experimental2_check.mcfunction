@@ -1,1 +1,2 @@
 $execute store success score #ID$(playerid) zsc.players run effect give @a[scores={zsc.players=$(playerid)}] minecraft:unluck 1 0 true
+$execute if score #ID$(playerid) zsc.players matches 2.. run function zsc:id_reset

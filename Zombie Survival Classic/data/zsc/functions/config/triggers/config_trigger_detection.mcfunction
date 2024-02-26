@@ -88,8 +88,8 @@ execute as @a[scores={zs.menu.interaction=2631}] if entity @s[tag=host] run func
 execute as @a[scores={zs.menu.interaction=2632}] if entity @s[tag=host] run function zsc:config/custom/lootrarity/food/remove
 execute as @a[scores={zs.menu.interaction=2641}] if entity @s[tag=host] run function zsc:config/custom/lootrarity/arrows/add
 execute as @a[scores={zs.menu.interaction=2642}] if entity @s[tag=host] run function zsc:config/custom/lootrarity/arrows/remove
-execute as @a[scores={zs.menu.interaction=2651}] if entity @s[tag=host] run function zsc:config/custom/gearpower/thorns/disable
-execute as @a[scores={zs.menu.interaction=2652}] if entity @s[tag=host] run function zsc:config/custom/gearpower/thorns/enable
+execute as @a[scores={zs.menu.interaction=2651}] if entity @s[tag=host] run function zsc:config/custom/gearpower/thorns/enable
+execute as @a[scores={zs.menu.interaction=2652}] if entity @s[tag=host] run function zsc:config/custom/gearpower/thorns/disable
 #Config > Host
 execute as @a[scores={zs.menu.interaction=2711}] if entity @s[tag=host] run function zsc:config/host/configvoting/enabled
 execute as @a[scores={zs.menu.interaction=2712}] if entity @s[tag=host] run function zsc:config/host/configvoting/disabled

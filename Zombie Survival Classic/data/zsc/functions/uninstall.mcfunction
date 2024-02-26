@@ -59,6 +59,7 @@ scoreboard objectives remove zsc.gear_mgp_weapon
 scoreboard objectives remove zsc.world_preset
 scoreboard objectives remove zsc.server_mode
 scoreboard objectives remove zsc.info_tips
+scoreboard objectives remove zsc.config.mob.spawn.radius.check
 
 #Tags
 tag @a remove voted.modernstyle

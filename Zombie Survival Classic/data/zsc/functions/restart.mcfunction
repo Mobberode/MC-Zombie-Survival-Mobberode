@@ -32,5 +32,6 @@ schedule clear zsc:game/effects/effectcheck
 ##General
 schedule clear zsc:lobby/waiting/wait
 tag @a remove zsc_processed_id
+tag @a remove zsc.gear.processed.role
 scoreboard players set @a zsc.players 0
 function zsc:game/pcheck_experimental_reset

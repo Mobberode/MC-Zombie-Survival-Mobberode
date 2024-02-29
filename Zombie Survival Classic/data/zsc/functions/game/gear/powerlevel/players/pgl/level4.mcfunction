@@ -1,9 +1,9 @@
 ##Give Items
-#Cosmestic
-execute if score #RolesProcessed zs.timer matches 0 run function zsc:game/gear/powerlevel/players/roles/zs_ogs
-execute if score #RolesProcessed zs.timer matches 1 run function zsc:game/gear/powerlevel/players/roles/zs_testers
-execute if score #RolesProcessed zs.timer matches 2 run function zsc:game/gear/powerlevel/players/roles/developers
-execute if score #RolesProcessed zs.timer matches 3 run function zsc:game/gear/powerlevel/players/roles/creators
+#Cosmestic 1.20.2
+#execute if score #RolesProcessed zs.timer matches 0 run function zsc:game/gear/powerlevel/players/roles/zs_ogs
+#execute if score #RolesProcessed zs.timer matches 1 run function zsc:game/gear/powerlevel/players/roles/zs_testers
+#execute if score #RolesProcessed zs.timer matches 2 run function zsc:game/gear/powerlevel/players/roles/developers
+#execute if score #RolesProcessed zs.timer matches 3 run function zsc:game/gear/powerlevel/players/roles/creators
 
 #Armour (If player has no role)
 item replace entity @a[tag=!zsc.received] armor.head with iron_helmet{Unbreakable:1,Enchantments:[{id:"protection",lvl:1}]}
@@ -25,4 +25,4 @@ execute if score #Score zsc.config.give.players.shields matches 1 run item repla
 ##Loop
 scoreboard players remove #ArmourTick zs.timer 1
 scoreboard players add #RolesProcessed zs.timer 1
-execute unless score #ArmourTick zs.timer matches 0 run function zsc:game/gear/powerlevel/players/pgl/level4 with storage minecraft:zsc.macro
+execute unless score #ArmourTick zs.timer matches 0 run function zsc:game/gear/powerlevel/players/set_cosmestics with storage minecraft:zsc.macro

@@ -1,7 +1,8 @@
 {
     "pack": {
-      "pack_format": 26,
-      "description": "The Zombie Survival Classic Minigame"
+      "pack_format": 33,
+      "supported_formats": [22,33,26],
+      "description": "The Zombie Survival Classic / Mobberode Minigame"
     },
     "filter": {
       "block": [
@@ -10,8 +11,20 @@
         },
         {
           "path": "recipes"
-        }
-      ]
+        },
+        {
+        "overlays": {
+          "entries": [
+              {
+                  "formats": {
+                    "min_inclusive": 22,
+                    "max_inclusive": 26
+                  },
+                  "directory": "1202_4"
+                }
+              ]
+            }
+          }
+        ]
+      }
     }
-  }
-  

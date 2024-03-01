@@ -1,28 +1,22 @@
 ##Give Items
-
-#Cosmestic 1.20.2
-#execute if score #RolesProcessed zs.timer matches 0 run function zsc:game/gear/powerlevel/players/roles/zs_ogs
-#execute if score #RolesProcessed zs.timer matches 1 run function zsc:game/gear/powerlevel/players/roles/zs_testers
-#execute if score #RolesProcessed zs.timer matches 2 run function zsc:game/gear/powerlevel/players/roles/developers
-#execute if score #RolesProcessed zs.timer matches 3 run function zsc:game/gear/powerlevel/players/roles/creators
-
 #Armour (If player has no role)
-item replace entity @a[tag=!zsc.received] armor.head with diamond_helmet{Unbreakable:1,Enchantments:[{id:"projectile_protection",lvl:1}]}
-item replace entity @a[tag=!zsc.received] armor.chest with diamond_chestplate{Unbreakable:1,Enchantments:[{id:"blast_protection",lvl:1}]}
-item replace entity @a[tag=!zsc.received] armor.legs with diamond_leggings{Unbreakable:1,Enchantments:[{id:"protection",lvl:1}]}
-item replace entity @a[tag=!zsc.received] armor.feet with diamond_boots{Unbreakable:1,Enchantments:[{id:"fire_protection",lvl:1}]}
+item replace entity @a[tag=!zsc.received,tag=!zsc.gear.processed.role] armor.head with diamond_helmet[minecraft:unbreakable={unbreakable:true},minecraft:enchantments={levels:{"projectile_protection":1}}]
+item replace entity @a[tag=!zsc.received,tag=!zsc.gear.processed.role] armor.chest with diamond_chestplate[minecraft:unbreakable={unbreakable:true},minecraft:enchantments={levels:{"blast_protection":1}}]
+item replace entity @a[tag=!zsc.received,tag=!zsc.gear.processed.role] armor.legs with diamond_leggings[minecraft:unbreakable={unbreakable:true},minecraft:enchantments={levels:{"protection":1}}]
+item replace entity @a[tag=!zsc.received,tag=!zsc.gear.processed.role] armor.feet with diamond_boots[minecraft:unbreakable={unbreakable:true},minecraft:enchantments={levels:{"fire_protection":1}}]
 
 #Armour (Dynamic with cosmestic only!)
-$item replace entity @a[tag=!zsc.received,tag=$(role_tag)] armor.head with $(armour1){Trim:{pattern:$(trim_pattern),material:$(trim_material)},Unbreakable:1,Enchantments:[{id:"projectile_protection",lvl:1}]}
-$item replace entity @a[tag=!zsc.received,tag=$(role_tag)] armor.chest with $(armour2){Trim:{pattern:$(trim_pattern),material:$(trim_material)},Unbreakable:1,Enchantments:[{id:"blast_protection",lvl:1}]}
-$item replace entity @a[tag=!zsc.received,tag=$(role_tag)] armor.legs with $(armour3){Trim:{pattern:$(trim_pattern),material:$(trim_material)},Unbreakable:1,Enchantments:[{id:"protection",lvl:1}]}
-$item replace entity @a[tag=!zsc.received,tag=$(role_tag)] armor.feet with $(armour4){Trim:{pattern:$(trim_pattern),material:$(trim_material)},Unbreakable:1,Enchantments:[{id:"fire_protection",lvl:1}]}
+$item replace entity @a[tag=!zsc.received,tag=$(role_tag)] armor.head with $(armour1)[minecraft:trim={material: "$(trim_material)", pattern:"$(trim_pattern)"},minecraft:unbreakable={unbreakable:1},minecraft:enchantments={levels:{"projectile_protection":1}}]
+$item replace entity @a[tag=!zsc.received,tag=$(role_tag)] armor.chest with $(armour2)[minecraft:trim={material: "$(trim_material)", pattern:"$(trim_pattern)"},minecraft:unbreakable={unbreakable:1},minecraft:enchantments={levels:{"blast_protection":1}}]
+$item replace entity @a[tag=!zsc.received,tag=$(role_tag)] armor.legs with $(armour3)[minecraft:trim={material: "$(trim_material)", pattern:"$(trim_pattern)"},minecraft:unbreakable={unbreakable:1},minecraft:enchantments={levels:{"protection":1}}]
+$item replace entity @a[tag=!zsc.received,tag=$(role_tag)] armor.feet with $(armour4)[minecraft:trim={material: "$(trim_material)", pattern:"$(trim_pattern)"},minecraft:unbreakable={unbreakable:1},minecraft:enchantments={levels:{"fire_protection":1}}]
+$tag @a[tag=$(role_tag)] add zsc.gear.processed.role 
 
 #Equipment
-item replace entity @a[tag=!zsc.received] hotbar.0 with diamond_sword{Unbreakable:1,Enchantments:[{id:"sharpness",lvl:1},{id:"sweeping",lvl:1}]}
-item replace entity @a[tag=!zsc.received] hotbar.1 with bow{Unbreakable:1,Enchantments:[{id:"power",lvl:2}]}
+item replace entity @a[tag=!zsc.received] hotbar.0 with diamond_sword[minecraft:unbreakable={unbreakable:true},minecraft:enchantments={levels: {"sharpness":1,"sweeping_edge":1}}]
+item replace entity @a[tag=!zsc.received] hotbar.1 with bow[minecraft:unbreakable={unbreakable:true},minecraft:enchantments={levels:{"power":1}}]
 item replace entity @a[tag=!zsc.received] hotbar.2 with totem_of_undying
-execute if score #Score zsc.config.give.players.shields matches 1 run item replace entity @a[tag=!zsc.received] weapon.offhand with shield{Enchantments:[{id:"unbreaking",lvl:3}]}
+execute if score #Score zsc.config.give.players.shields matches 1 run item replace entity @a[tag=!zsc.received] weapon.offhand with shield[enchantments= {levels: {"minecraft:unbreaking": 3}}]
 
 ##Loop
 scoreboard players remove #ArmourTick zs.timer 1

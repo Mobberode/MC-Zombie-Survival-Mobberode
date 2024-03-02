@@ -9,6 +9,9 @@ tag @s[type=pillager] add mgp_processed_crossbower
 tag @s[type=vindicator] add mgp_processed_axer
 tag @s[type=drowned] add mgp_processed_tridenter
 
+execute store result score @s zsc.rng run random value 0..10
+execute if score @s zsc.rng matches 5.. run tag @s[type=wither_skeleton] add wither_skeleton.using_bow
+
 ##Set Processer Do Amount
 scoreboard players set @s zs.timer 0
 

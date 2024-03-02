@@ -25,7 +25,8 @@ $execute if score @s[tag=mgp_processed_axer] zsc.rng matches $(tier6_weapon_a) i
 $execute if score @s[type=!pillager,tag=!mgp_processed_axer] zsc.rng matches  if e$(tier6_weapon_b)ntity @s[type=!drowned] if score @s zsc.gear_mgp_tier matches 6 run function zsc:game/gear/powerlevel/mobs/equipment/weapon/netherite/sword with storage minecraft:zsc.macro
 
 #Misc
-$execute if score @s[tag=mgp_processed_bower] zsc.rng matches $(ranged_a) run function zsc:game/gear/powerlevel/mobs/equipment/weapon/bow with storage minecraft:zsc.macro
+$execute if score @s[tag=mgp_processed_bower,tag=wither_skeleton.using_bow] zsc.rng matches $(ranged_a) run function zsc:game/gear/powerlevel/mobs/equipment/weapon/bow with storage minecraft:zsc.macro
+$execute if score @s[tag=mgp_processed_bower,type=!wither_skeleton] zsc.rng matches $(ranged_a) run function zsc:game/gear/powerlevel/mobs/equipment/weapon/bow with storage minecraft:zsc.macro
 $execute if score @s[tag=mgp_processed_crossbower] zsc.rng matches $(ranged_b) run function zsc:game/gear/powerlevel/mobs/equipment/weapon/crossbow with storage minecraft:zsc.macro
 $execute if score @s[tag=mgp_processed_tridenter] zsc.rng matches $(ranged_c) run function zsc:game/gear/powerlevel/mobs/equipment/weapon/trident with storage minecraft:zsc.macro
 

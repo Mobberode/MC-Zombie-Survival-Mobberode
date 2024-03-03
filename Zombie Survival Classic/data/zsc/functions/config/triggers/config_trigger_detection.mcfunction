@@ -1,6 +1,6 @@
 #View
 execute as @a[scores={zs.menu.interaction=21}] run function zsc:config/viewgame
-execute as @a[scores={zs.menu.interaction=22}] run function zsc:config/viewcustom
+execute as @a[scores={zs.menu.interaction=22}] run function zsc:config/viewcustom with storage minecraft:zsc.macro
 execute as @a[scores={zs.menu.interaction=23}] run function zsc:config/viewhost
 #Reset
 execute as @a[scores={zs.menu.interaction=24}] if entity @s[tag=host] run function zsc:config/reset/game

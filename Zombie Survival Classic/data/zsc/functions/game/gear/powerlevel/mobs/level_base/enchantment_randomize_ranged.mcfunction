@@ -21,7 +21,6 @@ execute if score @s zsc.gear_mgp_weapon matches 3 if score #Score2 zsc.rng match
 execute if score @s zsc.gear_mgp_weapon matches 3..4 if score #Score2 zsc.rng matches 51.. if score #Chance2 zsc.rng matches 0..4 run data modify storage minecraft:zsc.macro e2 set value multishot
 #3
 execute store result score #Score3 zsc.rng run random value 0..100
-execute if score #Score3 zsc.rng matches 0..32 if score #Chance3 zsc.rng matches 0..4 run data modify storage minecraft:zsc.macro e3 set value unbreaking
 #3 (Crossbow)
 execute if score @s zsc.gear_mgp_weapon matches 4 if score #Score3 zsc.rng matches ..100 if score #Chance3 zsc.rng matches 0..4 run data modify storage minecraft:zsc.macro e3 set value quick_charge
 #Levels

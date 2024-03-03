@@ -1,0 +1,2 @@
+function zsc:game/experiments/buy_station/getpos with storage minecraft:zsc.macro
+execute unless score #BuyStationsProcessed zsc.experiment_buy_station > #TotalBuyStations zsc.experiment_buy_station run function zsc:game/experiments/buy_station/getpos_loop

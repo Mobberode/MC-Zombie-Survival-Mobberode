@@ -28,3 +28,7 @@ schedule function zsc:config/moreinfo/send 1s
 
 ##Server Mode (If used on a server. Put this to 1! otherwise put it to 0.)
 scoreboard objectives add zsc.server_mode dummy
+
+##Experiments
+scoreboard objectives add zsc.experiment_buy_station dummy
+scoreboard objectives add zsc.experiment_buy_station_tokens dummy

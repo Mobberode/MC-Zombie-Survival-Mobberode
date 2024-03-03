@@ -1,7 +1,7 @@
 ##Refresh enchants
-data modify storage minecraft:zsc.macro e1 set value ""
-data modify storage minecraft:zsc.macro e2 set value ""
-data modify storage minecraft:zsc.macro e3 set value ""
+data modify storage minecraft:zsc.macro e1 set value "vanishing_curse"
+data modify storage minecraft:zsc.macro e2 set value "vanishing_curse"
+data modify storage minecraft:zsc.macro e3 set value "vanishing_curse"
 #Enchantments
 execute store result score #Chance1 zsc.rng run random value 0..10
 execute store result score #Chance2 zsc.rng run random value 0..10

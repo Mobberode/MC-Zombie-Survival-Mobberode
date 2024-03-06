@@ -15,9 +15,13 @@ function zsc:game/wave/afterwave/loot
 scoreboard players set #MinuteScore zs.timer 0
 scoreboard players set #Score zs.timer 30
 scoreboard players set #MiliScore zs.timer 1
+function zsc:game/wave/coas_giver_status3
 schedule function zsc:game/wave/wavecooldown 5s
 #Skip
 schedule function zsc:game/skip/skip 6s
 
 ##Wave Ranking (Config)
 execute if score #Score zsc.config.wave.rank matches 1 run function zsc:game/config/ranking/waveranking
+
+##Experimental Shop
+execute if score #Config zsc.experiment_buy_station matches 1 run function zsc:game/experiments/buy_station/tokens/givetokens

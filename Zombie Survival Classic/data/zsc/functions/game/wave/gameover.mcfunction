@@ -1,3 +1,6 @@
+##Put Status to 5 so it wont be repeated
+scoreboard players set #Score zs.game.status 5
+
 ##Check if all Alive is Dead
 execute unless entity @a[team=Alive] run schedule function zsc:game/wave/restart 3s
 

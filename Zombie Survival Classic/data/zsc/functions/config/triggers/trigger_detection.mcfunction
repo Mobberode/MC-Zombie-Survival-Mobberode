@@ -2,7 +2,7 @@
 #Init Menu
 execute as @a[scores={zs.menu.section=0}] run function zsc:menu/menu
 execute as @a[scores={zs.menu.section=9},team=!Alive] run function zsc:menu/spectator_actions
-execute as @a[scores={zs.menu.interaction=1}] run function zsc:game/skip/skipdo
+execute as @a[scores={zs.menu.interaction=1}] unless score #Score zs.game.status matches 4 run function zsc:game/skip/skipdo
 execute as @a[scores={zs.menu.section=10}] run function zsc:menu/credits
 #Menu
 execute as @a[scores={zs.menu.section=1}] run function zsc:menu/options/difficulty/pick

@@ -1,0 +1,1 @@
+execute as @a[team=Waiting] run scoreboard players operation @s zsc.experiment_buy_station_tokens = #Stored zsc.experiment_buy_station_tokens

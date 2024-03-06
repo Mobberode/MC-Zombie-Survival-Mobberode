@@ -31,3 +31,6 @@ schedule function zsc:game/skip/skip 12s
 
 ##Roles
 function zsc:game/config/roles
+
+##Experiments
+execute if score #Config zsc.experiment_buy_station matches 1 run function zsc:game/experiments/buy_station/start/start

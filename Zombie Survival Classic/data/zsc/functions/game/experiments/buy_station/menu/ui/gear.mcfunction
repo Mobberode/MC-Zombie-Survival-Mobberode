@@ -1,0 +1,2 @@
+scoreboard players set @s zs.menu.section -1
+tellraw @s ["",{"text": "| Buy Station > Equipment | ","color": "red"},{"text": "Tokens: "},{"score":{"name": "@s","objective": "zsc.experiment_buy_station_tokens"}},{"text":"\n[Back]","color":"gold","clickEvent": {"action": "run_command","value": "/trigger zs.menu.section set 81"}}]

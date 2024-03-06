@@ -25,6 +25,7 @@ schedule function zsc:game/teams/teamadd 1s
 
 schedule function zsc:gameload 1s
 schedule function zsc:config/moreinfo/send 1s
+schedule function zsc:coas_giver_detector 1s
 
 ##Server Mode (If used on a server. Put this to 1! otherwise put it to 0.)
 scoreboard objectives add zsc.server_mode dummy

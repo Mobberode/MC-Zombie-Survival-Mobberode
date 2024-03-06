@@ -16,3 +16,6 @@ function zsc:host
 
 #Reset Score
 scoreboard players set @a[scores={zs.relogged=1..}] zs.relogged 0
+
+##Experiments
+execute as @a[scores={zs.relogged=1..}] if score #Config zsc.experiment_buy_station matches 1 run function zsc:game/experiments/buy_station/tokens/remove_tokens

@@ -21,8 +21,5 @@ function zsc:game/effects/glow/timer
 function zsc:game/effects/effectcheck
 #Start wave beat check
 schedule function zsc:game/wave/wavebeatcheck 5s
-#Clear rods
-clear @a minecraft:carrot_on_a_stick
-kill @e[type=item,nbt={Item: {id:"minecraft:carrot_on_a_stick",}}]
 #Reset Skip Counter
 scoreboard players set #Skip zs.coas 0

@@ -1,0 +1,2 @@
+execute store result storage minecraft:zsc.macro effect_timer int 1 run scoreboard players add #Time zsc.experiment_buy_station_effect_duration_increaser 30
+execute unless score @s zsc.experiment_buy_station_effect_duration_increaser matches 0 run function zsc:game/experiments/buy_station/menu/ui_interactions/effects/set_effect_timer

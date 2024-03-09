@@ -1,2 +1,2 @@
 scoreboard players set @s zs.menu.section -1
-tellraw @s ["",{"text": "| Buy Station > Effects | ","color": "red"},{"text": "Tokens: "},{"score":{"name": "@s","objective": "zsc.experiment_buy_station_tokens"}},{"text": "\n[Tier1]"}]
+tellraw @s ["",{"text": "| Buy Station > Effects | ","color": "red"},{"text": "Tokens: "},{"score":{"name": "@s","objective": "zsc.experiment_buy_station_tokens"}},{"text": "\nTier 1"}]

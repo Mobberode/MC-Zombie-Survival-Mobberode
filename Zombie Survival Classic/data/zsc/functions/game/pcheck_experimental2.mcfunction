@@ -7,4 +7,4 @@ execute if score @s zsc.players = #ID zsc.players run tellraw @a ["",{"selector"
 
 ##Loop until player is assigned ID
 execute store result storage minecraft:zsc.macro playerid int 1 run scoreboard players add #ID zsc.players 1
-execute as @s unless score @s zsc.players matches 1.. run function zsc:game/pcheck_experimental2 with storage minecraft:zsc.macro
+execute as @a unless score @s zsc.players matches 1.. run function zsc:game/pcheck_experimental2 with storage minecraft:zsc.macro

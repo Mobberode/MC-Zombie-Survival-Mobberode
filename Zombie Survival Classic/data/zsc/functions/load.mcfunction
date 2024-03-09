@@ -33,3 +33,7 @@ scoreboard objectives add zsc.server_mode dummy
 ##Experiments
 scoreboard objectives add zsc.experiment_buy_station dummy
 scoreboard objectives add zsc.experiment_buy_station_tokens dummy
+scoreboard objectives add zsc.experiment_buy_station_effect_type dummy
+scoreboard objectives add zsc.experiment_buy_station_effect_amplifier dummy
+scoreboard objectives add zsc.experiment_buy_station_effect_duration_increaser dummy
+scoreboard objectives add zsc.experiment_buy_station_effect_cost dummy

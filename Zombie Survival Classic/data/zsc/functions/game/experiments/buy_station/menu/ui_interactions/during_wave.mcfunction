@@ -4,6 +4,7 @@ execute as @a[scores={zs.menu.section=812},team=Alive,tag=zsc_experiment_buy_sta
 execute as @a[scores={zs.menu.section=8121},team=Alive,tag=zsc_experiment_buy_station.can_enter_shop] run function zsc:game/experiments/buy_station/menu/ui/effects/tier1
 execute as @a[scores={zs.menu.section=8122},team=Alive,tag=zsc_experiment_buy_station.can_enter_shop] run function zsc:game/experiments/buy_station/menu/ui/effects/tier2
 execute as @a[scores={zs.menu.section=8123},team=Alive,tag=zsc_experiment_buy_station.can_enter_shop] run function zsc:game/experiments/buy_station/menu/ui/effects/tier3
+execute as @a[scores={zs.menu.section=81231},team=Alive,tag=zsc_experiment_buy_station.can_enter_shop] run function zsc:game/experiments/buy_station/menu/ui_interactions/effects/t3/set_health_boost
 
 execute as @a[scores={zs.menu.interaction=8111},team=Alive,tag=zsc_experiment_buy_station.can_enter_shop] run function zsc:game/experiments/buy_station/menu/ui_interactions/revive/revive_1
 execute as @a[scores={zs.menu.interaction=8112},team=Alive,tag=zsc_experiment_buy_station.can_enter_shop] run function zsc:game/experiments/buy_station/menu/ui_interactions/revive/revive_2

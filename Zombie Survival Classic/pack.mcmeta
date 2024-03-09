@@ -1,9 +1,9 @@
 {
   "pack": {
-    "pack_format": 33,
+    "pack_format": 34,
     "supported_formats": {
       "min_inclusive": 22,
-      "max_inclusive": 33
+      "max_inclusive": 34
     },
     "description": "The Zombie Survival Classic / Mobberode Minigame"
   },

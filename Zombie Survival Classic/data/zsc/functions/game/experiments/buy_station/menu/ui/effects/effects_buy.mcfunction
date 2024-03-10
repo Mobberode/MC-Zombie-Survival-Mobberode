@@ -1,0 +1,10 @@
+##Start
+tellraw @s ["",{"text": "| Buy Station > Effects > Buy Menu | ","color": "red"},{"text": "Tokens: "},{"score":{"name": "@s","objective": "zsc.experiment_buy_station_tokens"}}]
+
+##Effect Name
+execute if score @s zsc.experiment_buy_station_effect_type matches 10 run tellraw @s ["",{"text": "Selected Effect: "},{"text": "Health Boost","color": "red"}]
+execute if score @s zsc.experiment_buy_station_effect_type matches 11 run tellraw @s ["",{"text": "Selected Effect: "},{"text": "Strength","color": "red"}]
+execute if score @s zsc.experiment_buy_station_effect_type matches 12 run tellraw @s ["",{"text": "Selected Effect: "},{"text": "Resistance","color": "blue"}]
+
+##Menu
+tellraw @s ["",{"text": "Amplifier: "},{"score":{"name": "@s","objective": "zsc.experiment_buy_station_effect_amplifier"},"color": "gold"},{"text": " "},{"text": "[+]","color": "green","clickEvent": {"action": "run_command","value": "/trigger zs.menu.interaction set 81201"}},{"text": " "},{"text": "[-]","color": "red","clickEvent": {"action": "run_command","value": "/trigger zs.menu.interaction set 81202"}},{"text": "\nDuration Increaser: "},{"score":{"name": "@s","objective": "zsc.experiment_buy_station_effect_duration_increaser"},"hoverEvent": {"action": "show_text","contents":"Each level increases the duration by 30 seconds."},"color": "gold"},{"text": " "},{"text": "[+]","color": "green","clickEvent": {"action": "run_command","value": "/trigger zs.menu.interaction set 81203"}},{"text": " "},{"text": "[-]","color": "red","clickEvent": {"action": "run_command","value": "/trigger zs.menu.interaction set 81204"}},{"text": "\nEffect Token Cost: "},{"score":{"name": "@s","objective":"zsc.experiment_buy_station_effect_cost"},"color": "gold"},{"text": "\n[ Buy Effect ]","color": "green","clickEvent": {"action": "run_command","value": "/trigger zs.menu.interaction set 81205"}},{"text": " "},{"text": "[ <-- ]","color": "red","clickEvent": {"action": "run_command","value": "/trigger zs.menu.section set 812"}}]

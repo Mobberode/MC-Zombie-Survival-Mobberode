@@ -30,4 +30,7 @@ schedule clear zsc:game/effects/glow/timer
 schedule clear zsc:game/effects/glow/mobreveal
 schedule clear zsc:game/gear/donation/check
 schedule clear zsc:game/wave/mobcheck
-schedule clear zsc:game/border/poscheck
+schedule clear zsc:game/experiments/buy_station/get_number
+schedule clear zsc:game/experiments/buy_station/player_detect
+schedule clear zsc:game/experiments/buy_station/menu/ui_interactions/switcher
+schedule clear zsc:game/experiments/buy_station/player/coas_giver_conditioned

@@ -4,7 +4,15 @@ execute as @a[scores={zs.menu.section=812},team=Alive,tag=zsc_experiment_buy_sta
 execute as @a[scores={zs.menu.section=8121},team=Alive,tag=zsc_experiment_buy_station.can_enter_shop] run function zsc:game/experiments/buy_station/menu/ui/effects/tier1
 execute as @a[scores={zs.menu.section=8122},team=Alive,tag=zsc_experiment_buy_station.can_enter_shop] run function zsc:game/experiments/buy_station/menu/ui/effects/tier2
 execute as @a[scores={zs.menu.section=8123},team=Alive,tag=zsc_experiment_buy_station.can_enter_shop] run function zsc:game/experiments/buy_station/menu/ui/effects/tier3
-execute as @a[scores={zs.menu.section=81231},team=Alive,tag=zsc_experiment_buy_station.can_enter_shop] run function zsc:game/experiments/buy_station/menu/ui_interactions/effects/t3/set_health_boost
+
+execute as @a[scores={zs.menu.interaction=81231},team=Alive,tag=zsc_experiment_buy_station.can_enter_shop] run function zsc:game/experiments/buy_station/menu/ui_interactions/effects/t3/set_health_boost
+execute as @a[scores={zs.menu.interaction=81232},team=Alive,tag=zsc_experiment_buy_station.can_enter_shop] run function zsc:game/experiments/buy_station/menu/ui_interactions/effects/t3/set_strength
+execute as @a[scores={zs.menu.interaction=81233},team=Alive,tag=zsc_experiment_buy_station.can_enter_shop] run function zsc:game/experiments/buy_station/menu/ui_interactions/effects/t3/set_resistance
+execute as @a[scores={zs.menu.interaction=81201},team=Alive,tag=zsc_experiment_buy_station.can_enter_shop] run function zsc:game/experiments/buy_station/menu/ui_interactions/effects/increase_amplifier
+execute as @a[scores={zs.menu.interaction=81202},team=Alive,tag=zsc_experiment_buy_station.can_enter_shop] run function zsc:game/experiments/buy_station/menu/ui_interactions/effects/decrease_amplifier
+execute as @a[scores={zs.menu.interaction=81203},team=Alive,tag=zsc_experiment_buy_station.can_enter_shop] run function zsc:game/experiments/buy_station/menu/ui_interactions/effects/increase_duration
+execute as @a[scores={zs.menu.interaction=81204},team=Alive,tag=zsc_experiment_buy_station.can_enter_shop] run function zsc:game/experiments/buy_station/menu/ui_interactions/effects/decrease_duration
+execute as @a[scores={zs.menu.interaction=81205},team=Alive,tag=zsc_experiment_buy_station.can_enter_shop] run function zsc:game/experiments/buy_station/menu/ui_interactions/effects/set_effect_detect
 
 execute as @a[scores={zs.menu.interaction=8111},team=Alive,tag=zsc_experiment_buy_station.can_enter_shop] run function zsc:game/experiments/buy_station/menu/ui_interactions/revive/revive_1
 execute as @a[scores={zs.menu.interaction=8112},team=Alive,tag=zsc_experiment_buy_station.can_enter_shop] run function zsc:game/experiments/buy_station/menu/ui_interactions/revive/revive_2

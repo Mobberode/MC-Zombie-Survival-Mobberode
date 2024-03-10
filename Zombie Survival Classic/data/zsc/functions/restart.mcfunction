@@ -26,6 +26,10 @@ schedule clear zsc:game/startcheck
 schedule clear zsc:game/effects/glow/timer
 schedule clear zsc:game/effects/glow/mobreveal
 schedule clear zsc:game/effects/effectcheck
+schedule clear zsc:game/experiments/buy_station/get_number
+schedule clear zsc:game/experiments/buy_station/player_detect
+schedule clear zsc:game/experiments/buy_station/menu/ui_interactions/switcher
+schedule clear zsc:game/experiments/buy_station/player/coas_giver_conditioned
 
 ##General
 schedule clear zsc:lobby/waiting/wait

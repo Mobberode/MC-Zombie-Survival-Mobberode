@@ -5,6 +5,15 @@ execute as @a[scores={zs.menu.section=8121},team=Alive,tag=zsc_experiment_buy_st
 execute as @a[scores={zs.menu.section=8122},team=Alive,tag=zsc_experiment_buy_station.can_enter_shop] run function zsc:game/experiments/buy_station/menu/ui/effects/tier2
 execute as @a[scores={zs.menu.section=8123},team=Alive,tag=zsc_experiment_buy_station.can_enter_shop] run function zsc:game/experiments/buy_station/menu/ui/effects/tier3
 
+execute as @a[scores={zs.menu.interaction=81211},team=Alive,tag=zsc_experiment_buy_station.can_enter_shop] run function zsc:game/experiments/buy_station/menu/ui_interactions/effects/t1/set_jump_boost
+execute as @a[scores={zs.menu.interaction=81212},team=Alive,tag=zsc_experiment_buy_station.can_enter_shop] run function zsc:game/experiments/buy_station/menu/ui_interactions/effects/t1/set_slow_falling
+execute as @a[scores={zs.menu.interaction=81213},team=Alive,tag=zsc_experiment_buy_station.can_enter_shop] run function zsc:game/experiments/buy_station/menu/ui_interactions/effects/t1/set_water_breathing
+execute as @a[scores={zs.menu.interaction=81214},team=Alive,tag=zsc_experiment_buy_station.can_enter_shop] run function zsc:game/experiments/buy_station/menu/ui_interactions/effects/t1/set_dolphins_grace
+execute as @a[scores={zs.menu.interaction=81215},team=Alive,tag=zsc_experiment_buy_station.can_enter_shop] run function zsc:game/experiments/buy_station/menu/ui_interactions/effects/t1/set_levitation
+execute as @a[scores={zs.menu.interaction=81221},team=Alive,tag=zsc_experiment_buy_station.can_enter_shop] run function zsc:game/experiments/buy_station/menu/ui_interactions/effects/t2/set_speed
+execute as @a[scores={zs.menu.interaction=81234},team=Alive,tag=zsc_experiment_buy_station.can_enter_shop] run function zsc:game/experiments/buy_station/menu/ui_interactions/effects/t3/set_regeneration
+execute as @a[scores={zs.menu.interaction=81223},team=Alive,tag=zsc_experiment_buy_station.can_enter_shop] run function zsc:game/experiments/buy_station/menu/ui_interactions/effects/t2/set_fire_resistance
+execute as @a[scores={zs.menu.interaction=81224},team=Alive,tag=zsc_experiment_buy_station.can_enter_shop] run function zsc:game/experiments/buy_station/menu/ui_interactions/effects/t2/set_invisiblity
 execute as @a[scores={zs.menu.interaction=81231},team=Alive,tag=zsc_experiment_buy_station.can_enter_shop] run function zsc:game/experiments/buy_station/menu/ui_interactions/effects/t3/set_health_boost
 execute as @a[scores={zs.menu.interaction=81232},team=Alive,tag=zsc_experiment_buy_station.can_enter_shop] run function zsc:game/experiments/buy_station/menu/ui_interactions/effects/t3/set_strength
 execute as @a[scores={zs.menu.interaction=81233},team=Alive,tag=zsc_experiment_buy_station.can_enter_shop] run function zsc:game/experiments/buy_station/menu/ui_interactions/effects/t3/set_resistance

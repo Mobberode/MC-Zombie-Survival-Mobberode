@@ -1,2 +1,2 @@
 scoreboard players set @s zsc.players 0
-function zsc:game/pcheck_experimental1
+tag @s remove zsc_processed_id

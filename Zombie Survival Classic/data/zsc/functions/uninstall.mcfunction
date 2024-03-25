@@ -98,4 +98,4 @@ team remove Waiting
 team remove mob
 
 ##Announce
-tellraw @a {"text": "ZSC / Mobberode Uninstalled! There may be some score objectives and other stuff left over from previous versions, however.","color": "gold"}
+tellraw @a {"text": "ZSC / Mobberode Uninstalled! There may be some score objectives and other stuff left over from previous versions.","color": "gold"}

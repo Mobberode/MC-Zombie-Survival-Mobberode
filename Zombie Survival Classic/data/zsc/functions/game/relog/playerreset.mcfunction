@@ -1,20 +1,20 @@
 ##Reset Relogged Player
-execute as @a[scores={zs.relogged=1..}] run function zsc:id_reset_specfic
-team join Waiting @a[scores={zs.relogged=1..}]
-kill @a[scores={zs.relogged=1..}]
-clear @a[scores={zs.relogged=1..}]
-tag @a[scores={zs.relogged=1..}] remove zsc.gear.processed.role
-
+#ID
+function zsc:id_reset_specfic
+team join Waiting @s
+clear @s
+tag @s remove zsc.gear.processed.role
+tag @s remove zsc.received
+kill @s
 
 #Clear Scores
-scoreboard players set @a[scores={zs.relogged=1..}] zs.coas 0
-scoreboard players set @a[scores={zs.relogged=1..}] zs.died 0
+scoreboard players set @s zs.coas 0
+scoreboard players set @s zs.died 0
 
 #Host
 function zsc:host
 
-#Reset Score
-scoreboard players set @a[scores={zs.relogged=1..}] zs.relogged 0
-
+#Reset 
 ##Experiments
-execute as @a[scores={zs.relogged=1..}] if score #Config zsc.experiment_buy_station matches 1 run function zsc:game/experiments/buy_station/tokens/remove_tokens
+execute if score #Config zsc.experiment_buy_station matches 1 run function zsc:game/experiments/buy_station/tokens/remove_tokens
+scoreboard players set @s zs.relogged 0

@@ -1,17 +1,16 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:chain_command_block"
+      "item": "minecraft:zombie_head"
     },
-    "title": "Global Game Advancements",
-    "description": "",
+    "title": "Zombie Survival Classic",
+    "description": "The hopeless fight against the endless horde begins...",
     "background": "minecraft:textures/block/mossy_cobblestone.png",
     "frame": "task",
-    "show_toast": false,
-    "announce_to_chat": false,
+    "show_toast": true,
+    "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "zsc:first_join",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:tick",

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:netherite_sword"
+      "item": "minecraft:netherite_sword"
     },
     "title": "The Feared amongst Mobs",
     "description": "You have bested more of their allies. They will never stop but so will you.\n\nReach Wave 30 or above in Tough difficulty with Rebalance Changes off",

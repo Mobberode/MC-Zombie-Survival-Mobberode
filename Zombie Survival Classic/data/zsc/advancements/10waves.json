@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:wooden_sword"
+      "id": "minecraft:wooden_sword"
     },
     "title": "Getting the hang of it",
     "description": "Reach Wave 10 or above in Tough difficulty",

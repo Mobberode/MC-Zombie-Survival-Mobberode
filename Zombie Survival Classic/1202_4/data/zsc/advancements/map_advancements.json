@@ -1,9 +1,9 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:chain_command_block"
+      "item": "minecraft:structure_void"
     },
-    "title": "Global Game Advancements",
+    "title": "Map Specfic Advancements",
     "description": "",
     "background": "minecraft:textures/block/mossy_cobblestone.png",
     "frame": "task",

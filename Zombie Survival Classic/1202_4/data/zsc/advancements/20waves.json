@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:iron_sword"
+      "item": "minecraft:iron_sword"
     },
     "title": "Going Expert",
     "description": "Reach Wave 20 or above in Tough difficulty with Rebalance Changes off",

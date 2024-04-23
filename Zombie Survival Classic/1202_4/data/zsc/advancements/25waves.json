@@ -1,17 +1,17 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:iron_sword"
+      "item": "minecraft:diamond_sword"
     },
-    "title": "Going Expert",
-    "description": "Reach Wave 20 or above in Tough difficulty with Rebalance Changes off",
+    "title": "Beacon of the Hopeful",
+    "description": "Reach Wave 25 or above in Tough difficulty with Rebalance Changes off",
     "background": "minecraft:textures/block/mossy_cobblestone.png",
     "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "zsc:15waves",
+  "parent": "zsc:20waves",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:impossible",

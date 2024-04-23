@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:chain_command_block"
+      "item": "minecraft:chain_command_block"
     },
     "title": "Global Game Advancements",
     "description": "",

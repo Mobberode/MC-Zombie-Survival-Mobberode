@@ -1,17 +1,17 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:iron_sword"
+      "item": "minecraft:skeleton_skull"
     },
-    "title": "Going Expert",
-    "description": "Reach Wave 20 or above in Tough difficulty with Rebalance Changes off",
+    "title": "First of Many",
+    "description": "Die.",
     "background": "minecraft:textures/block/mossy_cobblestone.png",
-    "frame": "goal",
+    "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "zsc:15waves",
+  "parent": "zsc:global",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:impossible",

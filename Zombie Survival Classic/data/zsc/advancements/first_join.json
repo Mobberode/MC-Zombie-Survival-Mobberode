@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:zombie_head"
+      "id": "minecraft:zombie_head"
     },
     "title": "Zombie Survival Classic",
     "description": "The hopeless fight against the endless horde begins...",

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:structure_void"
+      "id": "minecraft:structure_void"
     },
     "title": "Map Specfic Advancements",
     "description": "",

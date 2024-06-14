@@ -1,4 +1,6 @@
 ##Cycle through all IDs until a ID with no players assigned is met.
+#ID Check
+function zsc:game/pcheck_experimental2_check with storage minecraft:zsc.macro
 #Give ID if free
 $execute unless score #ID$(playerid) zsc.players matches 1.. run function zsc:game/pcheck_experimental2_1 with storage minecraft:zsc.macro
 

@@ -1,6 +1,6 @@
 {
   "pack": {
-    "pack_format": 41,
+    "pack_format": 48,
     "supported_formats": [
       22,
       26
@@ -10,10 +10,10 @@
   "filter": {
     "block": [
       {
-        "path": "advancements"
+        "path": "advancement"
       },
       {
-        "path": "recipes"
+        "path": "recipe"
       }
     ]
   },

@@ -12,7 +12,7 @@ execute as @e[type=!minecraft:area_effect_cloud] store result score @s zs.y run 
 execute as @e[type=!minecraft:area_effect_cloud] store result score @s zs.z run data get entity @s Pos[2]
 
 ##Fail Check
-function zsc:game/border/failcheck 
+function zsc:game/border/failcheck
 
 ##Loop
 schedule function zsc:game/border/poscheck 5t

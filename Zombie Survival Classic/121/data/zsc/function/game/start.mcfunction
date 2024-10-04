@@ -10,7 +10,7 @@ scoreboard players set #MiliScore zs.timer 1
 function zsc:game/configapply
 
 ##Set Players up
-execute as @a unless score #Score zsc.difficulty matches 0 run attribute @s max_health base set 20
+execute as @a unless score #Score zsc.difficulty matches 0 run attribute @s generic.max_health base set 20
 effect give @a instant_health 20 5
 
 ##Give all Waiting players loot

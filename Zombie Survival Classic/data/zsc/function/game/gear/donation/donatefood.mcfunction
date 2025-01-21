@@ -7,10 +7,10 @@ $execute unless score #Score zsc.config.donate matches 0 run clear @p minecraft:
 $execute unless score #Score zsc.config.donate matches 0 run clear @p minecraft:rabbit_stew $(foodgiveamount)
 
 ##Error
-execute if score @s zsc.player.food.count < @s zsc.player.food.give run tellraw @s ["",{"text": "You dont have enough food to do this sucessfully! Either get more food or lower how much you will give.","color": "red"}]
+execute if score @s zsc.player.food.count < @s zsc.player.food.give run tellraw @s [{text: "You dont have enough food to do this sucessfully! Either get more food or lower how much you will give.",color: red}]
 
 ##Success
-execute if score @s zsc.player.food.count >= @s zsc.player.food.give run tellraw @s ["",{"text": "Given Successfully!","color": "green"}]
+execute if score @s zsc.player.food.count >= @s zsc.player.food.give run tellraw @s [{text: "Given Successfully!",color: green}]
 
 ##Text
 function zsc:menu/spectator_actions

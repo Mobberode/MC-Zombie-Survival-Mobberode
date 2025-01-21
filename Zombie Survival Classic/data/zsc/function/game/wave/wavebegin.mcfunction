@@ -2,7 +2,7 @@
 function zsc:game/config/ranking/wrreset
 scoreboard players add #Score zs.wave 1
 scoreboard players set #Score zs.game.status 4
-title @a actionbar {"text":"New wave started"}
+title @a actionbar {text:"New wave started"}
 execute at @a run playsound minecraft:item.trident.thunder ambient @a
 
 ##Start mob spawning

@@ -10,5 +10,5 @@ execute unless score #Score zsc.config.player.vote.configs matches 0 run tag @s 
 execute unless score #Score zsc.config.player.vote.configs matches 0 run tag @s remove voted.pdp.false
 
 function zsc:menu/options/configs/game2
-execute if score #Score zsc.config.player.vote.configs matches 1 run tellraw @a ["",{"text":"PDP True Votes: "},{"score":{"name":"#Option1","objective":"zsc.config.punish.dead.players"}}]
-execute if score #Score zsc.config.player.vote.configs matches 1 run tellraw @a ["",{"text":"PDP False Votes: "},{"score":{"name":"#Option2","objective":"zsc.config.punish.dead.players"}}]
+execute if score #Score zsc.config.player.vote.configs matches 1 run tellraw @a [{text:"PDP True Votes: "},{score:{name:"#Option1",objective:"zsc.config.punish.dead.players"}}]
+execute if score #Score zsc.config.player.vote.configs matches 1 run tellraw @a [{text:"PDP False Votes: "},{score:{name:"#Option2",objective:"zsc.config.punish.dead.players"}}]

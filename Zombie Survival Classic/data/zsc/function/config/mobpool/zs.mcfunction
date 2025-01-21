@@ -12,6 +12,6 @@ execute unless score #Score zsc.config.player.vote.configs matches 0 run tag @s 
 execute unless score #Score zsc.config.player.vote.configs matches 0 run tag @s add voted.zsmoblist
 
 function zsc:menu/options/configs/game1
-execute if score #Score zsc.config.player.vote.configs matches 1 run tellraw @a ["",{"text":"ZSC Moblist Votes: "},{"score":{"name":"#Option2","objective":"zsc.config.mob.list"}}]
-execute if score #Score zsc.config.player.vote.configs matches 1 run tellraw @a ["",{"text":"ZSM Moblist Votes: "},{"score":{"name":"#Option3","objective":"zsc.config.mob.list"}}]
-execute if score #Score zsc.config.player.vote.configs matches 1 run tellraw @a ["",{"text":"ZS Moblist Votes: "},{"score":{"name":"#Option1","objective":"zsc.config.mob.list"}}]
+execute if score #Score zsc.config.player.vote.configs matches 1 run tellraw @a [{text:"ZSC Moblist Votes: "},{score:{name:"#Option2",objective:"zsc.config.mob.list"}}]
+execute if score #Score zsc.config.player.vote.configs matches 1 run tellraw @a [{text:"ZSM Moblist Votes: "},{score:{name:"#Option3",objective:"zsc.config.mob.list"}}]
+execute if score #Score zsc.config.player.vote.configs matches 1 run tellraw @a [{text:"ZS Moblist Votes: "},{score:{name:"#Option1",objective:"zsc.config.mob.list"}}]

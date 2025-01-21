@@ -12,6 +12,6 @@ execute unless score #Score zsc.config.player.vote.configs matches 0 run tag @s 
 execute unless score #Score zsc.config.player.vote.configs matches 0 run tag @s add voted.fixed
 
 function zsc:menu/options/configs/game1
-execute if score #Score zsc.config.player.vote.configs matches 1 run tellraw @a ["",{"text":"Multiply & Divide Votes: "},{"score":{"name":"#Option1","objective":"zsc.config.spawning.system.type"}}]
-execute if score #Score zsc.config.player.vote.configs matches 1 run tellraw @a ["",{"text":"Multiply Votes: "},{"score":{"name":"#Option2","objective":"zsc.config.spawning.system.type"}}]
-execute if score #Score zsc.config.player.vote.configs matches 1 run tellraw @a ["",{"text":"Fixed Votes: "},{"score":{"name":"#Option3","objective":"zsc.config.spawning.system.type"}}]
+execute if score #Score zsc.config.player.vote.configs matches 1 run tellraw @a [{text:"Multiply & Divide Votes: "},{score:{name:"#Option1",objective:"zsc.config.spawning.system.type"}}]
+execute if score #Score zsc.config.player.vote.configs matches 1 run tellraw @a [{text:"Multiply Votes: "},{score:{name:"#Option2",objective:"zsc.config.spawning.system.type"}}]
+execute if score #Score zsc.config.player.vote.configs matches 1 run tellraw @a [{text:"Fixed Votes: "},{score:{name:"#Option3",objective:"zsc.config.spawning.system.type"}}]

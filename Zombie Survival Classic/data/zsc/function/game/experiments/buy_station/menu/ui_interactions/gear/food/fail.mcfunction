@@ -1,1 +1,1 @@
-tellraw @s {"text": "Not enough Tokens!","color": "red"}
+tellraw @s {text: "Not enough Tokens!",color: red}

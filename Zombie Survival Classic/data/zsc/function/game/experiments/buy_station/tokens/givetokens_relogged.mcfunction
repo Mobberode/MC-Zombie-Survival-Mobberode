@@ -1,3 +1,3 @@
 scoreboard players set @s zsc.experiment_buy_station_tokens 0
 scoreboard players operation @s zsc.experiment_buy_station_tokens += #Stored zsc.experiment_buy_station_tokens
-tellraw @s ["",{"text": "Wave Tokens Worth: "},{"score":{"name": "#WaveWorth","objective": "zsc.experiment_buy_station_tokens"},"color": "gold"},{"text": "\nYour Tokens: "},{"score":{"name": "@s","objective": "zsc.experiment_buy_station_tokens"},"color": "gold"}]
+tellraw @s [{text: "Wave Tokens Worth: "},{score:{name: "#WaveWorth",objective: "zsc.experiment_buy_station_tokens"},color:gold},{text: " | Your Tokens: "},{score:{name: "@s",objective: "zsc.experiment_buy_station_tokens"},color:gold}]

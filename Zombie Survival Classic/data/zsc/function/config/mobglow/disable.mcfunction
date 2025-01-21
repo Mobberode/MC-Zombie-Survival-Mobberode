@@ -10,5 +10,5 @@ execute unless score #Score zsc.config.player.vote.configs matches 0 run tag @s 
 execute unless score #Score zsc.config.player.vote.configs matches 0 run tag @s add voted.nomobglow
 
 function zsc:menu/options/configs/game1
-execute if score #Score zsc.config.player.vote.configs matches 1 run tellraw @a ["",{"text":"Enable Mob Glow Votes: "},{"score":{"name":"#Option1","objective":"zsc.config.mob.glow"}}]
-execute if score #Score zsc.config.player.vote.configs matches 1 run tellraw @a ["",{"text":"Disable Mob Glow Votes: "},{"score":{"name":"#Option2","objective":"zsc.config.mob.glow"}}]
+execute if score #Score zsc.config.player.vote.configs matches 1 run tellraw @a [{text:"Enable Mob Glow Votes: "},{score:{name:"#Option1",objective:"zsc.config.mob.glow"}}]
+execute if score #Score zsc.config.player.vote.configs matches 1 run tellraw @a [{text:"Disable Mob Glow Votes: "},{score:{name:"#Option2",objective:"zsc.config.mob.glow"}}]

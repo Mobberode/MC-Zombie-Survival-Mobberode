@@ -22,4 +22,4 @@ scoreboard players set #Score zsc.config.give.players.shields 0
 scoreboard players set #Score zsc.config.punish.dead.players 0
 
 ##Announce
-tellraw @a {"text": "The Host has loaded a preset!","color": "yellow"}
+tellraw @a {text: "The Host has loaded a preset!",color: yellow}

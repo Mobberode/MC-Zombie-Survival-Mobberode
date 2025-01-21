@@ -40,4 +40,4 @@ $execute store result score #ACFGP$(UUID1)$(UUID2)$(UUID3)$(UUID4)$(Preset) zsc.
 $execute store result score #FCFGP$(UUID1)$(UUID2)$(UUID3)$(UUID4)$(Preset) zsc.player.food.count run scoreboard players get #GetAmountType zsc.player.food.count
 
 ##Announce
-tellraw @a[tag=host] {"text": "Preset Saved!","color": "yellow"}
+tellraw @a[tag=host] {text: "Preset Saved!",color: yellow}

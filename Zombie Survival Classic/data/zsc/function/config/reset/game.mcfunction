@@ -14,4 +14,4 @@ execute if entity @s[tag=host] run scoreboard players set #Score zsc.config.chal
 execute if entity @s[tag=host] run scoreboard players set #Score zsc.config.challenge.no.hit 0
 execute if entity @s[tag=host] run scoreboard players set #Score zsc.config.challenge.negative.effects 0
 execute if entity @s[tag=host] run scoreboard players set #Score zsc.config.rebalance.changes 1
-execute if entity @s[tag=host] run tellraw @a {"text": "Game Configurations Reset!","color": "red"}
+execute if entity @s[tag=host] run tellraw @a {text: "Game Configurations Reset!",color: red}

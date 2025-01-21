@@ -26,9 +26,9 @@ function zsc:game/mobs/killmobs
 function zsc:difficulty/voting/voteremove
 
 ##Announce!
-execute if score #Score zsc.difficulty matches 3 run tellraw @a ["",{"text":"* The players have choosen ","color":"#E8EB00"},{"text":"Hard!","color":"#FF0003"},{"text":" *","color":"#E8EB00"}]
-execute if score #Score zsc.difficulty matches 2 run tellraw @a ["",{"text":"* The players have choosen ","color":"#E8EB00"},{"text":"Normal!","color":"#F9FF74"},{"text":" *","color":"#E8EB00"}]
-execute if score #Score zsc.difficulty matches -1 run tellraw @a {"text":"* Looks like there's a tie... Well let's activate the Tie Breaker! *","color":"#E8EB00"}
+execute if score #Score zsc.difficulty matches 3 run tellraw @a [{text:"* The players have choosen ",color:"#E8EB00"},{text:"Hard!",color:"#FF0003"},{text:" *",color:"#E8EB00"}]
+execute if score #Score zsc.difficulty matches 2 run tellraw @a [{text:"* The players have choosen ",color:"#E8EB00"},{text:"Normal!",color:"#F9FF74"},{text:" *",color:"#E8EB00"}]
+execute if score #Score zsc.difficulty matches -1 run tellraw @a {text:"* Looks like there's a tie... Well let's activate the Tie Breaker! *",color:"#E8EB00"}
 
 #Custom
-execute if score #Score zsc.difficulty matches 0 run tellraw @a ["",{"text":"* The players have choosen ","color":"#E8EB00"},{"text":"Custom!","color":"gray"},{"text":" *","color":"#E8EB00"}]
+execute if score #Score zsc.difficulty matches 0 run tellraw @a [{text:"* The players have choosen ",color:"#E8EB00"},{text:"Custom!",color:"gray"},{text:" *",color:"#E8EB00"}]

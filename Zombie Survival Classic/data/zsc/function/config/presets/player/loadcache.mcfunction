@@ -40,4 +40,4 @@ $execute store result score #GetAmountType zsc.player.arrows.count run scoreboar
 $execute store result score #GetAmountType zsc.player.food.count run scoreboard players get #FCFGP$(UUID1)$(UUID2)$(UUID3)$(UUID4)$(Preset) zsc.player.food.count
 
 ##Announce
-tellraw @a {"text": "The Host has loaded a preset!","color": "yellow"}
+tellraw @a {text: "The Host has loaded a preset!",color: yellow}

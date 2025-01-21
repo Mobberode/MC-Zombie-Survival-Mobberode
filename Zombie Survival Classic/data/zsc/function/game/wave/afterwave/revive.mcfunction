@@ -3,7 +3,7 @@ schedule function zsc:game/wave/team_left_check 5s
 ##Announce
 execute if score #Score zsc.team.lives matches 1.. unless entity @a[team=Alive] run scoreboard players remove #Score zsc.team.lives 1
 execute as @a[team=Dead] if score #Score zsc.difficulty matches 0 if score #Score zsc.dconfig.ropd matches 1 if score #Score zsc.team.lives matches 1.. run scoreboard players remove #Score zsc.team.lives 1
-execute if score #Score zsc.team.lives matches 0.. unless entity @a[team=Alive] run tellraw @a {"text":"A Team Life has been used up!"}
+execute if score #Score zsc.team.lives matches 0.. unless entity @a[team=Alive] run tellraw @a {text:"A Team Life has been used up!"}
 
 ##Bring Waiting Players
 function zsc:game/gear/loot

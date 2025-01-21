@@ -10,5 +10,5 @@ execute unless score #Score zsc.config.player.vote.configs matches 0 run tag @s 
 execute unless score #Score zsc.config.player.vote.configs matches 0 run tag @s remove voted.nounusedmobs
 
 function zsc:menu/options/configs/game1
-execute if score #Score zsc.config.player.vote.configs matches 1 run tellraw @a ["",{"text":"Enable Unused Mobs Votes: "},{"score":{"name":"#Option1","objective":"zsc.config.unused.mobs"}}]
-execute if score #Score zsc.config.player.vote.configs matches 1 run tellraw @a ["",{"text":"Disable Unused Mobs Votes: "},{"score":{"name":"#Option2","objective":"zsc.config.unused.mobs"}}]
+execute if score #Score zsc.config.player.vote.configs matches 1 run tellraw @a [{text:"Enable Unused Mobs Votes: "},{score:{name:"#Option1",objective:"zsc.config.unused.mobs"}}]
+execute if score #Score zsc.config.player.vote.configs matches 1 run tellraw @a [{text:"Disable Unused Mobs Votes: "},{score:{name:"#Option2",objective:"zsc.config.unused.mobs"}}]

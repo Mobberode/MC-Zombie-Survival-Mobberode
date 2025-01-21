@@ -10,5 +10,5 @@ execute unless score #Score zsc.config.player.vote.configs matches 0 run tag @s 
 execute unless score #Score zsc.config.player.vote.configs matches 0 run tag @s remove voted.nodonation
 
 function zsc:menu/options/configs/game2
-execute if score #Score zsc.config.player.vote.configs matches 1 run tellraw @a ["",{"text":"Enable Donation Votes: "},{"score":{"name":"#Option1","objective":"zsc.config.donate"}}]
-execute if score #Score zsc.config.player.vote.configs matches 1 run tellraw @a ["",{"text":"Disable Donation Votes: "},{"score":{"name":"#Option2","objective":"zsc.config.donate"}}]
+execute if score #Score zsc.config.player.vote.configs matches 1 run tellraw @a [{text:"Enable Donation Votes: "},{score:{name:"#Option1",objective:"zsc.config.donate"}}]
+execute if score #Score zsc.config.player.vote.configs matches 1 run tellraw @a [{text:"Disable Donation Votes: "},{score:{name:"#Option2",objective:"zsc.config.donate"}}]

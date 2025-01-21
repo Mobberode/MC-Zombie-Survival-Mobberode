@@ -1,5 +1,5 @@
 ##Perfect Ranking (No Total Damage)
-title @a actionbar {"text":"[Wave Ranking:] [NO DAMAGE!] Loot is rewarded."}
+title @a actionbar {text:"[Wave Ranking:] [NO DAMAGE!] Loot is rewarded."}
 #For Custom
 execute if score #Player zsc.dconfig.gear.level matches 9 if score #Score zsc.difficulty matches 0 run give @a totem_of_undying 1
 #Reward Scaling

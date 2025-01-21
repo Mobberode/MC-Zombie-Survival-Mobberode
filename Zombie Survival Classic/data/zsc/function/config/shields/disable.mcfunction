@@ -10,5 +10,5 @@ execute unless score #Score zsc.config.player.vote.configs matches 0 run tag @s 
 execute unless score #Score zsc.config.player.vote.configs matches 0 run tag @s remove voted.gps.true
 
 function zsc:menu/options/configs/game2
-execute if score #Score zsc.config.player.vote.configs matches 1 run tellraw @a ["",{"text":"GPS True Votes: "},{"score":{"name":"#Option1","objective":"zsc.config.give.players.shields"}}]
-execute if score #Score zsc.config.player.vote.configs matches 1 run tellraw @a ["",{"text":"GPS False Votes: "},{"score":{"name":"#Option2","objective":"zsc.config.give.players.shields"}}]
+execute if score #Score zsc.config.player.vote.configs matches 1 run tellraw @a [{text:"GPS True Votes: "},{score:{name:"#Option1",objective:"zsc.config.give.players.shields"}}]
+execute if score #Score zsc.config.player.vote.configs matches 1 run tellraw @a [{text:"GPS False Votes: "},{score:{name:"#Option2",objective:"zsc.config.give.players.shields"}}]

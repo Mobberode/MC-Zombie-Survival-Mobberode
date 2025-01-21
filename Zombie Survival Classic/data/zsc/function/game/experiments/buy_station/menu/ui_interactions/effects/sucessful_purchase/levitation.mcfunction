@@ -4,4 +4,4 @@ scoreboard players set @s zsc.experiment_buy_station_effect_amplifier 0
 scoreboard players set @s zsc.experiment_buy_station_effect_cost 1
 scoreboard players set @s zsc.experiment_buy_station_effect_duration_increaser 0
 function zsc:game/experiments/buy_station/menu/ui/effects/effects_buy
-tellraw @s {"text": "{ Purchase of Levitation Successful! }","color": "green"}
+tellraw @s {text: "{ Purchase of Levitation Successful! }",color: green}

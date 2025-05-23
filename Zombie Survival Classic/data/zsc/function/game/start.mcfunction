@@ -21,7 +21,7 @@ schedule function zsc:game/gear/start/transfer 1s
 function zsc:game/wave/team_left_check
 
 ##Teleport
-execute as @e[tag=zs.plrspawn,sort=random] run tp @a[team=!Alive] @s
+execute as @e[tag=zs.plrspawn,sort=random] run tp @a[team=!mb.base.alive] @s
 
 ##Difficulty
 schedule function zsc:game/difficulty/start 1s

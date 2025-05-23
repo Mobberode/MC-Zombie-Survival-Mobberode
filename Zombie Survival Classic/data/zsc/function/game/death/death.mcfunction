@@ -1,6 +1,6 @@
 ##Make player join team Dead
 advancement grant @s only zsc:1st_death
-team join Dead @s[tag=died]
+team join mb.base.dead @s[tag=died]
 scoreboard players set @s[tag=died] zs.died 0
 
 ##Announce to the player

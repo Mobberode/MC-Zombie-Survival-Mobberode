@@ -92,8 +92,8 @@ tag @a remove voted.gps.true
 tag @a remove voted.gps.false
 tag @a remove zsc_processed_id
 #Teams
-team remove Alive
-team remove Dead
+team remove mb.base.alive
+team remove mb.base.dead
 team remove Waiting
 team remove mob
 

@@ -1,5 +1,5 @@
 {
-	"values": [
-		"zsc:load"
-	]
+    "values": [
+        "mb.base:load"
+    ]
 }

@@ -1,3 +1,3 @@
 ##Transfer Waiting to Alive
-team join Alive @a
-tag @a[team=Alive] add playing
+team join mb.base.alive @a
+tag @a[team=mb.base.alive] add playing

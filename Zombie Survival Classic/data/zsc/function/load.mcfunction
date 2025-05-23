@@ -8,7 +8,7 @@ schedule function zsc:config/load 1s
 #Prepare for Difficulty
 schedule function zsc:difficulty/load 1s
 #Borders
-schedule function zsc:game/border/poscheck 1s
+schedule function mb.base:technical/border/poscheck 1s
 #Prepare for Game
 schedule function zsc:game/load 1s
 #Relog

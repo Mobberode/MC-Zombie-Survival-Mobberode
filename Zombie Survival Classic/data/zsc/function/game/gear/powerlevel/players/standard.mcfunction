@@ -14,7 +14,7 @@ $tag @a[tag=$(role_tag)] add zsc.gear.processed.role
 #Equipment
 item replace entity @a[tag=!zsc.received] hotbar.0 with iron_sword[minecraft:unbreakable={unbreakable:1}]
 item replace entity @a[tag=!zsc.received] hotbar.1 with bow[minecraft:unbreakable={unbreakable:1}]
-execute if score #Score zsc.config.give.players.shields matches 1 run item replace entity @a[tag=!zsc.received] weapon.offhand with shield[enchantments= {levels: {"minecraft:unbreaking": 3}}]
+execute if score #Score zsc.config.give.players.shields matches 1 run item replace entity @a[tag=!zsc.received] weapon.offhand with shield[enchantments={unbreaking:3}]
 
 ##Loop
 scoreboard players remove #ArmourTick zs.timer 1

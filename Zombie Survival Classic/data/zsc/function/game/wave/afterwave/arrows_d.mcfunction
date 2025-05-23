@@ -1,5 +1,5 @@
 ##Gives arrow before wave
-execute unless score #Score zsc.difficulty matches 0 run give @a[team=Alive] minecraft:arrow 32
+execute unless score #Score zsc.difficulty matches 0 run give @a[team=mb.base.alive] minecraft:arrow 32
 execute unless score #Score zsc.difficulty matches 0 run scoreboard players set #Arrows zs.wave 2
 
 ##Custom

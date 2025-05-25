@@ -9,25 +9,16 @@ scoreboard players set #MiliScore zs.timer 1
 ##Apply Configs
 function zsc:game/configapply
 
-##Set Players up
-execute as @a unless score #Score zsc.difficulty matches 0 run attribute @s max_health base set 20
-effect give @a instant_health 20 5
-
-##Give all Waiting players loot
-schedule function zsc:game/gear/loot 2t
 #Turn all Waiting players into Alive players
-schedule function zsc:game/gear/start/transfer 1s
+execute as @a run function zsc:game/gear/start/transfer
 #Team Left Check
 function zsc:game/wave/team_left_check
 
-##Teleport
-execute as @e[tag=zs.plrspawn,sort=random] run tp @a[team=!mb.base.alive] @s
-
 ##Difficulty
-schedule function zsc:game/difficulty/start 1s
+function zsc:game/difficulty/start
 
 #Skip
-schedule function zsc:game/skip/skip 12s
+function zsc:game/skip/skip
 
 ##Roles
 function zsc:game/config/roles

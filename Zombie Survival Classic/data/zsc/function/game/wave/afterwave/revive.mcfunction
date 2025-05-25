@@ -6,7 +6,7 @@ execute as @a[team=mb.base.dead] if score #Score zsc.difficulty matches 0 if sco
 execute if score #Score zsc.team.lives matches 0.. unless entity @a[team=mb.base.alive] run tellraw @a {text:"A Team Life has been used up!"}
 
 ##Bring Waiting Players
-function zsc:game/gear/loot
+execute as @a[team=!mb.base.alive,team=!mb.base.dead] run function zsc:game/gear/start/transfer
 
 ##Revive
 execute as @e[tag=zs.plrspawn,sort=random,limit=1] run tp @a[team=!mb.base.alive] @s

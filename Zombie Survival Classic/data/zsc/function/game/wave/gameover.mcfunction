@@ -11,3 +11,5 @@ execute unless entity @a[team=mb.base.alive] run schedule clear zsc:game/playerc
 
 ##Advancements
 function zsc:game/wave/gameover_advancement_check
+
+function #zsc:game_over

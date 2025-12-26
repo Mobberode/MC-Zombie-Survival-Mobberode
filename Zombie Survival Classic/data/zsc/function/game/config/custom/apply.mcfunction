@@ -13,7 +13,6 @@ execute store result storage minecraft:zsc.macro tlamount int 1 run scoreboard p
 execute store result storage minecraft:zsc.macro capmamount int 1 run scoreboard players get #CustomMultiplier zsc.mob.amount.operation
 execute store result storage minecraft:zsc.macro acapamount int 1 run scoreboard players get #CustomActiveCap zsc.mob.amount
 execute store result storage minecraft:zsc.macro ewavestart int 1 run scoreboard players get #Wave zsc.dconfig.mobeffects.wave
-execute store result storage minecraft:zsc.macro ararity int 1 run scoreboard players get #CustomArrowsCache zs.wave
 execute store result storage minecraft:zsc.macro frarity int 1 run scoreboard players get #CustomFoodCache zs.wave
 execute if score #Minecraft zsc.difficulty matches 1 run data modify storage minecraft:zsc.macro mcd set value Easy
 execute if score #Minecraft zsc.difficulty matches 2 run data modify storage minecraft:zsc.macro mcd set value Normal

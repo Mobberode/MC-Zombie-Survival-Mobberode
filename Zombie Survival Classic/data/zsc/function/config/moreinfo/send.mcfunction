@@ -1,6 +1,3 @@
-##This gives info about how many mobs are left for those who have it enabled.
-execute store result score #Active zsc.mob.amount run effect give @e[tag=mob] minecraft:luck 1 1 true
-
 ##Send Info
 execute if score #Score zs.game.status matches 4 unless score #Score zs.game.status matches 3 run title @a[scores={zsc.player.config.moreinfo=1}] actionbar [{text:"Wave: "},{score:{name:"#Score",objective:"zs.wave"}},{text:" | Mobs: "},{score:{name:"#Active",objective:"zsc.mob.amount"}},{text:" | TLives: "},{score:{name:"#Score",objective:"zsc.team.lives"}}]
 #Nerd Mode

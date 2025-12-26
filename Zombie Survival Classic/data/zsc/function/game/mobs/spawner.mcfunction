@@ -1,18 +1,13 @@
-##This will be called first to start the correct spawning from the config.
-#Will also be the limiter on the active mobs amount
-execute if score #Score zsc.config.mob.list matches ..0 if score #Score zsc.config.rebalance.changes matches ..0 unless score #CreeperS zsc.config.zsc.gamemode matches 1 run function zsc:game/mobs/zsc/spawning
-execute if score #Score zsc.config.mob.list matches 1 if score #Score zsc.config.rebalance.changes matches ..0 unless score #CreeperS zsc.config.zsc.gamemode matches 1 run function zsc:game/mobs/zsm/spawning
-execute if score #Score zsc.config.mob.list matches 2 if score #Score zsc.config.rebalance.changes matches ..0 unless score #CreeperS zsc.config.zsc.gamemode matches 1 run function zsc:game/mobs/zs/spawning
-##Rebalanced
-execute if score #Score zsc.config.mob.list matches ..0 if score #Score zsc.config.rebalance.changes matches 1.. unless score #CreeperS zsc.config.zsc.gamemode matches 1 run function zsc:game/mobs/zsc/spawningrebalanced
-execute if score #Score zsc.config.mob.list matches 1 if score #Score zsc.config.rebalance.changes matches 1.. unless score #CreeperS zsc.config.zsc.gamemode matches 1 run function zsc:game/mobs/zsm/spawningrebalanced
-execute if score #Score zsc.config.mob.list matches 2 if score #Score zsc.config.rebalance.changes matches 1.. unless score #CreeperS zsc.config.zsc.gamemode matches 1 run function zsc:game/mobs/zs/spawningrebalanced
-##Creeper Survival
-execute if score #CreeperS zsc.config.zsc.gamemode matches 1 run function zsc:game/mobs/creepersurvival/spawning
-##ZSCreator Map Override
-execute if score #Score zsc.config.mob.list matches 4 unless score #CreeperS zsc.config.zsc.gamemode matches 1 run function zsc:game/mobs/zscreatoroverride/spawning
+##Spawner
+#Get count of current mobs
+execute store result score #Active zsc.mob.amount if entity @e[type=!player,tag=mb.mob]
 
-##Start the limiter
-execute unless score #Score zsc.difficulty matches 0 run scoreboard players set #ActiveCap zsc.mob.amount 50
-execute if score #Score zsc.difficulty matches 0 store result score #ActiveCap zsc.mob.amount run scoreboard players get #CustomActiveCap zsc.mob.amount
-function zsc:game/mobs/limiter
+#Check (If active cap reached)
+execute if score #Active zsc.mob.amount >= #ActiveCap zsc.mob.amount run return run function zsc:game/mobs/pause
+#Check (if mobcap has been reached)
+execute if score #Amount zsc.mob.amount >= #Cap zsc.mob.amount run return run function zsc:game/mobs/clear
+#Unless
+function zsc:game/mobs/proceed
+
+#Loop
+execute if score #Score zs.game.status matches 4 run schedule function zsc:game/mobs/spawner 1t

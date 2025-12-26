@@ -9,7 +9,6 @@ schedule clear zsc:game/death/deathcheck
 schedule clear zsc:game/playercheck
 schedule clear zsc:game/wave/wavecooldown
 schedule clear zsc:game/wave/mobcheck
-schedule clear zsc:game/wave/wavebeatcheck
 schedule clear zsc:game/effects/glow/timer
 schedule clear zsc:game/effects/glow/mobreveal
 schedule clear zsc:game/gear/donation/check

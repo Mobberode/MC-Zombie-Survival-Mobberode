@@ -1,4 +1,4 @@
-##Revive Dead players, bring Waiting players and give loot if it's time.
+##Revive Dead players, bring zsc.waiting players and give loot if it's time.
 scoreboard players set #Score zs.game.status 3
 #Also multiply and divide
 function zsc:game/mobs/mobcap/multiply

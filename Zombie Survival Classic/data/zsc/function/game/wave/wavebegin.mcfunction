@@ -19,7 +19,5 @@ scoreboard players set #MinuteScore zs.timer 0
 function zsc:game/effects/glow/timer
 #Effects
 function zsc:game/effects/effectcheck
-#Start wave beat check
-schedule function zsc:game/wave/wavebeatcheck 5s
 #Reset Skip Counter
 scoreboard players set #Skip zs.coas 0

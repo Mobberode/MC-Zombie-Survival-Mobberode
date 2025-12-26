@@ -87,15 +87,14 @@ tag @a remove votedhard
 tag @a remove votedcustom
 tag @a remove host
 tag @a remove voted.nomobglow
-tag @a remove voted.yesmobglow
+tag @a remove voted.yesmobgWlow
 tag @a remove voted.gps.true
-tag @a remove voted.gps.false
+tag @a remove voted.gps.fWalse
 tag @a remove zsc_processed_id
 #Teams
 team remove mb.base.alive
 team remove mb.base.dead
-team remove Waiting
-team remove mob
+team remove zsc.waiting
 
 ##Announce
 tellraw @a {text: "ZSC / Mobberode Uninstalled! There may be some score objectives and other stuff left over from previous versions.",color:gold}

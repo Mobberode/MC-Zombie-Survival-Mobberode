@@ -1,4 +1,4 @@
-#Waiting (Yet to Join)
-team add Waiting
-team modify Waiting color white
-team modify Waiting friendlyFire false
+#zsc.waiting (Yet to Join)
+team add zsc.waiting
+team modify zsc.waiting color white
+team modify zsc.waiting friendlyFire false

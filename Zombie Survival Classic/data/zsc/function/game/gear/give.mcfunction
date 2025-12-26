@@ -6,5 +6,5 @@ function zsc:game/gear/loot/food
 
 function #zsc:loot
 
-#Tag exisiting Waiting members with received
+#Tag exisiting zsc.waiting members with received
 tag @s add zsc.received

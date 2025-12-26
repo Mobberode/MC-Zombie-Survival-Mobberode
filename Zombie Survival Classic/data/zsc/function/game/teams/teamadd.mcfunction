@@ -1,4 +1,4 @@
-##Add Alive, Dead and Waiting
+##Add Alive, Dead and zsc.waiting
 function mb.base:technical/initalization/teams
-#Waiting
+#zsc.waiting
 function zsc:game/teams/addwaiting

@@ -1,10 +1,10 @@
-##Transfer Waiting to Alive
+##Transfer zsc.waiting to Alive
 team join mb.base.alive
 tag @s add playing
 ##Teleport
 tp @s @e[tag=zs.plrspawn,sort=random,limit=1]
 
-##Give all Waiting players loot
+##Give all zsc.waiting players loot
 function zsc:game/gear/loot
 
 ##Set up

@@ -1,6 +1,4 @@
 ##List of mobs
-#Loop
-execute unless score #Cap zsc.mob.amount < #Amount zsc.mob.amount unless score #Score zs.game.status matches 3 run schedule function zsc:game/mobs/zsc/spawningrebalanced 5t
 #Zombie
 execute if score #Score zs.wave matches 1..9 if predicate zsc:tenth run function zsc:game/mobs/global/zombie
 #Skeleton

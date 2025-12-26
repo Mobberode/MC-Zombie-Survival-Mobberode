@@ -11,7 +11,7 @@ tag @a remove votedhard
 tag @a remove votednormal
 tag @a remove votedcustom
 #Teams
-team join Waiting @a
+team join zsc.waiting @a
 
 ##Start COAS Giver
 function zsc:lobby/coas_giver

@@ -1,7 +1,7 @@
 ##Reset Relogged Player
 #ID
 function zsc:id_reset_specfic
-team join Waiting @s
+team join zsc.waiting @s
 clear @s
 tag @s remove zsc.gear.processed.role
 tag @s remove zsc.received

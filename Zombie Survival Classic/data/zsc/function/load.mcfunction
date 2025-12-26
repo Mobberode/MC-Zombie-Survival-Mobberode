@@ -4,28 +4,28 @@ scoreboard players set #ZSC_Extensions zs.game 0
 ##Init
 scoreboard players set #Game zs.game 1
 #Prepare Configs
-schedule function zsc:config/load 1s
+function zsc:config/load
 #Prepare for Difficulty
-schedule function zsc:difficulty/load 1s
+function zsc:difficulty/load
 #Borders
-schedule function mb.base:technical/border/poscheck 1s
+function mb.base:technical/border/poscheck
 #Prepare for Game
-schedule function zsc:game/load 1s
+function zsc:game/load
 #Relog
-schedule function zsc:game/relog/relogdetect 10t
+function zsc:game/relog/relogdetect
 
 #Set Score
 scoreboard players set #Score zs.game.status 1
 
 ##Add Teams
 #Special Roles
-schedule function zsc:config/roles/roles 1s
+function zsc:config/roles/roles
 #Standard Teams
-schedule function zsc:game/teams/teamadd 1s
+function zsc:game/teams/teamadd
 
-schedule function zsc:gameload 1s
-schedule function zsc:config/moreinfo/send 1s
-schedule function zsc:coas_giver_detector 1s
+function zsc:gameload
+function zsc:config/moreinfo/send
+function zsc:coas_giver_detector
 
 ##Server Mode (If used on a server. Put this to 1! otherwise put it to 0.)
 scoreboard objectives add zsc.server_mode dummy

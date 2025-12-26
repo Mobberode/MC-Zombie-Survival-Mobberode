@@ -24,7 +24,6 @@ tag @a remove votedcustom
 schedule clear zsc:game/wave/gameover
 schedule clear zsc:game/death/deathcheck
 schedule clear zsc:lobby/waiting/wait
-schedule clear zsc:game/wave/wavebeatcheck
 schedule clear zsc:game/wave/wavecooldown
 schedule clear zsc:game/effects/glow/timer
 schedule clear zsc:game/effects/glow/mobreveal

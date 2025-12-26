@@ -11,7 +11,7 @@ $tellraw @s {text:"Active Cap: $(acapamount)"}
 $tellraw @s {text:"Player Gear Power: $(pgp)"}
 $tellraw @s {text:"Mob Gear Power: $(mgp)"}
 $tellraw @s {text:"Effect Wave Start: $(ewavestart)"}
-$tellraw @s {text: "Arrow Rarity: $(ararity) "}
+tellraw @s [{text: "Arrow Rarity: "},{score:{name:"#CustomArrowsCache",objective:zs.wave}}]
 $tellraw @s {text: "Food Rarity: $(frarity) "}
 execute if score #GetAmountType zsc.player.arrows.count matches 4 run tellraw @s {text: "Arrow Scarity: Plenty"}
 execute if score #GetAmountType zsc.player.arrows.count matches 3 run tellraw @s {text: "Arrow Scarity: Standard"}

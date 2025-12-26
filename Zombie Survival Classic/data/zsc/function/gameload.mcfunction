@@ -1,15 +1,15 @@
+##Loop
+execute unless entity @a run return run schedule function zsc:gameload 1t
+
 ##Restart any scores
-execute if entity @a run function zsc:restart
+function zsc:restart
 
 ##Start the engines!
-execute if entity @a run clear @a
-execute if entity @a run function zsc:config/triggers/director
-execute if entity @a run function zsc:host
-execute if entity @a run function zsc:lobby/lobby
-execute if entity @a run function zsc:game/coascheck
+clear @a
+function zsc:config/triggers/director
+function zsc:host
+function zsc:lobby/lobby
+function zsc:game/coascheck
 #Player Check
-execute if entity @a run function zsc:game/playercheck
-execute if entity @a run function zsc:reload
-
-##Loop
-execute unless entity @a run schedule function zsc:gameload 1t
+function zsc:game/playercheck
+function zsc:reload

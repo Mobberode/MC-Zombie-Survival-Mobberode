@@ -1,4 +1,4 @@
-scoreboard players set @s zs.menu.interaction -1
+
 tellraw @s {text:"- Enabled Host Configurations -",color:green}
 execute if score #Score zsc.config.player.vote.configs matches 1 run tellraw @s {text:"Config Voting"}
 execute if score #Score zsc.config.zsct.map.forced.changes matches 1 run tellraw @s {text:"ZSCreator Map Forced Changes"}

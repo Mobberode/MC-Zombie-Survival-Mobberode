@@ -1,2 +1,2 @@
-scoreboard players set @s zs.menu.section -1
+
 tellraw @s [{text: "| Advanced |",color: red},{text: "[ZSCreator]",color:gold,hover_event: {"action": "show_text",value:"ZSCreator is a tool created for easy map creation for ZSC to use alongside other minigames."}},{text: "[In the End]",color:gold,hover_event: {"action": "show_text",value:"For those that have fallen. There is the one to save us... Yet, a greater threat of a whole awaits. "}},{text:" "},{text: "[ <-- ]",color: red,click_event: {"action": "run_command",command: "/trigger zs.menu.section set 3"}}]

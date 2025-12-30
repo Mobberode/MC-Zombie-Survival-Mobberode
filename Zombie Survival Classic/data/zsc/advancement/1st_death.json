@@ -5,7 +5,6 @@
     },
     "title": "First of Many",
     "description": "Die.",
-    "background": "minecraft:textures/block/mossy_cobblestone.png",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

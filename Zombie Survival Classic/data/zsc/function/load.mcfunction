@@ -11,8 +11,6 @@ function zsc:difficulty/load
 function mb.base:technical/border/poscheck
 #Prepare for Game
 function zsc:game/load
-#Relog
-function zsc:game/relog/relogdetect
 
 #Set Score
 scoreboard players set #Score zs.game.status 1
@@ -24,8 +22,6 @@ function zsc:config/roles/roles
 function zsc:game/teams/teamadd
 
 function zsc:gameload
-function zsc:config/moreinfo/send
-function zsc:coas_giver_detector
 
 ##Server Mode (If used on a server. Put this to 1! otherwise put it to 0.)
 scoreboard objectives add zsc.server_mode dummy

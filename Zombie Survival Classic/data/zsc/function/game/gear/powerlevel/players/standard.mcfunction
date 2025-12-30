@@ -15,4 +15,4 @@ execute if score #Score zsc.config.give.players.shields matches 1 run item repla
 ##Loop
 scoreboard players remove #ArmourTick zs.timer 1
 scoreboard players add #RolesProcessed zs.timer 1
-execute unless score #ArmourTick zs.timer matches ..0 run function zsc:game/gear/powerlevel/players/set_cosmestics with storage minecraft:zsc.macro
+execute unless score #ArmourTick zs.timer matches ..0 run function zsc:game/gear/powerlevel/players/set_cosmestics with storage zsc:macro

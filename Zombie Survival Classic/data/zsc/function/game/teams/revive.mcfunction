@@ -1,3 +1,5 @@
-##Turn zsc.waiting and Dead to Alive
-execute if score #Config zsc.experiment_buy_station matches 1 run function zsc:game/experiments/buy_station/tokens/give_stored_tokens
-team join mb.base.alive @a[team=!mb.base.alive]
+##Bring zsc.waiting Players
+execute if entity @s[team=zsc.waiting] run return run function zsc:game/gear/start/transfer
+
+team join mb.base.alive
+tp @s @e[tag=zs.plrspawn,sort=random,limit=1]

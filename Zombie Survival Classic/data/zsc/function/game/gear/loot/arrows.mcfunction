@@ -1,2 +1,2 @@
 ##Give arrows
-give @a[tag=!zsc.received] arrow 32
+give @s arrow 32

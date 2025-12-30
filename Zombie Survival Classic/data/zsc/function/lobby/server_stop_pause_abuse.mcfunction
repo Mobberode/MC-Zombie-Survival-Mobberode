@@ -1,2 +1,2 @@
 scoreboard players set #Score zsc.host.toggled.lobbytimer 0
-tellraw @a {text: "Ability to pause the timer has been disabled to prevent abuse on servers! This will be re-enabled once the game restarts."}
+tellraw @a "Ability to pause the timer has been disabled to prevent abuse on servers! This will be re-enabled once the game restarts."

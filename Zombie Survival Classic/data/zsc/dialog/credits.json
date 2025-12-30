@@ -1,0 +1,45 @@
+{
+  "type": "multi_action",
+  "title": "Zombie Survival Classic",
+  "exit_action": {"label": "Back","action":{"type":"show_dialog","dialog":"zsc:menu"}},
+  "body": [
+    {
+      "type": "plain_message",
+      "contents": {
+        "text": "Credits"
+      }
+    },
+    {
+      "type": "plain_message",
+      "contents": {
+        "text": "- Mobberode -\nDeveloper: Icement"
+      }
+    },
+    {
+      "type": "plain_message",
+      "contents": {
+        "text": "- General -\nIdeas: Alf-Coe, x0tekk\nPlaytesters: Alf-Coe. PremiereYeti, cody5325, MrNine-ATV, DireTerror29117, Razz"
+      },"width": 384
+    }
+  ],
+  "actions": [
+    {
+      "label": {
+        "text": "Trello"
+      },
+      "action": {
+        "type": "open_url",
+        "url": "https://trello.com/b/dIMZX37N/zombie-survival-classic"
+      }
+    },
+        {
+      "label": {
+        "text": "GitHub"
+      },
+      "action": {
+        "type": "open_url",
+        "url": "https://github.com/Mobberode/MC-Zombie-Survival-Mobberode"
+      }
+    }
+  ]
+}

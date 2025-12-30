@@ -60,6 +60,9 @@ scoreboard objectives remove zsc.world_preset
 scoreboard objectives remove zsc.server_mode
 scoreboard objectives remove zsc.info_tips
 scoreboard objectives remove zsc.config.mob.spawn.radius.check
+scoreboard objectives remove zsc.num
+scoreboard objectives remove zsc.respawn_delay
+scoreboard objectives remove zsc.skipped
 
 #Tags
 tag @a remove voted.modernstyle
@@ -91,10 +94,12 @@ tag @a remove voted.yesmobgWlow
 tag @a remove voted.gps.true
 tag @a remove voted.gps.fWalse
 tag @a remove zsc_processed_id
+tag @a remove skipped
+
 #Teams
 team remove mb.base.alive
 team remove mb.base.dead
 team remove zsc.waiting
 
 ##Announce
-tellraw @a {text: "ZSC / Mobberode Uninstalled! There may be some score objectives and other stuff left over from previous versions.",color:gold}
+tellraw @a {text:"ZSC / Mobberode Uninstalled! There may be some score objectives and other stuff left over from previous versions.",color:gold}

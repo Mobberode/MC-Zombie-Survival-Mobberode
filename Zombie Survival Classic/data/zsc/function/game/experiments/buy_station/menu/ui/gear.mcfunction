@@ -1,2 +1,2 @@
-scoreboard players set @s zs.menu.section -1
+
 tellraw @s [{text: "| Buy Station > Equipment | ",color: red},{text: "Tokens: "},{score:{name: "@s",objective: "zsc.experiment_buy_station_tokens"}},{text:" "},{text: "[Armour]",color:gold,click_event: {"action": "run_command",command: "/trigger zs.menu.section set 8131"}},{text:" "},{text: "[Weapons]",color:gold,click_event: {"action": "run_command",command: "/trigger zs.menu.section set 8132"}},{text:" "},{text: "[Food]",color:gold,click_event: {"action": "run_command",command: "/trigger zs.menu.section set 8133"}},{text:" "},{text:"[ <-- ]",color:red,click_event: {"action": "run_command",command: "/trigger zs.menu.section set 81"}}]

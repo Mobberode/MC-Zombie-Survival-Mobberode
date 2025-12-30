@@ -1,0 +1,51 @@
+{
+  "type": "multi_action",
+  "title": "Zombie Survival Classic",
+  "exit_action": {"label": "Back","action":{"type":"show_dialog","dialog":"zsc:menu"}},
+  "body": [
+    {
+      "type": "plain_message",
+      "contents": {
+        "text": "Options"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "label": {
+        "text": "Difficulty"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "/trigger zs.menu.section set 1"
+      }
+    },
+    {
+      "label": {
+        "text": "Settings"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "/trigger zs.menu.section set 2"
+      }
+    },
+    {
+      "label": {
+        "text": "Guide"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "/trigger zs.menu.section set 3"
+      }
+    },
+    {
+      "label": {
+        "text": "Pause Timer (Host)"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "/trigger zs.menu.interaction set 2"
+      }
+    }
+  ]
+}

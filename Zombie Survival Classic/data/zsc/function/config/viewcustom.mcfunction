@@ -1,4 +1,4 @@
-scoreboard players set @s zs.menu.interaction -1
+
 tellraw @s {text:"- [C] Enabled Custom Configurations -",color:green} 
 execute if score #Score zsc.dconfig.ropd matches 1 run tellraw @s {text:"Revive on Player Death"} 
 execute if score #Score zsc.dconfig.mgp.thorns matches 1 run tellraw @s {text:"Mob Gear Power - Thorns"} 

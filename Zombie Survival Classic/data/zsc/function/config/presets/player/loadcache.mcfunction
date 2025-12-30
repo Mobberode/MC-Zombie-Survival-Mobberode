@@ -1,9 +1,9 @@
-scoreboard players set @s zs.menu.interaction -1
+
 ##Get UUID
-execute store result storage minecraft:zsc.macro UUID1 int 1 run data get entity @s UUID[0]
-execute store result storage minecraft:zsc.macro UUID2 int 1 run data get entity @s UUID[1]
-execute store result storage minecraft:zsc.macro UUID3 int 1 run data get entity @s UUID[2]
-execute store result storage minecraft:zsc.macro UUID4 int 1 run data get entity @s UUID[3]
+execute store result storage zsc:macro UUID1 int 1 run data get entity @s UUID[0]
+execute store result storage zsc:macro UUID2 int 1 run data get entity @s UUID[1]
+execute store result storage zsc:macro UUID3 int 1 run data get entity @s UUID[2]
+execute store result storage zsc:macro UUID4 int 1 run data get entity @s UUID[3]
 ##Save preset configs to the configs
 $execute store result score #Score zsc.config.combat.style run scoreboard players get $(UUID1)$(UUID2)$(UUID3)$(UUID4)$(Preset) zsc.config.combat.style
 $execute store result score #Score zsc.config.food.type run scoreboard players get $(UUID1)$(UUID2)$(UUID3)$(UUID4)$(Preset) zsc.config.food.type

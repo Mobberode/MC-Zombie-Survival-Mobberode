@@ -1,4 +1,4 @@
-scoreboard players set @s zs.menu.interaction -1
+
 tellraw @s {text:"- Enabled Game Configurations -",color:green} 
 execute if score #Score zsc.config.player.mob.scaling matches 1 run tellraw @s {text:"Player Mob Scaling"}
 execute if score #Score zsc.config.wave.rank matches 1 run tellraw @s {text:"Wave Ranking"}

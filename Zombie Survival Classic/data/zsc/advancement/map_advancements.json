@@ -5,7 +5,6 @@
     },
     "title": "Map Specfic Advancements",
     "description": "",
-    "background": "minecraft:textures/block/mossy_cobblestone.png",
     "frame": "task",
     "show_toast": false,
     "announce_to_chat": false,

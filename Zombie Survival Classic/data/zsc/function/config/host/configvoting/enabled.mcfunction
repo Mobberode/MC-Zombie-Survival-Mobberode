@@ -1,4 +1,4 @@
-scoreboard players set @s zs.menu.interaction -1
+
 ##Enable
 execute as @a[tag=mb.host] run scoreboard players set #Score zsc.config.player.vote.configs 1
 function zsc:menu/options/configs/host

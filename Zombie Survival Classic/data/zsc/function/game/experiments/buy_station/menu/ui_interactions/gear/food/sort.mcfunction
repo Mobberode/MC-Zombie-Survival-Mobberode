@@ -8,4 +8,4 @@ execute as @a[scores={zs.menu.interaction=81331},team=mb.base.alive,tag=zsc_expe
 execute as @a[scores={zs.menu.interaction=81332},team=mb.base.alive,tag=zsc_experiment_buy_station.can_enter_shop] unless score @s zsc.experiment_buy_station_tokens matches 3.. run function zsc:game/experiments/buy_station/menu/ui_interactions/gear/food/fail
 execute as @a[scores={zs.menu.interaction=81333},team=mb.base.alive,tag=zsc_experiment_buy_station.can_enter_shop] unless score @s zsc.experiment_buy_station_tokens matches 5.. run function zsc:game/experiments/buy_station/menu/ui_interactions/gear/food/fail
 execute as @a[scores={zs.menu.interaction=81334},team=mb.base.alive,tag=zsc_experiment_buy_station.can_enter_shop] unless score @s zsc.experiment_buy_station_tokens matches 7.. run function zsc:game/experiments/buy_station/menu/ui_interactions/gear/food/fail
-scoreboard players set @s zs.menu.interaction -1
+

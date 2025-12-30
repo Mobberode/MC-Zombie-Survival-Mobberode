@@ -5,7 +5,6 @@
     },
     "title": "The Feared amongst Mobs",
     "description": "You have bested more of their allies. They will never stop but so will you.\n\nReach Wave 30 or above in Tough difficulty with Rebalance Changes off",
-    "background": "minecraft:textures/block/mossy_cobblestone.png",
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,

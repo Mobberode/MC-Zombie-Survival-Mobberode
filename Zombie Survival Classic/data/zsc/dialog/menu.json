@@ -1,0 +1,59 @@
+{
+  "type": "multi_action",
+  "title": "Zombie Survival Classic",
+  "body": [
+    {
+      "type": "plain_message",
+      "contents": {
+        "text": "Version: 1.2 (FINAL WAVE)"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "label": {
+        "text": "Options"
+      },
+      "action": {
+        "type": "show_dialog",
+        "dialog": "zsc:options"
+      }
+    },
+        {
+      "label": {
+        "text": "Vote to Skip"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "/trigger zs.menu.interaction set 1"
+      }
+    },
+    {
+      "label": {
+        "text": "Spectator Actions"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "/trigger zs.menu.section set 9"
+      }
+    },
+        {
+      "label": {
+        "text": "Buy Station"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "/trigger zs.menu.section set 81"
+      }
+    },
+    {
+      "label": {
+        "text": "Credits"
+      },
+      "action": {
+        "type": "show_dialog",
+        "dialog": "zsc:credits"
+      }
+    }
+  ]
+}

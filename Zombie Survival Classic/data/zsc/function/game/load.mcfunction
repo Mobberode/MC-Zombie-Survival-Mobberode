@@ -10,6 +10,7 @@ scoreboard objectives add zsc.player.food.give dummy
 scoreboard objectives add zsc.rng dummy
 #Player
 scoreboard objectives add zsc.players dummy
+scoreboard objectives add zsc.id dummy
 #Lives
 scoreboard objectives add zsc.team.lives dummy
 #Skip
@@ -28,5 +29,6 @@ scoreboard objectives add zsc.host.toggled.lobbytimer dummy
 #Tips
 scoreboard objectives add zsc.info_tips dummy
 
-##Death System
-schedule function zsc:game/death/deathcheck 5s
+scoreboard objectives add zsc.num dummy
+scoreboard objectives add zsc.respawn_delay dummy
+scoreboard objectives add zsc.skipped dummy

@@ -1,0 +1,1 @@
+function zsc:game/skip/check

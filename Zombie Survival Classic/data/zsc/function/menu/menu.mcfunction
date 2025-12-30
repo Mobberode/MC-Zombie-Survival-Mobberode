@@ -1,2 +1,2 @@
-scoreboard players set @s zs.menu.section -1
+
 tellraw @s [{text:"Zombie Survival Classic Options | ",color:red},{text:"[Difficulty]",color:gold,click_event:{"action":"run_command",command:"/trigger zs.menu.section set 1"}},{text:" "},{text:"[Configurations]",color:gold,click_event:{"action": "run_command",command: "/trigger zs.menu.section set 2"}},{text:" "},{text:"[Guide]",color:gold,click_event:{"action": "run_command",command:"/trigger zs.menu.section set 3"}},{text:" "},{text:"[Pause Timer (Host)]",color:gold,click_event:{"action": "run_command",command:"/execute if entity @s[tag=mb.host] run trigger zs.menu.interaction set 2"}}]

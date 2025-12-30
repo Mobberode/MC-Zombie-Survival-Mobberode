@@ -79,16 +79,13 @@ scoreboard players enable @a zs.player.config.role
 scoreboard objectives add zsc.player.config.moreinfo trigger
 scoreboard players enable @a zsc.player.config.moreinfo
 
-##ZSCT/Map configs
-#scoreboard objectives add zsc.mconfig.map.forced.changes dummy
-
 ##Presets
 scoreboard objectives add zsc.world_preset dummy
-data modify storage minecraft:zsc.macro UUID1 set value a
-data modify storage minecraft:zsc.macro UUID2 set value b
-data modify storage minecraft:zsc.macro UUID3 set value c
-data modify storage minecraft:zsc.macro UUID4 set value d
-data modify storage minecraft:zsc.macro selected_playerid set value 1
+data modify storage zsc:macro UUID1 set value a
+data modify storage zsc:macro UUID2 set value b
+data modify storage zsc:macro UUID3 set value c
+data modify storage zsc:macro UUID4 set value d
+data modify storage zsc:macro selected_playerid set value 1
 
 ##List Display
 scoreboard objectives setdisplay list zsc.damage

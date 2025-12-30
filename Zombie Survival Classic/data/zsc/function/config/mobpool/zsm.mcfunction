@@ -1,4 +1,4 @@
-scoreboard players set @s zs.menu.interaction -1
+
 ##PVC off
 execute if entity @s[tag=mb.host] unless score #Score zsc.config.player.vote.configs matches 1 run scoreboard players set #Score zsc.config.mob.list 1
 execute if entity @s[tag=!mb.host] unless score #Score zsc.config.player.vote.configs matches 1 run function zsc:config/hosterror

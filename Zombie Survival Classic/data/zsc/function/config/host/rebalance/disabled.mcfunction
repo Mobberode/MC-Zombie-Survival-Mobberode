@@ -1,4 +1,4 @@
-scoreboard players set @s zs.menu.interaction -1
+
 ##Disable
 execute as @a[tag=mb.host] run scoreboard players set #Score zsc.config.rebalance.changes 0
 function zsc:menu/options/configs/host

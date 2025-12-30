@@ -1,2 +1,2 @@
-scoreboard players set @s zs.menu.section -1
+
 tellraw @s [{text: "| Set Presets |",color: "blue"},{text: "[I dont wanna die!]",color:gold,click_event: {"action": "run_command",command: "/trigger zs.menu.interaction set 2821"}},{text: "[Hyper Difficulty]",color:gold,click_event: {"action": "run_command",command: "/trigger zs.menu.interaction set 2822"}},{text: "[Favourite Picks]",color:gold,click_event: {"action": "run_command",command: "/trigger zs.menu.interaction set 2823"}},{text: "[The Authentic Experience]",color:gold,click_event: {"action": "run_command",command: "/trigger zs.menu.interaction set 2824"}},{text:" "},{text: "[ <-- ]",color: red,click_event: {"action": "run_command",command: "/trigger zs.menu.section set 28"}}]

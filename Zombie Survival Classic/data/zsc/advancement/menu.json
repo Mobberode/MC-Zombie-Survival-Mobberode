@@ -1,0 +1,16 @@
+{
+    "criteria": {
+      "trigger": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "predicates": {
+              "minecraft:custom_data": {"zsc":{"menu":true}}
+            }
+          }
+        }
+      }
+    },
+    "rewards": {"function": "zsc:menu/initmenu"}
+  }
+  

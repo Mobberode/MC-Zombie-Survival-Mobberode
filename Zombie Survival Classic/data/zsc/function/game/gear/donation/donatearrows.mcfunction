@@ -1,6 +1,6 @@
-scoreboard players set @s zs.menu.interaction -1
+
 ##Arrows
-execute store result storage minecraft:zsc.macro arrowgiveamount int 1 run scoreboard players get @s zsc.player.arrows.give
+execute store result storage zsc:macro arrowgiveamount int 1 run scoreboard players get @s zsc.player.arrows.give
 $execute if score @s zsc.player.arrows.count >= @s zsc.player.arrows.give unless score #Score zsc.config.donate matches 0 run give @r[team=mb.base.alive] minecraft:arrow $(arrowgiveamount)
 $execute unless score #Score zsc.config.donate matches 0 if entity @a[team=mb.base.alive] run clear @s minecraft:arrow $(arrowgiveamount)
 

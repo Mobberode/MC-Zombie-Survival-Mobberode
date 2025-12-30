@@ -1,2 +1,2 @@
-scoreboard players set @s zs.menu.section -1
+
 tellraw @a [{text: "| Client Options |",color: "blue"},{text: "[Preferences]",color:gold,click_event: {"action": "run_command",command: "/trigger zs.menu.section set 291"}},{text: "[Cosmestic Roles]",color:gold,click_event: {"action": "run_command",command: "/trigger zs.menu.section set 292"}},{text:" "},{text: "[ <-- ]",color: red,click_event: {"action": "run_command",command: "/trigger zs.menu.section set 2"}}]

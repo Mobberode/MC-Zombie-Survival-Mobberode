@@ -1,2 +1,2 @@
-scoreboard players set @s zs.menu.section -1
+
 tellraw @s [{text: "| Buy Station > Effects | ",color: red},{text: "Tokens: "},{score:{name: "@s",objective: "zsc.experiment_buy_station_tokens"}},{text:" "},{text: "[Tier1]",color: red,click_event: {"action": "run_command",command: "/trigger zs.menu.section set 8121"}},{text:" "},{text: "[Tier2]",color: "blue",click_event: {"action": "run_command",command: "/trigger zs.menu.section set 8122"}},{text:" "},{text: "[Tier 3]",color:gold,click_event: {"action": "run_command",command: "/trigger zs.menu.section set 8123"}},{text:" "},{text:"[ <-- ]",color:red,click_event: {"action": "run_command",command: "/trigger zs.menu.section set 81"}}]

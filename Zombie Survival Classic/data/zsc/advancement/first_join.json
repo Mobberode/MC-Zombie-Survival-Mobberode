@@ -5,7 +5,7 @@
     },
     "title": "Zombie Survival Classic",
     "description": "The hopeless fight against the endless horde begins...",
-    "background": "minecraft:textures/block/mossy_cobblestone.png",
+    "background": "block/mossy_cobblestone",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

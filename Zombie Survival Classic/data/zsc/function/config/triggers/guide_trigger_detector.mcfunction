@@ -1,4 +1,4 @@
 #Guide
-execute as @a[scores={zs.menu.section=31}] run function zsc:menu/options/guide/newbie
-execute as @a[scores={zs.menu.section=32}] run function zsc:menu/options/guide/intermediate
-execute as @a[scores={zs.menu.section=33}] run function zsc:menu/options/guide/advanced
+execute if score @s zs.menu.section matches 31 run return run function zsc:menu/options/guide/newbie
+execute if score @s zs.menu.section matches 32 run return run function zsc:menu/options/guide/intermediate
+execute if score @s zs.menu.section matches 33 run return run function zsc:menu/options/guide/advanced

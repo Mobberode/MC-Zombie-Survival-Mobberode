@@ -1,2 +1,2 @@
-scoreboard players set @s zs.menu.section -1
+
 $tellraw @s [{text: "| Custom Presets | ",color: "blue"},{text: "[Previous]",color:gold,click_event: {"action": "run_command",command: "/trigger zs.menu.interaction set 28111"}},{text: " Preset [$(Preset)] "},{text: "[Next]",color:gold,click_event: {"action": "run_command",command: "/trigger zs.menu.interaction set 28112"}},{text: "[Load Preset Slot]",color:gold,click_event: {"action": "run_command",command: "/trigger zs.menu.interaction set 28113"}},{text: "[Save]",color: green,click_event: {"action": "run_command",command: "/trigger zs.menu.interaction set 28114"}},{text:" "},{text: "[ <-- ]",color: red,click_event: {"action": "run_command",command: "/trigger zs.menu.section set 28"}}]

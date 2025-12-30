@@ -1,4 +1,4 @@
-scoreboard players set @s zs.menu.interaction -1
+
 ##Enable
 execute if entity @s[tag=mb.host] run scoreboard players set #Score zsc.config.challenge.negative.effects 1
 function zsc:menu/options/configs/challenges

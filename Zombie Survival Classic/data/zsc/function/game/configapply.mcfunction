@@ -29,13 +29,9 @@ function zsc:game/config/voteapply/custommapchanges
 ##Custom
 execute if score #Score zsc.difficulty matches 0 run function zsc:game/config/custom/apply
 
-##Challenges
-#No Hit
-execute if score #Score zsc.config.challenge.no.hit matches 1 run function zsc:game/config/challenge/nohit/damagecheck
-
 ##Reveal Changes
 execute as @a run function zsc:config/viewgame
-execute if score #Score zsc.difficulty matches 0 as @a run function zsc:config/viewcustom with storage minecraft:zsc.macro
+execute if score #Score zsc.difficulty matches 0 as @a run function zsc:config/viewcustom with storage zsc:macro
 
 ##Remove tags
 tag @a remove voted.classicfood

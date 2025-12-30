@@ -1,6 +1,6 @@
-##Reset Score
+##Reset
+advancement revoke @s only zsc:menu
 scoreboard players reset @s zs.coas
 
 ##Init Popup menu
-#(This will display the ability to skip, open options and the spectator actions.)
-tellraw @s [{text: "[ ZS: Classic / Mobberode ] | { Release 1.1 } ",color: "gray"},{text: "[ ! ]",color: "blue",click_event: {"action": "run_command",command: "/trigger zs.menu.section set 10"}},{text:" "},{text: "[Options]",color:gold,click_event: {"action": "run_command",command: "/trigger zs.menu.section set 0"}},{text: " "},{text: "[Spectator Actions]",color:gold,click_event: {"action": "run_command",command: "/trigger zs.menu.section set 9"}},{text: " "},{text: "[Buy Station]",color: red,click_event: {"action": "run_command",command: "/trigger zs.menu.section set 81"}},{text: " "},{text: "[Vote to Skip]",color:gold,click_event: {"action": "run_command",command: "/trigger zs.menu.interaction set 1"}},{text: " "},{text: "[Trello]",color:"#6699FF",click_event:{"action":"open_url",url:"https://trello.com/b/dIMZX37N/zombie-survival-classic"}},{text: " "},{text:"[GitHub]",color:"#2A0080",click_event:{"action":"open_url",url:"https://github.com/Trunkis/MC-Zombie-Survival-Classic"}}]
+dialog show @s zsc:menu

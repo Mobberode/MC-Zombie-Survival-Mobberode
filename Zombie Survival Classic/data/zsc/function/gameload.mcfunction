@@ -6,10 +6,7 @@ function zsc:restart
 
 ##Start the engines!
 clear @a
-function zsc:config/triggers/director
 function zsc:host
 function zsc:lobby/lobby
-function zsc:game/coascheck
-#Player Check
-function zsc:game/playercheck
-function zsc:reload
+
+function zsc:loops/global/game

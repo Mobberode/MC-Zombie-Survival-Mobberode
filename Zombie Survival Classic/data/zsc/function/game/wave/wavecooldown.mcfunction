@@ -4,7 +4,7 @@ execute if score #MiliScore zs.timer matches ..-1 run function zsc:technical/tim
 
 #Time Indicate
 execute as @a at @s if score #Score zs.timer matches 1..5 if score #MiliScore zs.timer matches 0 run playsound entity.elder_guardian.curse ui @s ~ ~ ~
-title @a actionbar ["Next wave in: ",{score:{name:"#Score",objective:"zs.timer"}},".",{score:{name:"#MiliScore",objective:"zs.timer"}}," ",{score:{name:"#Skip",objective:"zs.coas"},color:blue},"/",{score:{name:"#Score",objective:"zsc.players"},color:blue}]
+title @a actionbar ["Next wave in: ",{score:{name:"#Score",objective:"zs.timer"}},".",{score:{name:"#MiliScore",objective:"zs.timer"}}," ",{score:{name:"#Skip",objective:"zsc.players"},color:blue},"/",{score:{name:"#Score",objective:"zsc.players"},color:blue}]
 
 ##Break loop to start wave and spawn mobs
 execute if score #Score zs.timer matches ..-1 run return run function zsc:game/wave/wavebegin

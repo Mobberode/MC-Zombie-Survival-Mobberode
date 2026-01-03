@@ -1,0 +1,2 @@
+execute if score #Score zsc.mob.effects.level matches 2..6 run return run effect give @s strength 10 0 false
+execute if score #Score zsc.mob.effects.level matches 7.. run return run effect give @s strength 10 1 false

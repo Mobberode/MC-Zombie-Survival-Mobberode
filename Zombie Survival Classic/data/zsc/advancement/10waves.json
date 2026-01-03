@@ -4,7 +4,7 @@
       "id": "minecraft:wooden_sword"
     },
     "title": "Getting the hang of it",
-    "description": "Reach Wave 10 or above in Tough difficulty",
+    "description": "Reach Wave 10 or above on Normal or Tough",
     "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,

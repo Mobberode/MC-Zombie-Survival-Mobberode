@@ -1,7 +1,7 @@
 ##Give someone host
 #Remove incase of reload
 
-execute as @a[tag=mb.host,scores={zs.relogged=1..}] run tag @s remove host
+execute as @a[tag=mb.host,scores={zsc.relogged=1..}] run tag @s remove mb.host
 
 function mb.base:technical/host/find_host
 

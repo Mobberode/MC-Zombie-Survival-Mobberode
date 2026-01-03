@@ -31,3 +31,6 @@ execute if score #Config zsc.experiment_buy_station matches 1 run function zsc:g
 
 ##Info Tips
 function zsc:menu/tips/messages
+
+##Start Wave
+function zsc:game/wave/wavecooldown

@@ -1,4 +1,7 @@
+execute if entity @s[team=zsc.waiting,scores={zsc.died=..0}] run return fail
+
 ##Bring zsc.waiting Players
+scoreboard players set @s zsc.died 0
 execute if entity @s[team=zsc.waiting] run return run function zsc:game/gear/start/transfer
 
 team join mb.base.alive

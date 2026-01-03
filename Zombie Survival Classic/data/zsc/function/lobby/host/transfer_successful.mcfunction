@@ -1,7 +1,6 @@
 ##New host
-$tag @a[scores={zsc.players=$(selected_playerid)}] add mb.host
 tag @s remove mb.host
+tag @p[predicate=zsc:host_id] add mb.host
 
 ##Announce
-tellraw @a[tag=mb.host] {text:"You have been given host permissions by the current host!",color: green}
-tellraw @a[tag=!mb.host] {text:"The current host has passed on host permissions to another player!",color: yellow}
+tellraw @a [{text:""},{selector:"@s",color:yellow}," Has passed host permissions to ",{selector:"@p[tag=mb.host]",color:yellow},"!"]

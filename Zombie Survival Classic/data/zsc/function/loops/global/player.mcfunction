@@ -3,7 +3,8 @@
 function zsc:config/triggers/director
 
 #Player count and id
-execute if score @s zs.relogged matches 1.. run function zsc:game/player/relog
+execute if score @s zsc.relogged matches 1.. run return run function zsc:game/player/relog
+execute if score @s zsc.died matches 1.. run return run function zsc:game/player/death
 execute unless score @s zsc.id matches 1.. run function zsc:technical/pid/begin_id_assign
 
 ##Configs

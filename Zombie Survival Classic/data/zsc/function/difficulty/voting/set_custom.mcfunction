@@ -1,0 +1,2 @@
+scoreboard players set #Score zsc.difficulty 0
+execute if score #Score zsc.difficulty matches 0 run tellraw @a [{text:"* The players have choosen ",color:yellow},{text:"Custom!",color:gray},{text:" *",color:yellow}]

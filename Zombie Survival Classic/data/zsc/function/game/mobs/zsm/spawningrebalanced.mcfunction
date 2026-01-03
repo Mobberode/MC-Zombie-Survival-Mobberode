@@ -28,7 +28,7 @@ execute if score #Score zs.wave matches 17..34 if predicate zsc:tenth run functi
 #Ghast
 execute if score #Score zs.wave matches 35.. if predicate zsc:tenth run function zsc:game/mobs/global/ghast
 #Vindicator
-execute if score #Score zs.wave matches 40.. if predicate zsc:tenthrun run function zsc:game/mobs/global/vindicator
+execute if score #Score zs.wave matches 40.. if predicate zsc:tenth run function zsc:game/mobs/global/vindicator
 #Endermite
 execute if score #Score zs.wave matches 25.. if predicate zsc:tenth run function zsc:game/mobs/global/endermite
 #Slime

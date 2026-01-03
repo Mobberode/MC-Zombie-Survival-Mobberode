@@ -63,6 +63,8 @@ scoreboard objectives remove zsc.config.mob.spawn.radius.check
 scoreboard objectives remove zsc.num
 scoreboard objectives remove zsc.respawn_delay
 scoreboard objectives remove zsc.skipped
+scoreboard objectives remove zsc.relogged
+scoreboard objectives remove zsc.died
 
 #Tags
 tag @a remove voted.modernstyle

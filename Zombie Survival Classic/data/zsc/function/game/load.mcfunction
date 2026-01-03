@@ -10,6 +10,8 @@ scoreboard objectives add zsc.player.food.give dummy
 scoreboard objectives add zsc.rng dummy
 #Player
 scoreboard objectives add zsc.players dummy
+scoreboard objectives add zsc.relogged custom:leave_game
+scoreboard objectives add zsc.died deathCount
 scoreboard objectives add zsc.id dummy
 #Lives
 scoreboard objectives add zsc.team.lives dummy

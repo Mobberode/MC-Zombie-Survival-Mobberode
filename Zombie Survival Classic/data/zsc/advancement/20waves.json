@@ -4,7 +4,7 @@
       "id": "minecraft:iron_sword"
     },
     "title": "Going Expert",
-    "description": "Reach Wave 20 or above in Tough difficulty with Rebalance Changes off",
+    "description": "Reach Wave 20 or above on Normal or Tough",
     "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,

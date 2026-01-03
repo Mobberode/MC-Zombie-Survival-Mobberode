@@ -1,12 +1,10 @@
+##Check
+#Not host
+execute unless entity @s[tag=mb.host] run return run tellraw @s {text:"No permissions to transfer host!",color:red}
+#Transfer to self
+execute if entity @s[predicate=zsc:host_id] run return run tellraw @s {text:"You cannot transfer host to yourself!",color:red}
+#Invalid ID
+execute unless entity @a[predicate=zsc:host_id] run return run tellraw @s {text:"ID is not linked to any player!",color: red}
 
-$execute store success score #IDValid zsc.players run effect give @a[scores={zsc.players=$(selected_playerid)}] unluck 1 0
-
-##Sucessful Transfer
-execute if entity @s[tag=mb.host] unless score @s zsc.players = #SelectedID zsc.players if score #IDValid zsc.players matches 1 run function zsc:lobby/host/transfer_successful with storage zsc:macro
-
-##Transfer Failed
-execute if entity @s[tag=mb.host] if score @s zsc.players = #SelectedID zsc.players run function zsc:lobby/host/transfer_failure
-
-##Transfer Failed (No One With Specified ID!)
-execute if entity @s[tag=mb.host] if score #IDValid zsc.players matches 0 run function zsc:lobby/host/transfer_failure_invalid_id
-
+##Proceed with transfer
+function zsc:lobby/host/transfer_successful

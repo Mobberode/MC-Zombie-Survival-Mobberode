@@ -1,13 +1,8 @@
 ##Revive Dead players, bring zsc.waiting players and give loot if it's time.
 scoreboard players set #Score zs.game.status 3
-#Also multiply and divide
-function zsc:game/mobs/mobcap/multiply
 #Revive players
-execute if score #Score zsc.difficulty matches 1.. as @a[team=!mb.base.alive] run function zsc:game/teams/revive
-execute if score #Score zsc.difficulty matches 0 if score #Score zsc.dconfig.permadeath matches 0 as @a[team=!mb.base.alive] run function zsc:game/teams/revive
+function zsc:game/wave/intermission_revive
 #Loot
-scoreboard players remove #Arrows zs.wave 1
-scoreboard players remove #Food zs.wave 1
 function zsc:game/wave/afterwave/loot
 #New wave
 scoreboard players set #MinuteScore zs.timer 0

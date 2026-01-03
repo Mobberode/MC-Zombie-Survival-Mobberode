@@ -1,16 +1,21 @@
 {
-    "criteria": {
-      "trigger": {
-        "trigger": "minecraft:using_item",
-        "conditions": {
-          "item": {
-            "predicates": {
-              "minecraft:custom_data": {"zsc":{"menu":true}}
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "zsc": {
+                "menu": true
+              }
             }
           }
         }
       }
-    },
-    "rewards": {"function": "zsc:menu/initmenu"}
+    }
+  },
+  "rewards": {
+    "function": "zsc:menu/initmenu"
   }
-  
+}

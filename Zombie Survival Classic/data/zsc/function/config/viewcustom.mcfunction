@@ -4,15 +4,15 @@ execute if score #Score zsc.dconfig.ropd matches 1 run tellraw @s {text:"Revive 
 execute if score #Score zsc.dconfig.mgp.thorns matches 1 run tellraw @s {text:"Mob Gear Power - Thorns"} 
 tellraw @s {text:"- [C] Changed Custom Configurations -",color:yellow} 
 $tellraw @s {text: "Minecraft Difficulty: $(mcd)"}
-$tellraw @s {text:"Team Lives: $(tlamount)"}
-$tellraw @s {text: "Max Player Hearts: $(heartamount)"}
-$tellraw @s {text:"Cap Multiplier: $(capmamount)"}
-$tellraw @s {text:"Active Cap: $(acapamount)"}
+tellraw @s [{text:"Team Lives: "},{score:{name:"#Custom",objective:"zsc.team.lives"}}]
+tellraw @s [{text:"Max Player Hearts: "},{score:{name:"#Score",objective: "zsc.dconfig.max.player.hearts"}}]
+tellraw @s [{text:"Cap Multiplier: "},{score:{name:"#CustomMultiplier",objective: "zsc.mob.amount.operation"}}]
+tellraw @s [{text:"Active Cap: "},{score:{name:"#CustomActiveCap",objective:zsc.mob.amount}}]
 $tellraw @s {text:"Player Gear Power: $(pgp)"}
 $tellraw @s {text:"Mob Gear Power: $(mgp)"}
-$tellraw @s {text:"Effect Wave Start: $(ewavestart)"}
+tellraw @s [{text:"Effect Wave Start: "},{score:{name:"#Wave",objective:zsc.dconfig.mobeffects.wave}}]
 tellraw @s [{text: "Arrow Rarity: "},{score:{name:"#CustomArrowsCache",objective:zs.wave}}]
-$tellraw @s {text: "Food Rarity: $(frarity) "}
+tellraw @s [{text:"Food Rarity: "},{score:{name:"#CustomFoodCache",objective:zs.wave}}]
 execute if score #GetAmountType zsc.player.arrows.count matches 4 run tellraw @s {text: "Arrow Scarity: Plenty"}
 execute if score #GetAmountType zsc.player.arrows.count matches 3 run tellraw @s {text: "Arrow Scarity: Standard"}
 execute if score #GetAmountType zsc.player.arrows.count matches 2 run tellraw @s {text: "Arrow Scarity: Scarce"}

@@ -2,9 +2,7 @@
 scoreboard players set #Score zs.game.status 1
 scoreboard players set #Score zs.wave 0
 scoreboard players set #Amount zsc.mob.amount 0
-scoreboard players set #Score zsc.damage 0
-scoreboard players set #KillAttempt zsc.mob.amount 0
-scoreboard players set @a zs.died 0
+scoreboard players set @a zsc.died 0
 scoreboard players set @a zsc.damage 0
 scoreboard players set #Score zsc.mob.effects.level 0
 scoreboard players set #TicksTillStop zs.timer 0
@@ -19,6 +17,5 @@ tag @a remove votednormal
 tag @a remove votedcustom
 
 ##Clear schedules
-schedule clear zsc:game/wave/wavecooldown
 schedule clear zsc:game/experiments/buy_station/player_detect
 schedule clear zsc:game/experiments/buy_station/menu/ui_interactions/switcher

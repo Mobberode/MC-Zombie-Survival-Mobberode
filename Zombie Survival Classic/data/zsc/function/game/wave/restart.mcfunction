@@ -15,7 +15,3 @@ scoreboard players set #Score zsc.difficulty -1
 tag @a remove votedhard
 tag @a remove votednormal
 tag @a remove votedcustom
-
-##Clear schedules
-schedule clear zsc:game/experiments/buy_station/player_detect
-schedule clear zsc:game/experiments/buy_station/menu/ui_interactions/switcher

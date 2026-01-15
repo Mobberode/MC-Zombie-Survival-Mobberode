@@ -6,7 +6,6 @@ clear
 kill
 
 #Clear Scores
-scoreboard players set @s zs.coas 0
 scoreboard players set @s zsc.died 0
 scoreboard players set @s zsc.damage 0
 tag @s remove mb.host

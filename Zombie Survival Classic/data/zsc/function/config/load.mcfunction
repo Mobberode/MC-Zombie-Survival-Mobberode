@@ -57,6 +57,10 @@ scoreboard players set #Score zsc.config.rebalance.changes 1
 scoreboard players set #Score zsc.config.player.vote.configs 0
 scoreboard players set #Score zsc.config.zsc.gamemode 0
 scoreboard players set #Score zsc.config.mob.spawn.radius.check 0
+scoreboard players set #DifficultySwitch zsc.config 0
+scoreboard players set #WaveEndRestore zsc.config 0
+scoreboard players set #SwordBlock zsc.config 0
+scoreboard players set #PotionDrops zsc.config 0
 
 ##Enable by default custom configs
 scoreboard players set #Mob zsc.dconfig.gear.level 1
@@ -64,6 +68,7 @@ scoreboard players set #Player zsc.dconfig.gear.level 3
 scoreboard players set #CustomMultiplier zsc.mob.amount.operation 69
 scoreboard players set #Minecraft zsc.difficulty 2
 scoreboard players set #CustomArrowsCache zs.wave 2
+scoreboard players set #CustomPotionCache zs.wave 3
 scoreboard players set #CustomFoodCache zs.wave 2
 scoreboard players set #Wave zsc.dconfig.mobeffects.wave 15
 scoreboard players set #Score zsc.dconfig.effect.type 1
@@ -89,28 +94,3 @@ data modify storage zsc:macro selected_playerid set value 1
 
 ##List Display
 scoreboard objectives setdisplay list zsc.damage
-
-##Set for normal function
-scoreboard players set #Option1 zsc.difficulty 0
-scoreboard players set #Option2 zsc.difficulty 0
-scoreboard players set #Option3 zsc.difficulty 0
-scoreboard players set #Option1 zsc.config.combat.style 0
-scoreboard players set #Option2 zsc.config.combat.style 0
-scoreboard players set #Option1 zsc.config.food.type 0
-scoreboard players set #Option2 zsc.config.food.type 0
-scoreboard players set #Option1 zsc.config.player.mob.scaling 0
-scoreboard players set #Option2 zsc.config.player.mob.scaling 0
-scoreboard players set #Option1 zsc.config.wave.rank 0
-scoreboard players set #Option2 zsc.config.wave.rank 0
-scoreboard players set #Option1 zsc.config.mob.list 0
-scoreboard players set #Option2 zsc.config.mob.list 0
-scoreboard players set #Option3 zsc.config.mob.list 0
-scoreboard players set #Option1 zsc.config.spawning.system.type 0
-scoreboard players set #Option2 zsc.config.spawning.system.type 0
-scoreboard players set #Option3 zsc.config.spawning.system.type 0
-scoreboard players set #Option1 zsc.config.unused.mobs 0
-scoreboard players set #Option2 zsc.config.unused.mobs 0
-scoreboard players set #Option1 zsc.config.donate 0
-scoreboard players set #Option2 zsc.config.donate 0
-scoreboard players set #Option1 zsc.config.mob.friendly.fire 0
-scoreboard players set #Option2 zsc.config.mob.friendly.fire 0

@@ -1,3 +1,4 @@
-data modify storage zsc:macro role_tag set value Curated
-data modify storage zsc:macro trim_pattern set value vex
-data modify storage zsc:macro trim_material set value gold
+item modify entity @s armor.head mb.base:visuals/roles/curated
+item modify entity @s armor.chest mb.base:visuals/roles/curated
+item modify entity @s armor.legs mb.base:visuals/roles/curated
+item modify entity @s armor.feet mb.base:visuals/roles/curated

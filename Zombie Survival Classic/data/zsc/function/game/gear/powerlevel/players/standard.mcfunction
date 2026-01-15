@@ -11,8 +11,3 @@ function zsc:game/gear/powerlevel/players/cosmestic with storage zsc.macro
 item replace entity @s hotbar.0 with iron_sword[minecraft:unbreakable={}]
 item replace entity @s hotbar.1 with bow[minecraft:unbreakable={}]
 execute if score #Score zsc.config.give.players.shields matches 1 run item replace entity @s weapon.offhand with shield[enchantments={unbreaking:3}]
-
-##Loop
-scoreboard players remove #ArmourTick zs.timer 1
-scoreboard players add #RolesProcessed zs.timer 1
-execute unless score #ArmourTick zs.timer matches ..0 run function zsc:game/gear/powerlevel/players/set_cosmestics with storage zsc:macro

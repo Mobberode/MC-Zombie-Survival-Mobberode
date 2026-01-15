@@ -10,6 +10,8 @@ execute unless score @s zsc.id matches 1.. run function zsc:technical/pid/begin_
 ##Configs
 #Combat
 function zsc:game/config/combat/loop
+#Custom
+execute if score #Score zsc.difficulty matches 0 run function zsc:loops/status/custom_player
 
 #Status Specfic
 execute if score #Score zs.game.status matches 1 run function zsc:loops/status/1_player

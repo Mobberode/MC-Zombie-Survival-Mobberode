@@ -1,3 +1,7 @@
+##Casual
+execute store result score #Option4 zsc.difficulty if entity @a[scores={zsc.difficulty=1}]
+tellraw @a [{text:"Votes for Casual: "},{score:{name:"#Option4",objective:"zsc.difficulty"}}]
+
 ##Hard
 execute store result score #Option1 zsc.difficulty if entity @a[scores={zsc.difficulty=3}]
 tellraw @a [{text:"Votes for Hard: "},{score:{name:"#Option1",objective:"zsc.difficulty"}}]

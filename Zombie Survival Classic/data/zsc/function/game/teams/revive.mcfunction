@@ -1,4 +1,4 @@
-execute if entity @s[team=zsc.waiting,scores={zsc.died=..0}] run return fail
+execute if entity @s[team=mb.base.alive,scores={zsc.died=..0}] run return fail
 
 ##Bring zsc.waiting Players
 scoreboard players set @s zsc.died 0

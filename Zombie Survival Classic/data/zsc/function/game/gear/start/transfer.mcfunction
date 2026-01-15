@@ -12,3 +12,4 @@ execute if score #Config zsc.experiment_buy_station matches 1 run scoreboard pla
 ##Set up
 execute unless score #Score zsc.difficulty matches 0 run attribute @s max_health base set 20
 effect give @s instant_health 20 5
+effect give @s saturation 20 5

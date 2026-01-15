@@ -17,7 +17,7 @@ execute as @s[tag=mgp_processed_bower] run scoreboard players set @s zsc.gear_mg
 execute as @s[tag=mgp_processed_crossbower] run scoreboard players set @s zsc.gear_mgp_weapon 4
 execute as @s[tag=mgp_processed_tridenter] run scoreboard players set @s zsc.gear_mgp_weapon 5
 function zsc:game/gear/powerlevel/mobs/level7/enchantment_randomize_ranged
-execute if score @s[tag=mgp_processed_bower,tag=wither_skeleton.using_bow] zsc.rng matches 5.. run function zsc:game/gear/powerlevel/mobs/equipment/weapon/bow with storage zsc:macro
+execute if score @s[tag=mgp_processed_bower,tag=mgp.wither_skeleton.using_bow] zsc.rng matches 5.. run function zsc:game/gear/powerlevel/mobs/equipment/weapon/bow with storage zsc:macro
 execute if score @s[tag=mgp_processed_bower,type=!wither_skeleton] zsc.rng matches 5.. run function zsc:game/gear/powerlevel/mobs/equipment/weapon/bow with storage zsc:macro
 execute if score @s[tag=mgp_processed_crossbower] zsc.rng matches 5.. run function zsc:game/gear/powerlevel/mobs/equipment/weapon/crossbow with storage zsc:macro
 execute if score @s[tag=mgp_processed_tridenter] zsc.rng matches 10.. run function zsc:game/gear/powerlevel/mobs/equipment/weapon/trident with storage zsc:macro

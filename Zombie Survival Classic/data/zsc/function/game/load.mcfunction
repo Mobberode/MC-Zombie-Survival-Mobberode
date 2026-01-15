@@ -13,10 +13,9 @@ scoreboard objectives add zsc.players dummy
 scoreboard objectives add zsc.relogged custom:leave_game
 scoreboard objectives add zsc.died deathCount
 scoreboard objectives add zsc.id dummy
+scoreboard objectives add zsc.select_id dummy
 #Lives
 scoreboard objectives add zsc.team.lives dummy
-#Skip
-scoreboard players set @a zs.coas 0
 ##Mobs
 scoreboard objectives add zsc.mob.amount dummy
 scoreboard objectives add zsc.mob.amount.operation dummy
@@ -34,3 +33,6 @@ scoreboard objectives add zsc.info_tips dummy
 scoreboard objectives add zsc.num dummy
 scoreboard objectives add zsc.respawn_delay dummy
 scoreboard objectives add zsc.skipped dummy
+scoreboard objectives add zsc.role trigger
+
+scoreboard objectives add zsc.config dummy

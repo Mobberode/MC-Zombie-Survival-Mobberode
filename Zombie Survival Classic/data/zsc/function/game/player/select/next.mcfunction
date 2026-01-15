@@ -1,0 +1,1 @@
+scoreboard players add @s zsc.select_id 1

@@ -65,6 +65,10 @@ scoreboard objectives remove zsc.respawn_delay
 scoreboard objectives remove zsc.skipped
 scoreboard objectives remove zsc.relogged
 scoreboard objectives remove zsc.died
+scoreboard objectives remove zsc.select_id
+scoreboard objectives remove zsc.id
+scoreboard objectives remove zsc.role
+scoreboard objectives remove zsc.config
 
 #Tags
 tag @a remove voted.modernstyle

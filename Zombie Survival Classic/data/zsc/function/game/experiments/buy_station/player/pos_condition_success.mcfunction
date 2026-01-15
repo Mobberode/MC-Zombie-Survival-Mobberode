@@ -1,1 +1,1 @@
-effect give @s hero_of_the_village 1 1
+tag @s add zsc_experiment_buy_station.can_enter_shop

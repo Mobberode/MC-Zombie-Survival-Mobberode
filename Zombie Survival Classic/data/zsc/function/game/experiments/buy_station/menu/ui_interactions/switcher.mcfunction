@@ -1,3 +1,0 @@
-execute if score #Score zs.game.status matches 3 run function zsc:game/experiments/buy_station/menu/ui_interactions/before_wave
-execute if score #Score zs.game.status matches 4 run function zsc:game/experiments/buy_station/menu/ui_interactions/during_wave
-execute if score #Config zsc.experiment_buy_station matches 1 run schedule function zsc:game/experiments/buy_station/menu/ui_interactions/switcher 1t

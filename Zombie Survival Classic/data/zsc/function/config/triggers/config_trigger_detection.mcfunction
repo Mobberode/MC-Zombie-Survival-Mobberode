@@ -1,6 +1,6 @@
 #View
 execute if score @s zs.menu.interaction matches 21 run return run function zsc:config/viewgame
-execute if score @s zs.menu.interaction matches 22 run return run function zsc:config/viewcustom with storage zsc:macro
+execute if score @s zs.menu.interaction matches 22 run return run function zsc:config/viewcustom
 execute if score @s zs.menu.interaction matches 23 run return run function zsc:config/viewhost
 #Reset
 execute if score @s[tag=mb.host] zs.menu.interaction matches 24 run return run function zsc:config/reset/game
@@ -20,6 +20,8 @@ execute if score @s zs.menu.interaction matches 2151 run return run function zsc
 execute if score @s zs.menu.interaction matches 2152 run return run function zsc:config/mobfriendlyfire/disable
 execute if score @s zs.menu.interaction matches 2161 run return run function zsc:config/mobglow/enable
 execute if score @s zs.menu.interaction matches 2162 run return run function zsc:config/mobglow/disable
+execute if score @s zs.menu.interaction matches 2171 run return run function zsc:config/difficulty_switch/enable
+execute if score @s zs.menu.interaction matches 2172 run return run function zsc:config/difficulty_switch/disable
 #Config > Game2
 execute if score @s zs.menu.interaction matches 2211 run return run function zsc:config/combat/styleclassic
 execute if score @s zs.menu.interaction matches 2212 run return run function zsc:config/combat/stylemodern
@@ -34,6 +36,12 @@ execute if score @s zs.menu.interaction matches 2251 run return run function zsc
 execute if score @s zs.menu.interaction matches 2252 run return run function zsc:config/shields/disable
 execute if score @s zs.menu.interaction matches 2261 run return run function zsc:config/pdp/enable
 execute if score @s zs.menu.interaction matches 2262 run return run function zsc:config/pdp/disable
+execute if score @s zs.menu.interaction matches 2271 run return run function zsc:config/wave_end_restore/enable
+execute if score @s zs.menu.interaction matches 2272 run return run function zsc:config/wave_end_restore/disable
+execute if score @s zs.menu.interaction matches 2281 run return run function zsc:config/sword_blocking/enable
+execute if score @s zs.menu.interaction matches 2282 run return run function zsc:config/sword_blocking/disable
+execute if score @s zs.menu.interaction matches 2291 run return run function zsc:config/potion_drops/enable
+execute if score @s zs.menu.interaction matches 2292 run return run function zsc:config/potion_drops/disable
 #Config > Challenges
 execute if score @s zs.menu.interaction matches 2311 run return run function zsc:config/challenges/permadeath/enable
 execute if score @s zs.menu.interaction matches 2312 run return run function zsc:config/challenges/permadeath/disable
@@ -90,9 +98,9 @@ execute if score @s[tag=mb.host] zs.menu.interaction matches 2641 run return run
 execute if score @s[tag=mb.host] zs.menu.interaction matches 2642 run return run function zsc:config/custom/lootrarity/arrows/remove
 execute if score @s[tag=mb.host] zs.menu.interaction matches 2651 run return run function zsc:config/custom/gearpower/thorns/enable
 execute if score @s[tag=mb.host] zs.menu.interaction matches 2652 run return run function zsc:config/custom/gearpower/thorns/disable
+execute if score @s[tag=mb.host] zs.menu.interaction matches 2661 run return run function zsc:config/custom/lootrarity/potions/add
+execute if score @s[tag=mb.host] zs.menu.interaction matches 2662 run return run function zsc:config/custom/lootrarity/potions/remove
 #Config > Host
-execute if score @s[tag=mb.host] zs.menu.interaction matches 2711 run return run function zsc:config/host/configvoting/enabled
-execute if score @s[tag=mb.host] zs.menu.interaction matches 2712 run return run function zsc:config/host/configvoting/disabled
 execute if score @s[tag=mb.host] zs.menu.interaction matches 2721 run return run function zsc:config/host/gamemode/standard
 execute if score @s[tag=mb.host] zs.menu.interaction matches 2722 run return run function zsc:config/host/gamemode/creeper
 execute if score @s[tag=mb.host] zs.menu.interaction matches 2731 run return run function zsc:config/host/rebalance/enabled
@@ -107,6 +115,7 @@ execute if score @s[tag=mb.host] zs.menu.interaction matches 27112 run return ru
 execute if score @s[tag=mb.host] zs.menu.interaction matches 27113 run return run function zsc:lobby/host/transfer with storage zsc:macro
 
 #Config > Presets
+execute store result storage zsc:macro Preset int 1 run scoreboard players get @s zsc.world_preset
 execute if score @s zs.menu.section matches 281 run return run function zsc:menu/options/configs/presets/player with storage zsc:macro
 execute if score @s zs.menu.section matches 282 run return run function zsc:menu/options/configs/presets/set
 execute if score @s zs.menu.interaction matches 28111 run return run function zsc:config/presets/previous_preset

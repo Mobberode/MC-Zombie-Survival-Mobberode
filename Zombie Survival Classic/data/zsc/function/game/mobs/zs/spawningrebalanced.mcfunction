@@ -1,36 +1,35 @@
 ##List of mobs
 #Zombie
-execute if score #Score zs.wave matches 1..9 if predicate zsc:tenth run function zsc:game/mobs/global/zombie
+execute if predicate zsc:tenth if entity @s[tag=zs.zombiespawn] run return run function zsc:game/mobs/global/zombie
 #Skeleton
-execute if score #Score zs.wave matches 5..19 if predicate zsc:tenth run function zsc:game/mobs/global/skeleton
+execute if predicate zsc:tenth if score #Score zs.wave matches 5..19 if entity @s[tag=zs.skeletonspawn] run return run function zsc:game/mobs/global/skeleton
 #Spider
-execute if score #Score zs.wave matches 8..24 if predicate zsc:tenth run function zsc:game/mobs/global/spider
+execute if predicate zsc:tenth if score #Score zs.wave matches 8..24 if entity @s[tag=zs.spiderspawn] run return run function zsc:game/mobs/global/spider
 #Wither Skeleton
-execute if score #Score zs.wave matches 10.. if predicate zsc:tenth run function zsc:game/mobs/global/witherskeleton
+execute if predicate zsc:tenth if score #Score zs.wave matches 10.. if entity @s[tag=zs.wither.skeletonspawn] run return run function zsc:game/mobs/global/witherskeleton
 #Piglin Brute (Config)
-execute if score #Score zs.wave matches 20.. if score #Score zsc.config.unused.mobs matches 1 if predicate zsc:tenth run function zsc:game/mobs/removed/piglinbrute
+execute if score #Score zsc.config.unused.mobs matches 1 if predicate zsc:tenth if score #Score zs.wave matches 20.. if entity @s[tag=zs.piglin.brutespawn] run return run function zsc:game/mobs/removed/piglinbrute
 #Pillager
-execute if score #Score zs.wave matches 15.. if predicate zsc:tenth run function zsc:game/mobs/global/pillager
+execute if predicate zsc:tenth if score #Score zs.wave matches 15.. if entity @s[tag=zs.pillagerspawn] run return run function zsc:game/mobs/global/pillager
 #Stray
-execute if score #Score zs.wave matches 20.. if predicate zsc:tenth run function zsc:game/mobs/global/stray
+execute if predicate zsc:tenth if score #Score zs.wave matches 20.. if entity @s[tag=zs.strayspawn] run return run function zsc:game/mobs/global/stray
 #Husk
-execute if score #Score zs.wave matches 10.. if predicate zsc:tenth run function zsc:game/mobs/global/husk
+execute if predicate zsc:tenth if score #Score zs.wave matches 10.. if entity @s[tag=zs.huskspawn] run return run function zsc:game/mobs/global/husk
 #Cave Spider
-execute if score #Score zs.wave matches 25.. if predicate zsc:tenth run function zsc:game/mobs/global/cavespider
+execute if predicate zsc:tenth if score #Score zs.wave matches 25.. if entity @s[tag=zs.cave.spiderspawn] run return run function zsc:game/mobs/global/cavespider
 #Witch
-execute if score #Score zs.wave matches 30.. if predicate zsc:tenth run function zsc:game/mobs/global/witch
+execute if predicate zsc:tenth if score #Score zs.wave matches 30.. if entity @s[tag=zs.witchspawn] run return run function zsc:game/mobs/global/witch
 #Silverfish
-execute if score #Score zs.wave matches 11..16 if predicate zsc:tenth run function zsc:game/mobs/global/silverfish
+execute if predicate zsc:tenth if score #Score zs.wave matches 11..16 if entity @s[tag=zs.silverfishspawn] run return run function zsc:game/mobs/global/silverfish
 #Blaze
-execute if score #Score zs.wave matches 35.. if predicate zsc:tenth run function zsc:game/mobs/global/blaze
+execute if predicate zsc:tenth if score #Score zs.wave matches 35.. if entity @s[tag=zs.blazespawn] run return run function zsc:game/mobs/global/blaze
 #Evoker
-execute if score #Score zs.wave matches 40.. if predicate zsc:tenth run function zsc:game/mobs/global/evoker
+execute if predicate zsc:tenth if score #Score zs.wave matches 40.. if entity @s[tag=zs.evokerspawn] run return run function zsc:game/mobs/global/evoker
 #Vindicator
-execute if score #Score zs.wave matches 27.. if predicate zsc:tenth run function zsc:game/mobs/global/vindicator
+execute if predicate zsc:tenth if score #Score zs.wave matches 27.. if entity @s[tag=zs.vindicatorspawn] run return run function zsc:game/mobs/global/vindicator
 #Endermite
-execute if score #Score zs.wave matches 17.. if predicate zsc:tenth run function zsc:game/mobs/global/endermite
+execute if predicate zsc:tenth if score #Score zs.wave matches 17.. if entity @s[tag=zs.endermitespawn] run return run function zsc:game/mobs/global/endermite
 #Ghast
-execute if score #Score zs.wave matches 27.. if predicate zsc:tenth run function zsc:game/mobs/global/ghast
+execute if predicate zsc:tenth if score #Score zs.wave matches 27.. if entity @s[tag=zs.ghastspawn] run return run function zsc:game/mobs/global/ghast
 #Shulker
-execute if score #Score zs.wave matches 40.. if predicate zsc:tenth run function zsc:game/mobs/global/shulker
-
+execute if predicate zsc:tenth if score #Score zs.wave matches 40.. if entity @s[tag=zs.shulkerspawn] run return run function zsc:game/mobs/global/shulker

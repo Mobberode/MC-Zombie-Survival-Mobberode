@@ -1,14 +1,14 @@
-
-##Arrows
-execute store result storage zsc:macro arrowgiveamount int 1 run scoreboard players get @s zsc.player.arrows.give
-$execute if score @s zsc.player.arrows.count >= @s zsc.player.arrows.give unless score #Score zsc.config.donate matches 0 run give @r[team=mb.base.alive] minecraft:arrow $(arrowgiveamount)
-$execute unless score #Score zsc.config.donate matches 0 if entity @a[team=mb.base.alive] run clear @s minecraft:arrow $(arrowgiveamount)
-
 ##Error
-execute if score @s zsc.player.arrows.count < @s zsc.player.arrows.give run tellraw @s [{text: "You dont have enough arrows to do this sucessfully! Either get more arrows or lower how much you will give.",color: red}]
+execute if score @s zsc.player.arrows.count < @s zsc.player.arrows.give run return run tellraw @s {text:"Insufficient Amount!",color:red}
+execute if score #Score zsc.config.donate matches 0 run return run tellraw @s {text:"Donating is disabled!",color:red}
+
+##Give
+data modify storage zsc:macro temp set value "arrow"
+execute store result storage zsc:macro temp2 int 1 run scoreboard players get @s zsc.player.arrows.give
+function zsc:game/gear/donation/give with storage zsc:macro
 
 ##Success
-execute if score @s zsc.player.arrows.count >= @s zsc.player.arrows.give run tellraw @s [{text: "Given Successfully!",color: green}]
+tellraw @s {text:"Given Successfully!",color:green}
 
-##Text
+##Actions
 function zsc:menu/spectator_actions

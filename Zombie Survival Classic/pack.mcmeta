@@ -1,15 +1,17 @@
 {
   "pack": {
-    "min_format": 95,
-    "max_format": 95,
+    "min_format": 94,
+    "max_format": 94,
     "description": "Zombie Survival Classic: FINAL WAVE"
   },
   "filter": {
     "block": [
       {
+        "namespace": "minecraft",
         "path": "advancement"
       },
       {
+        "namespace": "minecraft",
         "path": "recipe"
       }
     ]

@@ -1,3 +1,4 @@
-data modify storage zsc:macro role_tag set value ZS.OGs 
-data modify storage zsc:macro trim_pattern set value eye
-data modify storage zsc:macro trim_material set value diamond
+item modify entity @s armor.head mb.base:visuals/roles/og
+item modify entity @s armor.chest mb.base:visuals/roles/og
+item modify entity @s armor.legs mb.base:visuals/roles/og
+item modify entity @s armor.feet mb.base:visuals/roles/og

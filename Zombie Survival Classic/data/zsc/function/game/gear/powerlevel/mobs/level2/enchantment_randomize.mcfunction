@@ -20,4 +20,3 @@ execute if score #Score3 zsc.rng matches ..100 if score #Chance3 zsc.rng matches
 execute store result storage zsc:macro l1 int 1 run random value 1..2
 execute store result storage zsc:macro l2 int 1 run random value 1..2
 execute store result storage zsc:macro l3 int 1 run random value 1..2
-

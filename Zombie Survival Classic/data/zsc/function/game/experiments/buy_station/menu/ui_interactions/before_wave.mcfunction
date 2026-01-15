@@ -2,8 +2,6 @@ execute as @a[scores={zs.menu.section=81},tag=zsc_experiment_buy_station.can_ent
 execute as @a[scores={zs.menu.section=811},team=mb.base.alive,tag=zsc_experiment_buy_station.can_enter_shop] run function zsc:game/experiments/buy_station/menu/ui_interactions/revive_set_macros
 execute as @a[scores={zs.menu.section=812},team=mb.base.alive,tag=zsc_experiment_buy_station.can_enter_shop] run function zsc:game/experiments/buy_station/menu/ui/effects
 execute as @a[scores={zs.menu.section=813},team=mb.base.alive,tag=zsc_experiment_buy_station.can_enter_shop] run function zsc:game/experiments/buy_station/menu/ui/gear
-execute as @a[scores={zs.menu.section=8131},team=mb.base.alive,tag=zsc_experiment_buy_station.can_enter_shop] run function zsc:game/experiments/buy_station/menu/ui/gear/armour
-execute as @a[scores={zs.menu.section=8132},team=mb.base.alive,tag=zsc_experiment_buy_station.can_enter_shop] run function zsc:game/experiments/buy_station/menu/ui/gear/weapons
 execute as @a[scores={zs.menu.section=8133},team=mb.base.alive,tag=zsc_experiment_buy_station.can_enter_shop] run function zsc:game/experiments/buy_station/menu/ui/gear/food
 execute as @a[scores={zs.menu.section=8121},team=mb.base.alive,tag=zsc_experiment_buy_station.can_enter_shop] run function zsc:game/experiments/buy_station/menu/ui/effects/tier1
 execute as @a[scores={zs.menu.section=8122},team=mb.base.alive,tag=zsc_experiment_buy_station.can_enter_shop] run function zsc:game/experiments/buy_station/menu/ui/effects/tier2

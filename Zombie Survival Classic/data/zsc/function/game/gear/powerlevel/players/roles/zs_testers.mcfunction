@@ -1,3 +1,4 @@
-data modify storage zsc:macro role_tag set value ZS.Testers
-data modify storage zsc:macro trim_pattern set value sentry
-data modify storage zsc:macro trim_material set value emerald
+item modify entity @s armor.head mb.base:visuals/roles/tester
+item modify entity @s armor.chest mb.base:visuals/roles/tester
+item modify entity @s armor.legs mb.base:visuals/roles/tester
+item modify entity @s armor.feet mb.base:visuals/roles/tester

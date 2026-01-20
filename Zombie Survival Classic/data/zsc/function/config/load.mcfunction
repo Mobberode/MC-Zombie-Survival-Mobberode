@@ -65,7 +65,7 @@ scoreboard players set #PotionDrops zsc.config 0
 ##Enable by default custom configs
 scoreboard players set #Mob zsc.dconfig.gear.level 1
 scoreboard players set #Player zsc.dconfig.gear.level 3
-scoreboard players set #CustomMultiplier zsc.mob.amount.operation 69
+scoreboard players set #CustomMultiplier zsc.mob.amount.operation 75
 scoreboard players set #Minecraft zsc.difficulty 2
 scoreboard players set #CustomArrowsCache zs.wave 2
 scoreboard players set #CustomPotionCache zs.wave 3

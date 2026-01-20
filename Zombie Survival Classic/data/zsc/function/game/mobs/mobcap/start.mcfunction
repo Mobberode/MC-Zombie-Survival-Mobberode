@@ -1,7 +1,5 @@
 ##Start the wave system
 scoreboard players set #Cap zsc.mob.amount 3
-#Difficulty
-function zsc:game/mobs/mobcap/difficulty
 
 #Add players in
 execute if score #Score zsc.config.player.mob.scaling matches 1 run scoreboard players operation #Multiplier zsc.mob.amount.operation += #Score zsc.players

@@ -1,6 +1,6 @@
 ![Mobberode](https://github.com/Mobberode/MC-Zombie-Survival-Mobberode/assets/121296120/ea671937-fa44-44e5-911c-7fd82bb1e2c7)
 # Zombie Survival Classic
-**Version 1.2: FINAL WAVE | 1.21.11+**
+**Version 1.2.1: FINAL WAVE | 26.3**
 
 Classic version of Zombie Survival 1 from before major updates with a whole load general improvements and optional features and is automatic!
 
@@ -26,7 +26,7 @@ The Map Creation tool for Mobberode related minigames.
 
 ## Maps
 - [Voided Copperstone](https://drive.google.com/file/d/1JgolRiD5wlM6yOlcf1fYEo6c5DqyuvVu/view?usp=sharing)
-  - 26.1 Snapshot 3 | Official Map
+  - 26.3 | Official Map
 
 ## Extensions
 Extensions for Zombie Survival Classic may be found in the Mobberode Discord in `#extensions`
